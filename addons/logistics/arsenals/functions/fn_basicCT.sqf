@@ -1,0 +1,5 @@
+params ["_unit"];
+private _kitCT = [[["ic51_dc15s","","","",["ic51_dc15s_mag",40],[],""],[],["ic51_dc17","","","",["ic51_dc17_mag",50],[],""],["ic51_clone_uniform_base",[["ACE_CableTie",4],["ItemcTabHCam",1],["ACE_IR_Strobe_Item",1],["ACE_elasticBandage",20],["ACE_Chemlight_HiBlue",5,1],["ACE_Chemlight_HiGreen",5,1],["ACE_Chemlight_HiRed",5,1]]],["ic51_vest_plate_base",[["ACE_Flashlight_XL50",1],["ACE_EntrenchingTool",1],["WBK_HeadLampItem_Narrow",1],["ACE_packingBandage",10],["ACE_tourniquet",4],["ACE_splint",5],["ic51_SmokeWhite",3,1],["ic51_SonicDetonator",2,1],["ic51_ThermalDetonator",3,1],["ic51_dc15s_mag",15,40],["ic51_dc17_mag",3,50],["ic51_stun_mag_long",2,5],["ic51_stun_mag_short",2,10],["Laserbatteries",1,1],["kat_Painkiller",1,4]]],[],"ic51_p2_helmet_base","ic51_p2interior",["ic51_clone_binoculars_base","","","",["Laserbatteries",1],[],""],["ItemMap","ItemAndroid","ls_radios_cwp8","ItemCompass","ItemWatch","ic51_nvg_chip"]],[["ace_arsenal_insignia","JLTS_GAR"],["aceax_textureOptions",[]],["ace_earplugs",true]]];
+_kitCT set [1, createHashMapFromArray (_kitCT select 1)];
+[_unit, _kitCT] call CBA_fnc_setLoadout;
+hint "CT Kit Given"

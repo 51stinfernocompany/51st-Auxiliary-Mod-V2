@@ -1,0 +1,30 @@
+name = "51st Auxiliary Mod"
+author = "51st Auxiliary Team"
+prefix = "ic51"
+mainprefix = "x"
+
+[version]
+path = "addons/core/script_version.hpp" 
+git_hash = 8 # Default: 8
+
+[files]
+include = [
+    "mod.cpp",        # These files are copied to the build directory by default
+    "meta.cpp",       # They do not need to be added to your list
+    "README.md",
+    "51st_logo.paa",
+]
+
+[properties]
+author = "51st Auxiliary Team"
+url = "https://github.com/51st-Inferno-Company/Auxiliary-Mod/tree/main"
+
+[lints.stringtables.usage]
+options.ignore_missing = true
+
+[lints.config.unused_external]
+enabled = false
+
+[lints.sqf]
+command_case = "Warning"
+severity = "Error"

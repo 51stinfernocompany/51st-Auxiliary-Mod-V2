@@ -1,0 +1,273 @@
+class 3AS_Supply_Large_Medical_Prop;
+class ic51_crate_medical : 3AS_Supply_Large_Medical_Prop 
+{
+    displayName = "[51st] Supply Crate (Medical)";
+    SCOPE_PUBLIC;
+    CRATE_EDITOR;
+    class TransportItems {
+        class _xx_ACE_plasmaIV
+        {
+            name = "ACE_plasmaIV";
+            count = 40;
+        };
+        class _xx_ACE_plasmaIV_500
+        {
+            name = "ACE_plasmaIV_500";
+            count = 40;
+        };
+        class _xx_kat_IV_16
+        {
+            name = "kat_IV_16";
+            count = 40;
+        };
+        class _xx_ACE_elasticBandage
+        {
+            name = "ACE_elasticBandage";
+            count = 80;
+        };
+        class _xx_ACE_packingBandage
+        {
+            name = "ACE_packingBandage";
+            count = 60;
+        };
+        class _xx_kat_larynx
+        {
+            name = "kat_larynx";
+            count = 30;
+        };
+        class _xx_kat_PainkillerItem
+        {
+            name = "kat_PainkillerItem";
+            count = 20;
+        };
+        class _xx_ACE_splint
+        {
+            name = "ACE_splint";
+            count = 20;
+        };
+        class _xx_ACE_tourniquet
+        {
+            name = "ACE_tourniquet";
+            count = 20;
+        };
+        class _xx_kat_chestSeal
+        {
+            name = "kat_chestSeal";
+            count = 30;
+        };
+        class _xx_kat_IO_FAST
+        {
+            name = "kat_IO_FAST";
+            count = 20;
+        };
+        class _xx_kat_TXA
+        {
+            name = "kat_TXA";
+            count = 20;
+        };
+        class _xx_kat_EACA
+        {
+            name = "kat_EACA";
+            count = 20;
+        };
+        class _xx_kat_naloxone
+        {
+            name = "kat_naloxone";
+            count = 20;
+        };
+        class _xx_ACE_morphine
+        {
+            name = "ACE_morphine";
+            count = 20;
+        };
+        class _xx_ACE_epinephrine
+        {
+            name = "ACE_epinephrine";
+            count = 20;
+        };
+        class _xx_ACE_adenosine
+        {
+            name = "ACE_adenosine";
+            count = 20;
+        };
+        class _xx_kat_CarbonateItem
+        {
+            name = "kat_CarbonateItem";
+            count = 20;
+        };
+        class _xx_kat_CaffeineItem
+        {
+            name = "kat_CaffeineItem";
+            count = 20;
+        };
+    };
+};
+
+class 3AS_Supply_Large_Ammo_Prop;
+class ic51_crate_ammo : 3AS_Supply_Large_Ammo_Prop 
+{
+    displayName = "[51st] Supply Crate (Ammo)";
+    SCOPE_PUBLIC;
+    CRATE_EDITOR;
+    class TransportMagazines{
+        class _xx_ic51_dc15s_mag
+        {
+            magazine = "ic51_dc15s_mag";
+            count = 35;
+        };
+        class _xx_ic51_dc15a_mag
+        {
+            magazine = "ic51_dc15a_mag";
+            count = 35;
+        };
+        class _xx_ic51_dc15x_magazine
+        {
+            magazine = "ic51_dc15x_magazine";
+            count = 15;
+        };
+        class _xx_ic51_valken38x_mag
+        {
+            magazine = "ic51_valken38x_mag";
+            count = 15;
+        };
+        class _xx_ic51_ThermalDetonator
+        {
+            magazine = "ic51_ThermalDetonator";
+            count = 10;
+        };
+        class _xx_ic51_SonicDetonator
+        {
+            magazine = "ic51_SonicDetonator";
+            count = 10;
+        };
+    };
+};
+
+class ic51_crate_ammo_large : 3AS_Supply_Large_Ammo_Prop 
+{
+    displayName = "[51st] Supply Crate (Large Ammo)";
+    SCOPE_PUBLIC;
+    CRATE_EDITOR;
+    class TransportMagazines{
+        class _xx_ic51_dc15s_mag
+        {
+            magazine = "ic51_dc15s_mag";
+            count = 60;
+        };
+        class _xx_ic51_dc15a_mag
+        {
+            magazine = "ic51_dc15a_mag";
+            count = 60;
+        };
+        class _xx_ic51_dc15x_magazine
+        {
+            magazine = "ic51_dc15x_magazine";
+            count = 30;
+        };
+        class _xx_ic51_valken38x_mag
+        {
+            magazine = "ic51_valken38x_mag";
+            count = 30;
+        };
+        class _xx_ic51_dlt15_mag
+        {
+            magazine = "ic51_dlt15_mag";
+            count = 30;
+        };
+        class _xx_ic51_z6_mag
+        {
+            magazine = "ic51_z6_mag";
+            count = 30;
+        };
+        class _xx_ic51_plx_aa
+        {
+            magazine = "ic51_plx_aa";
+            count = 15;
+        };
+        class _xx_ic51_plx_at
+        {
+            magazine = "ic51_plx_at";
+            count = 15;
+        };
+        class _xx_ic51_plx_he
+        {
+            magazine = "ic51_plx_he";
+            count = 15;
+        };
+        class _xx_ic51_rps6_rocket
+        {
+            magazine = "ic51_rps6_rocket";
+            count = 15;
+        };
+        class _xx_ic51_dc17m_SNR_mag
+        {
+            magazine = "ic51_dc17m_SNR_mag";
+            count = 30;
+        };
+        class _xx_ic51_dc17m_AT_mag
+        {
+            magazine = "ic51_dc17m_AT_mag";
+            count = 10;
+        };
+        class _xx_ic51_dc17m_standard_mag
+        {
+            magazine = "ic51_dc17m_standard_mag";
+            count = 30;
+        };
+        class _xx_ic51_773FP_magazine
+        {
+            magazine = "ic51_773FP_magazine";
+            count = 30;
+        };
+        class _xx_ic51_ThermalDetonator
+        {
+            magazine = "ic51_ThermalDetonator";
+            count = 20;
+        };
+        class _xx_ic51_SonicDetonator
+        {
+            magazine = "ic51_SonicDetonator";
+            count = 20;
+        };
+    };
+};
+
+class ic51_crate_ammo_heavy : 3AS_Supply_Large_Ammo_Prop 
+{
+    displayName = "[51st] Supply Crate (Heavy Ammo)";
+    SCOPE_PUBLIC;
+    CRATE_EDITOR;
+    class TransportMagazines{
+        CRATE_MAG(ic51_dlt15_mag,20);
+        CRATE_MAG(ic51_z6_mag,20);
+        CRATE_MAG(ic51_rotarycannon_mag,10);
+    };
+};
+
+class ic51_crate_ammo_launcher : 3AS_Supply_Large_Ammo_Prop {
+    displayName = "[51st] Supply Crate (Launcher Ammo)";
+    SCOPE_PUBLIC;
+    CRATE_EDITOR;
+    class TransportMagazines{
+        class _xx_ic51_plx_aa
+        {
+            magazine = "ic51_plx_aa";
+            count = 2;
+        };
+        class _xx_ic51_plx_at
+        {
+            magazine = "ic51_plx_at";
+            count = 4;
+        };
+        class _xx_ic51_plx_he
+        {
+            magazine = "ic51_plx_he";
+            count = 2;
+        };
+        class _xx_ic51_rps6_rocket
+        {
+            magazine = "ic51_rps6_rocket";
+            count = 8;
+        };
+    };
+};

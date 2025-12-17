@@ -1,0 +1,5 @@
+params ["_unit"];
+private _engineerT1 = [[["ic51_dc15c","","","",["ic51_dc15c_mag",40],[],""],[],["ic51_dc17","","","",["ic51_dc17_mag",50],[],""],["ic51_clone_uniform_base",[["ACE_elasticBandage",20],["ACE_packingBandage",20],["ACE_DefusalKit",1],["ACE_Fortify",1],["ACE_splint",5],["ACE_tourniquet",5]]],["ic51_vest_plate_engineer",[["ACE_elasticBandage",15],["ACE_packingBandage",15],["ACE_EntrenchingTool",1],["WBK_HeadLampItem_Double",1],["ace_marker_flags_red",3],["MineDetector",1],["ACE_SpraypaintGreen",1],["ACE_SpraypaintRed",1],["JLTS_repairkit_weapon",1],["ACE_wirecutter",1],["ic51_dc15c_mag",12,40],["ic51_dc17_mag",4,50],["ic51_SmokeWhite",5,1],["ic51_ThermalDetonator",4,1],["kat_Painkiller",2,4],["ACE_40mm_Flare_red",1,1]]],[],"ic51_engineer_helmet_base","",["ic51_clone_binoculars_base","","","",["Laserbatteries",1],[],""],["ItemMap","ItemAndroid","ls_radios_cwp8","ItemCompass","ItemWatch","ic51_nvg_chip"]],[["ace_arsenal_insignia","JLTS_GAR"],["aceax_textureOptions",[]],["ace_earplugs",true]]];
+_engineerT1 set [1, createHashMapFromArray (_engineerT1 select 1)];
+[_unit, _engineerT1] call CBA_fnc_setLoadout;
+hint "Engineer T1 Given"
