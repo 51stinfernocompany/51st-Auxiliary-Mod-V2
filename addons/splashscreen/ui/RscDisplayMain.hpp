@@ -187,7 +187,7 @@ class RscDisplayMain: RscStandardDisplay
 			onLoad = "(_this # 0) ctrlEnable true";
 			text = QPATHTOF(data\buttons\mainserver.paa); // Path to button image
 			tooltip = "Connect to the Main Server";
-			action = "connectToServer ['144.76.139.249', 2302, '51st'];"; // Connection information, must be in numbers.
+			action = "connectToServer ['198.73.57.178', 2311, '51st'];"; // Connection information, must be in numbers.
 			onMouseEnter = "(_this select 0) ctrlSetText "QPATHTOF(data\buttons\mainserver_aurebesh.paa)""; // HOVER
 			onMouseExit = "(_this select 0) ctrlSetText "QPATHTOF(data\buttons\mainserver.paa)""; // same as text
 			onMouseButtonUp = "(_this select 0) ctrlSetText "QPATHTOF(data\buttons\mainserver_aurebesh.paa)""; // HOVER
