@@ -44,6 +44,7 @@ class XtdGearInfos {
     class ic51_clone_uniform_custom_Mortem           { model = "ic51_trooper_uniforms_customs"; camo = "ic51_uni_mortem"; };
     class ic51_clone_uniform_custom_Law           { model = "ic51_trooper_uniforms_customs"; camo = "ic51_uni_law"; };
     class ic51_clone_uniform_custom_rodeo           { model = "ic51_trooper_uniforms_customs"; camo = "ic51_uni_rodeo"; };
+    class ic51_clone_uniform_custom_kane           { model = "ic51_trooper_uniforms_customs"; camo = "ic51_uni_kane"; };
     //base helmets
     class ic51_p2_helmet_base       { model = "ic51_trooper_helmet"; camo = "ic51_trooper_base_helmet"; };
     class ic51_p2_helmet_trooper2       { model = "ic51_trooper_helmet"; camo = "ic51_trooper_base_helme2"; };

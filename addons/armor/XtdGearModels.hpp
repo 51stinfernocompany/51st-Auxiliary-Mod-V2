@@ -113,6 +113,7 @@ class XtdGearModels {
             "ic51_uni_mortem",
             "ic51_uni_law",
             "ic51_uni_rodeo",
+            "ic51_uni_kane",
         };
 		class ic51_uni_mini { label = "Mini";};
         class ic51_uni_chamber { label = "Chamber";};
@@ -126,6 +127,7 @@ class XtdGearModels {
         class ic51_uni_mortem { label = "Mortem";};
         class ic51_uni_law { label = "Law";};
         class ic51_uni_rodeo { label = "Rodeo";};
+        class ic51_uni_kane { label = "Kane";};
       };
     };
 
