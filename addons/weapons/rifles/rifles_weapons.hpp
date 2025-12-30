@@ -124,6 +124,13 @@ class ic51_dc15c : 3AS_DC15C_F
     displayName = "[51st] DC-15C";
     magazines[] = {"ic51_dc15c_mag"};
     magazineWell[] = {};
+    recoil = "ic51_recoil_15c";
+    class FullAuto : FullAuto {
+        reloadTime = 0.1;
+    };
+    class Single : Single {
+        reloadTime = 0.1;
+    };
     class WeaponSlotsInfo : WeaponSlotsInfo {
         class CowsSlot : CowsSlot{
             class compatibleItems {};

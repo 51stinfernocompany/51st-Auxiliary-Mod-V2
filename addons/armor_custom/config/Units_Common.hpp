@@ -70,3 +70,14 @@ class ic51_katarn_unit_doss : ic51_katarn_unit_base
     };
     UNIT_ITEMS("ic51_katarn_backpack_doss","ic51_katarn_helmet_doss","ic51_DC17M","ic51_dc17m_standard_mag");
 };
+class ic51_katarn_unit_cyclone : ic51_katarn_unit_base
+{
+    displayName = "[51st Custom] Republic Commando (Cyclone)";
+    uniformclass="ic51_katarn_uniform_cyclone";
+    hiddenSelectionsTextures[] =
+    {
+        QPATHTOF(data\uniform_common\uniform_katarn_cyclone_co.paa),
+        "x\ic51\addons\armor\data\uniform_common\uniform_katarn_undersuit_co.paa"
+    };
+    UNIT_ITEMS("ic51_katarn_backpack_doss","ic51_katarn_helmet_doss","ic51_DC17M","ic51_dc17m_standard_mag");
+};

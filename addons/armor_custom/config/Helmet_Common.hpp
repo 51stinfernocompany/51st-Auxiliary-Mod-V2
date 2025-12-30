@@ -53,6 +53,15 @@ class ic51_katarn_helmet_doss : ic51_katarn_helmet_base
         QPATHTOF(data\helmet_common\helmet_katarn_doss_co.paa)
     };
 };
+class ic51_katarn_helmet_cyclone : ic51_katarn_helmet_base 
+{
+    displayName = "[51st Custom] Katarn Helmet (Cyclone)";
+    hiddenSelectionsTextures[] =
+    {
+        QPATHTOF(data\helmet_common\helmet_katarn_cyclone_co.paa),
+        QPATHTOF(data\helmet_common\helmet_katarn_cyclone_co.paa)
+    };
+};
 class ic51_p2_helmet_custom_Blaze : ic51_p2_helmet_base 
 {
     displayName = "[51st Custom] P2 Blaze's Helmet";

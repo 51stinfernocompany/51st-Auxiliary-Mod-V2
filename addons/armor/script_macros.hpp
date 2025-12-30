@@ -15,15 +15,22 @@ P2_HELMET(medic_havoc1,(Havoc One Medic));
  MACRO    filename       DisplayName
 */
 
-#define NVG_CUSTOM ace_nightvision_bluRadius = 0.13; \
+#define NVG_CUSTOM_WHITE ace_nightvision_bluRadius = 0; \
       ace_nightvision_colorPreset[] = {0.0, {0.0, 0.0, 0.0, 0.0}, {1.1, 0.8, 1.9, 0.9}, {1, 1, 6, 0.0}}; \
       ace_nightvision_eyeCups = 0; \
-      ace_nightvision_border = "\z\ace\addons\nightvision\data\nvg_mask_hexes_thin.paa"; \
       ace_nightvision_const_maxBrightness = 0; \
       ace_nightvision_const_minBrightness = -8; \
       ace_nightvision_blur = 0; \
       ace_nightvision_grain = 0; \
-      modelOptics = ""; \
+      ace_nightvision_radBlur = 0; \
+      ace_nightvision_generation = 4
+#define NVG_CUSTOM_GREEN ace_nightvision_bluRadius = 0; \
+      ace_nightvision_colorPreset[] = {0, {0.0, 0.0, 0.0, 0.0}, {1.3, 1.2, 0.0, 0.9}, {6, 1, 1, 0.0}}; \
+      ace_nightvision_eyeCups = 0; \
+      ace_nightvision_const_maxBrightness = 0; \
+      ace_nightvision_const_minBrightness = -8; \
+      ace_nightvision_blur = 0; \
+      ace_nightvision_grain = 0; \
       ace_nightvision_radBlur = 0; \
       ace_nightvision_generation = 4
 

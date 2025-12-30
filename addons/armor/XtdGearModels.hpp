@@ -85,11 +85,13 @@ class XtdGearModels {
 			"ic51_katarn_uni_doss",
             "ic51_katarn_uni_gary",
             "ic51_katarn_uni_imortal",
+            "ic51_katarn_uni_cyclone",
         };
         class ic51_katarn_uni { label = "Base Katarn";};
 		class ic51_katarn_uni_doss { label = "Doss";};
         class ic51_katarn_uni_gary { label = "Gary";};
 		class ic51_katarn_uni_imortal { label = "Immortal";};
+        class ic51_katarn_uni_cyclone { label = "Cyclone";};
       };
     };
 	class ic51_trooper_uniforms_customs {
@@ -105,12 +107,13 @@ class XtdGearModels {
             "ic51_uni_clips",
 			"ic51_uni_blaze",
 			"ic51_uni_barbie",
-            "ic51_uni_cassius",
 			"ic51_uni_iroh",
             "ic51_uni_mando",
             "ic51_uni_atticus",
             "ic51_uni_mortem",
             "ic51_uni_law",
+            "ic51_uni_rodeo",
+            "ic51_uni_kane",
         };
 		class ic51_uni_mini { label = "Mini";};
         class ic51_uni_chamber { label = "Chamber";};
@@ -118,12 +121,13 @@ class XtdGearModels {
 		class ic51_uni_clips { label = "Clips";};
 		class ic51_uni_blaze { label = "Blaze";};
 		class ic51_uni_barbie { label = "Barbie";};
-		class ic51_uni_cassius { label = "Cassius";};
 		class ic51_uni_iroh { label = "Iroh";};
 		class ic51_uni_mando { label = "Mando";};
         class ic51_uni_atticus { label = "Atticus";};
         class ic51_uni_mortem { label = "Mortem";};
         class ic51_uni_law { label = "Law";};
+        class ic51_uni_rodeo { label = "Rodeo";};
+        class ic51_uni_kane { label = "Kane";};
       };
     };
 
@@ -311,11 +315,13 @@ class XtdGearModels {
 			"ic51_katarn_helm_doss",
             "ic51_katarn_helm_gary",
             "ic51_katarn_helm_imortal",
+            "ic51_katarn_helm_cyclone",
         };
         class ic51_katarn_helm { label = "Base Katarn";};
 		class ic51_katarn_helm_doss { label = "Doss";};
         class ic51_katarn_helm_gary { label = "Gary";};
 		class ic51_katarn_helm_imortal { label = "Immortal";};
+        class ic51_katarn_helm_cyclone { label = "Cyclone";};
       };
     };
 	class ic51_trooper_helmet_customs {
@@ -332,7 +338,6 @@ class XtdGearModels {
             "ic51_p2_barbie",
             "ic51_p2_fulcrum",
 			"ic51_p2_ronin",
-            "ic51_p2_cassius",
             "ic51_p2_mortem",
 			"ic51_p2_atticus",
 			"ic51_p2_iroh",
@@ -344,6 +349,10 @@ class XtdGearModels {
             "ic51_p2_ringer",
             "ic51_p2_g3",
             "ic51_p2_k",
+            "ic51_p2_freelancer",
+            "ic51_p2_apostle",
+            "ic51_p2_growler",
+            "ic51_p2_rodeo",
         };
 		class ic51_p1_mando { label = "Mando";};
         class ic51_p2_mini { label = "Mini";};
@@ -352,7 +361,6 @@ class XtdGearModels {
 		class ic51_p2_barbie { label = "Barbie";};
         class ic51_p2_fulcrum { label = "Fulcrum";};
 		class ic51_p2_ronin { label = "Ronin";};
-		class ic51_p2_cassius { label = "Cassius";};
         class ic51_p2_mortem { label = "Mortem";};
 		class ic51_p2_atticus { label = "Atticus";};
 		class ic51_p2_iroh { label = "Iroh";};
@@ -364,6 +372,10 @@ class XtdGearModels {
         class ic51_p2_ringer { label = "Ringer";};
         class ic51_p2_g3 { label = "G3";};
         class ic51_p2_k { label = "K";};
+        class ic51_p2_freelancer { label = "Freelancer";};
+        class ic51_p2_apostle { label = "Apostle";};
+        class ic51_p2_growler { label = "Growler";};
+        class ic51_p2_rodeo { label = "Rodeo";};
       };
     };
 	//vests
@@ -427,6 +439,50 @@ class XtdGearModels {
 		class ic51_katarn_vest_basic_sniper { label = "Sniper";};
         class ic51_katarn_vest_gary { label = "Gary";};
 		class ic51_katarn_vest_imortal { label = "Immortal";};
+      };
+    };
+    class ic51_trooper_nvg_wp{
+      label = "[51st] Night Vision WP";
+      author = AUTHOR;
+      options[] = {"camo"};                
+      class camo {                        
+        values[] = 
+        {
+            "ic51_trooper_nvg",
+            "ic51_trooper_nvg_marksmen",
+            "ic51_trooper_rangefinder",
+            "ic51_trooper_nvg_chip",
+            "ic51_trooper_medicalscanner",
+            "ic51_trooper_nvg_sunvisor",
+        };
+        class ic51_trooper_nvg {label = "Macrobinoculars";};
+        class ic51_trooper_nvg_marksmen {label = "Marksmen Visor";};
+        class ic51_trooper_rangefinder {label = "Range Finder";};
+        class ic51_trooper_nvg_chip {label = "NVG Chip";};
+        class ic51_trooper_medicalscanner {label = "Medical Scanner";};
+        class ic51_trooper_nvg_sunvisor {label = "Sunvisor (Heavy)";};
+      };
+    };
+    class ic51_trooper_nvg_gp{
+      label = "[51st] Night Vision GP";
+      author = AUTHOR;
+      options[] = {"camo"};                
+      class camo {                        
+        values[] = 
+        {
+            "ic51_trooper_nvg_gp",
+            "ic51_trooper_nvg_marksmen_gp",
+            "ic51_trooper_rangefinder_gp",
+            "ic51_trooper_nvg_chip_gp",
+            "ic51_trooper_medicalscanner_gp",
+            "ic51_trooper_nvg_sunvisor_gp",
+        };
+        class ic51_trooper_nvg_gp {label = "Macrobinoculars";};
+        class ic51_trooper_nvg_marksmen_gp {label = "Marksmen Visor";};
+        class ic51_trooper_rangefinder_gp {label = "Range Finder";};
+        class ic51_trooper_nvg_chip_gp {label = "NVG Chip";};
+        class ic51_trooper_medicalscanner_gp {label = "Medical Scanner";};
+        class ic51_trooper_nvg_sunvisor_gp {label = "Sunvisor (Heavy)";};
       };
     };
   };
@@ -515,7 +571,6 @@ class XtdGearModels {
             "ic51_face_pilot",
             "ic51_face_iroh",
             "ic51_face_atticus",
-			"ic51_face_cassius",
         };
         class ic51_face_base { label = "P2 Interior";};
         class ic51_face_corporal { label = "Corporal";};
@@ -535,7 +590,6 @@ class XtdGearModels {
         class ic51_face_pilot { label = "Pilot";};
         class ic51_face_iroh { label = "Iroh";};
         class ic51_face_atticus { label = "Atticus";};
-		class ic51_face_cassius { label = "Cassius";};
       };
      };
 	};

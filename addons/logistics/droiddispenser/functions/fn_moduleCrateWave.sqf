@@ -13,8 +13,8 @@ private _dropAltitude    = 1000;                      // meters above module pos
 private _dispenserClass      = "ic51_droidDespener_b1";        // falling object classname
 private _spawnRadius     = 5;                       // meters
 private _durationSeconds = 60;                      // 0 = run while crate alive
-private _intervalMin     = 8;                        // seconds
-private _intervalMax     = 18;                       // seconds
+private _intervalMin     = 2;                        // seconds
+private _intervalMax     = 10;                       // seconds
 private _unitsPerWave    = 3;                        // count per tick
 private _maxUnitsAlive   = 20;                       // 0 = uncapped
 private _side            = east;                     // west / east / resistance / civilian

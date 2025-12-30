@@ -7,8 +7,8 @@ params [
     ["_unitClasses", [], [[]]],
     ["_radius", 5, [0]],
     ["_durationSeconds", 300, [0]],
-    ["_intMin", 8, [0]],
-    ["_intMax", 18, [0]],
+    ["_intMin", 2, [0]],
+    ["_intMax", 10, [0]],
     ["_unitsPer", 3, [0]],
     ["_maxAlive", 50, [0]],
     ["_stopOnCrateDeath", true, [true]]
@@ -186,7 +186,7 @@ while { true } do {
         };
     };
 
-    sleep (_intMin + random (_intMax max _intMin - _intMin));
+    sleep (_intMin + random (_intMax - _intMin));
 };
 
 true;

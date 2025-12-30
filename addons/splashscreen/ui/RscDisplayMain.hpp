@@ -183,7 +183,7 @@ class RscDisplayMain: RscStandardDisplay
 		};
 		class MainServerButton: baseButton 
         {
-			y = "safeZoneY + (12 - 0.37 * 6.25) * (pixelH * pixelGrid * 2)";
+			y = "safeZoneY + (18 - 0.37 * 6.25) * (pixelH * pixelGrid * 2)";
 			onLoad = "(_this # 0) ctrlEnable true";
 			text = QPATHTOF(data\buttons\mainserver.paa); // Path to button image
 			tooltip = "Connect to the Main Server";
@@ -195,16 +195,17 @@ class RscDisplayMain: RscStandardDisplay
 		};
 		class TrainingServerButton: baseButton 
         {
-			y = "safeZoneY + (18 - 0.37 * 6.25) * (pixelH * pixelGrid * 2)";
+			y = "safeZoneY + (24 - 0.37 * 6.25) * (pixelH * pixelGrid * 2)";
 			onLoad = "(_this # 0) ctrlEnable true";
 			text = QPATHTOF(data\buttons\trainingserver.paa); // Path to button image
 			tooltip = "Connect to the Training Server";
-			action = "connectToServer ['144.76.139.249', 2402, '51st'];"; // Connection information, must be in numbers.
+			action = "connectToServer ['103.214.108.8', 2331, '51st'];"; // Connection information, must be in numbers.
 			onMouseEnter = "(_this select 0) ctrlSetText "QPATHTOF(data\buttons\trainingserver_aurebesh.paa)"";
 			onMouseExit = "(_this select 0) ctrlSetText "QPATHTOF(data\buttons\trainingserver.paa)"";
 			onMouseButtonUp = "(_this select 0) ctrlSetText "QPATHTOF(data\buttons\trainingserver_aurebesh.paa)"";
 			onMouseButtonDown = "(_this select 0) ctrlSetText "QPATHTOF(data\buttons\trainingserver.paa)"";
 		};
+		/*
 		class LiberationServerButton: baseButton 
         {
 			y = "safeZoneY + (24 - 0.37 * 6.25) * (pixelH * pixelGrid * 2)";
@@ -229,5 +230,6 @@ class RscDisplayMain: RscStandardDisplay
 			onMouseButtonUp = "(_this select 0) ctrlSetText "QPATHTOF(data\buttons\kaminoserver_aurebesh.paa)"";
 			onMouseButtonDown = "(_this select 0) ctrlSetText "QPATHTOF(data\buttons\kaminoserver.paa)"";
 		};
+		*/
     };
 };

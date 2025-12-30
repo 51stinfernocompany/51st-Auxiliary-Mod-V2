@@ -132,7 +132,7 @@ class CfgVehicles
         editorSubcategory = "ic51_structure";
         icon = "\ls\core\addons\dispenser\data\ui\droidDispenser_icon_ca.paa";
         destrType = "DestructDefault";
-        armor = 4000;
+        armor = 750;
 
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"3as\3AS_CIS_Static\Droid_Dispenser\data\camo_droid_dispenser_co.paa"};
@@ -149,7 +149,7 @@ class CfgVehicles
         {
             class HitBody
             {
-                armor = 4000;
+                armor = 750;
                 material = -1;
                 name = "body";
                 visual = ""; 

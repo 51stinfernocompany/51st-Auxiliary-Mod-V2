@@ -36,7 +36,7 @@ class ic51_dc23 : IDA_DC23
     BaseWeapon = "ic51_dc23";
     displayName = "[51st] DC-23 Scatterblaster";
     magazines[] = {"ic51_dc23_mag"};
-    reloadTime = 0.1725;
+    reloadTime = 0.125;
     SCOPE_PUBLIC;
 };
 
