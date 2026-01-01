@@ -119,7 +119,8 @@ class CfgPatches {
             QCLASS(vest_plate_arc),
             QCLASS(vest_poncho),
             QCLASS(vest_plate_engineer),
-            QCLASS(vest_plate_at)
+            QCLASS(vest_plate_at),
+            QCLASS(ic51_knifeholster)
         };
         VERSION_CONFIG;
     };

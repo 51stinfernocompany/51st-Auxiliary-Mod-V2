@@ -50,6 +50,7 @@ class ic51_dc17m_AT_mag : IDA_Blaster_Clip_Grenade {
     SCOPE_PUBLIC;
 };
 
+//DC-15C
 class 3AS_40Rnd_EC40_Mag;
 class ic51_dc15c_mag : 3AS_40Rnd_EC40_Mag
 {
@@ -59,6 +60,40 @@ class ic51_dc15c_mag : 3AS_40Rnd_EC40_Mag
     displayNameShort = "DC-15C Energy Cell";
     descriptionShort = "40 round capacity.";
     ammo = "ic51_blasterbolt_dc15a";
+    SCOPE_PUBLIC;
+};
+
+//DC-19
+class ShdwCmpny_45Rnd_EC30_mag_Subsonic;
+class ic51_subsonic_45rnd: ShdwCmpny_45Rnd_EC30_mag_Subsonic{
+    author = AUTHOR;
+    BaseWeapon = "ic51_subsonic_45rnd";
+    displayName = "[51st] 45 Round Subsonic";
+    displayNameShort = "45 Round Subsonic";
+    descriptionShort = "45 round capacity.";
+    SCOPE_PUBLIC;
+};
+class ShdwCmpny_10Rnd_EC30_mag_Tracerless ;
+class ic51_tracerless_30rnd: ShdwCmpny_10Rnd_EC30_mag_Tracerless {
+    author = AUTHOR;
+    BaseWeapon = "ic51_tracerless_30rnd";
+    displayName = "[51st] 30 Round Tracerless ";
+    displayNameShort = "30 Round Tracerless ";
+    descriptionShort = "30 round capacity.";
+    count = 30;
+    SCOPE_PUBLIC;
+};
+
+//Westar
+class ic51_westar_mag : IDA_Blaster_Cell_Power3_40Rnd_Blue {
+    author = AUTHOR;
+    BaseWeapon = "ic51_westar_mag";
+    displayName = "[51st] Westar M5 Energy Cell";
+    displayNameShort = "Westar Energy Cell";
+    descriptionShort = "40 round capacity.";
+
+    ammo = "ic51_blasterbolt_dc15a";
+    count = 40;
     SCOPE_PUBLIC;
 };
 

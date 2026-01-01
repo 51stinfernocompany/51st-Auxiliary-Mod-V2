@@ -94,23 +94,13 @@ class ic51_pilot_helmet_custom_snapjaw : ic51_pilot_helmet_base
         "\ls\core\addons\characters_clone_legacy\helmets\phase2Pilot\data\visor_co.paa"
     };
 };
-class ic51_pilot_helmet_custom_rocky : ic51_pilot_helmet_base
+class ic51_pilot_helmet_custom_noble : ic51_pilot_helmet_base
 {
     SCOPE_PUBLIC;
-    displayName = "[51st Custom] Pilot Rocky's Helmet";
+    displayName = "[51st Custom] Pilot Noble's Helmet";
     hiddenSelectionsTextures[] =
     {
-        QPATHTOF(data\helmet_common\pilot_helmet_rocky_co.paa),
-        "\ls\core\addons\characters_clone_legacy\helmets\phase2Pilot\data\visor_co.paa"
-    };
-};
-class ic51_pilot_helmet_custom_anubis : ic51_pilot_helmet_base
-{
-    SCOPE_PUBLIC;
-    displayName = "[51st Custom] Pilot Anubis's Helmet";
-    hiddenSelectionsTextures[] =
-    {
-        QPATHTOF(data\helmet_common\pilot_helmet_anubis_co.paa),
+        QPATHTOF(data\helmet_common\pilot_helmet_custom_noble_co.paa),
         "\ls\core\addons\characters_clone_legacy\helmets\phase2Pilot\data\visor_co.paa"
     };
 };

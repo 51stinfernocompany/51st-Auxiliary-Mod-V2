@@ -1,4 +1,39 @@
 // DP-23
+class ShdwCmpny_DP23_F;
+class ic51_dp23 : ShdwCmpny_DP23_F 
+{
+    author = AUTHOR;
+    BaseWeapon = "ic51_dp23";
+    displayName = "[51st] DP-23";
+    magazines[] = {"ic51_scattergun_slug","ic51_scattergun_pellet"};
+    reloadTime = 0.22;
+    magazineWell[] = {};
+    SCOPE_PUBLIC;
+    class WeaponSlotsInfo: WeaponSlotsInfo{
+        class MuzzleSlot: MuzzleSlot
+        {
+            compatibleItems[] = {};
+        };
+        class CowsSlot: CowsSlot 
+        {
+            compatibleItems[] = {
+                "ic51_reflex_optic",
+                "ic51_reflex2_optic", 
+                "ic51_reflex3_optic",
+            };
+        };
+        class PointerSlot: PointerSlot 
+        {
+            compatibleItems[] = {};
+        };
+        class UnderBarrelSlot: UnderBarrelSlot 
+        {
+            compatibleItems[] ={};
+        };
+    };
+};
+
+/*
 class 3AS_DP23_F;
 class ic51_dp23 : 3AS_DP23_F 
 {
@@ -27,7 +62,7 @@ class ic51_dp23_gl : 3AS_DP23_GL
         magazineWell[] = {};
     };
 };
-
+*/
 // DC-23
 class IDA_DC23;
 class ic51_dc23 : IDA_DC23 

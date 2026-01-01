@@ -12,7 +12,8 @@ class CfgPatches
         {
             "JLTS_weapons_Core",
             "IDA_Ammo",
-            "IDA_Republic"
+            "IDA_Republic",
+            "ShadowLegion_Aux_Weapons",
         };
         units[]={};
         ammo[] =
@@ -40,7 +41,10 @@ class CfgPatches
             "ic51_SmokeBlue_LauncherGrenade",
             "ic51_SmokePurple_LauncherGrenade",
             "ic51_Ultra_Premium_HE_LauncherGrenade",
-            "ic51_dc15c_mag"
+            "ic51_dc15c_mag",
+            "ic51_subsonic_45rnd",
+            "ic51_tracerless_30rnd",
+            "ic51_westar_mag",
         };
         weapons[] =
         {
@@ -49,7 +53,11 @@ class CfgPatches
             "ic51_dc15a",
             "ic51_dc15a_ugl",
             "ic51_stun_muzzle",
-            "ic51_dc15c"
+            "ic51_dc15c",
+            "ic51_dc15c_mk2",
+            "ic51_dc15c_mk3",
+            "ic51_dc19",
+            "ic51_westar",
         };
     };
 };
@@ -62,6 +70,7 @@ class CfgMagazines {
 class CfgWeapons {
     #include "rifles_weapons.hpp"
 };
+/*
 class cfgRecoils{
 class Default;
 class ic51_recoil_default: Default
@@ -79,3 +88,4 @@ class ic51_recoil_15c: ic51_recoil_default
 		temporary=0.0099999998;
 	};
 };
+*/

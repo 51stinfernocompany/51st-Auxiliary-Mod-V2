@@ -26,7 +26,7 @@ class CfgPatches
             "ic51_SmokeShellRed",
             "ic51_SmokeShellOrange",
             "ic51_SmokeShellWhite",
-            "ic51_weaponshield_ammo"
+            "ic51_weaponshield_ammo",
         };
         magazines[] =
         {
@@ -39,7 +39,9 @@ class CfgPatches
             "ic51_SmokeRed",
             "ic51_SmokeWhite",
             "ic51_SmokeYellow",
-            "ic51_weaponshield"
+            "ic51_weaponshield",
+            "ic51_emp_grenade",
+            "ic51_penetrator_grenade",
         };
         weapons[] = {};
     };

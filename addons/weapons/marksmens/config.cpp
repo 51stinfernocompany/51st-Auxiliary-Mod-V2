@@ -14,7 +14,8 @@ class CfgPatches
             "IDA_Republic",
             "IDA_Imperial",
             "3AS_Weapons",
-            "3AS_Weapons_Republic_Valken38X"
+            "3AS_Weapons_Republic_Valken38X",
+            "ShadowLegion_Aux_Weapons",
         };
         units[]={};
         ammo[] =

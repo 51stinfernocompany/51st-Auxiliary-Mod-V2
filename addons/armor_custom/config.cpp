@@ -73,12 +73,12 @@ class CfgPatches {
             QCLASS(arf_helmet_custom_church),
             QCLASS(arf_helmet_custom_ox),
             QCLASS(arf_helmet_custom_threevo),
-            QCLASS(arf_helmet_custom_rae),
+            QCLASS(arf_helmet_custom_matthew),
             // HELMET PILOT
             QCLASS(pilot_helmet_custom_anselm),
             QCLASS(pilot_helmet_custom_snapjaw),
             QCLASS(pilot_helmet_custom_rocky),
-            QCLASS(pilot_helmet_custom_anubis),
+            QCLASS(pilot_helmet_custom_noble),
             // HELMET AIRBORNE
             QCLASS(airborne_helmet_custom_biscuit),
             QCLASS(airborne_helmet_custom_lucifer),

@@ -17,12 +17,16 @@ class CfgPatches
         magazines[] =
         {
             "ic51_dc15sa_mag",
-            "ic51_dc17_mag"
+            "ic51_dc17_mag",
+            "ic51_dc21_mag"
         };
         weapons[] =
         {
             "ic51_dc15sa",
             "ic51_dc17",
+            "ic51_vibroblade",
+            "ic51_vibroblade_rotated",
+            "ic51_dc21",
         };
     };
 };

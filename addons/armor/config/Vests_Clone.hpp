@@ -88,6 +88,43 @@ class ic51_vest_plate_heavy: ic51_vest_plate_base
         };
     };
 };
+class ic51_vest_plate_assault: ic51_vest_plate_base
+{
+    displayName="[51st] Plating Assault";
+    class ItemInfo : ItemInfo
+    {
+        containerclass = "Supply300";
+        class HitpointsProtectionInfo
+        {
+            class Chest
+            {
+                HitpointName = "HitChest";
+                armor = 15;
+                PassThrough = 0.08975;
+            };
+            class Diaphragm : Chest
+            {
+                HitpointName = "HitDiaphragm";
+            };
+            class Abdomen : Diaphragm
+            {
+                HitpointName = "HitAbdomen";
+            };
+            class Body : Abdomen
+            {
+                HitpointName = "HitBody";
+            };
+            class Arms : Body
+            {
+                HitpointName = "HitArms";
+            };
+            class Legs : Arms
+            {
+                HitpointName = "Hitlegs";
+            };
+        };
+    };
+};
 class ic51_vest_plate_engineer: IDA_vest_base
 {
     SCOPE_PUBLIC;
@@ -336,9 +373,9 @@ class ic51_holster_2_base : IDA_Holster_2
     };
 };
 class IDA_KnifeHolster;
-class ic51_knifeholster_base : IDA_KnifeHolster 
+class ic51_knifeholster : IDA_KnifeHolster 
 {
-    SCOPE_PRIVATE;
+    SCOPE_PUBLIC;
     author = AUTHOR;
     picture = QPATHTOF(data\51st_logo.paa);
     displayName="[51st] Holster (DC-17 + Knife)";
@@ -379,6 +416,7 @@ class ic51_knifeholster_base : IDA_KnifeHolster
             };
         };
     };
+    model = "\Indecisive_Armoury_units\REPUBLIC\Vests\IDA_KnifeHolster.p3d";
     hiddenSelections[]=
     {
         "holster",
@@ -386,7 +424,7 @@ class ic51_knifeholster_base : IDA_KnifeHolster
     };
     hiddenSelectionsTextures[]=
     {
-        "\Indecisive_Armoury_Units\REPUBLIC\Vests\IDA_Holster\IDA_KnifeHolster_co.paa",
+        QPATHTOF(data\vests_Clone\IDA_KnifeHolster_co.paa),
         "\Indecisive_Armoury_Melee\Data\Clone_Knife\Textures\Clone_Hunting_Knife_co.paa"
     };
 };
@@ -398,6 +436,10 @@ class ic51_vest_poncho : ls_vest_poncho
     author = AUTHOR;
     picture = QPATHTOF(data\51st_logo.paa);
     displayName = "[51st] Poncho";
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOF(data\vests_Clone\Poncho_Diffuse.paa)
+    };
     class ItemInfo : ItemInfo
     {
         containerclass = "Supply300";

@@ -88,14 +88,26 @@ class ic51_SmokeYellow : 3AS_SmokeYellow{
     SCOPE_PUBLIC;
     
 };
-
+/*
 class ShieldGrenade_Mag;
 class ic51_weaponshield : ShieldGrenade_Mag
 {
     baseweapon = "ic51_weaponshield";
     displayName = "[51st] Weapon Shield";
-    displayNameShort = "Weapon Shield";
-    descriptionShort = "Weapon Shield; Lasts 60 seconds.";
-    ammo = "ic51_weaponshield_ammo";
+    SCOPE_PUBLIC;
+};
+*/
+class JLTS_grenade_emp_mag;
+class ic51_emp_grenade: JLTS_grenade_emp_mag{
+    baseweapon = "ic51_emp_grenade";
+    displayName = "[51st] EMP Grenade";
+    SCOPE_PUBLIC;
+};
+class IDA_grenade_Penetrator_mag;
+class ic51_penetrator_grenade: IDA_grenade_Penetrator_mag{
+    baseweapon = "ic51_penetrator_grenade";
+    displayName = "[51st] Penetrator Grenade";
+    ammo = "ic51_grenade_Penetrator_ammo";
+    model = "\Indecisive_Armoury_Ammos\Data\Thermal_Detonator\IDA_Thermal_Detonator.p3d";
     SCOPE_PUBLIC;
 };

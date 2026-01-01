@@ -23,3 +23,38 @@ class ic51_dc17 : IDA_DC17 {
         };
     SCOPE_PUBLIC;
 };
+
+// DC-21
+class ShdwCmpny_pistol_DC21_Base;
+class ic51_dc21 : ShdwCmpny_pistol_DC21_Base {
+    author = AUTHOR;
+    BaseWeapon = "ic51_dc21";
+    displayName = "[51st] DC-21";
+    magazines[] =
+        {
+        "ic51_dc21_mag",
+        "ic51_tracerless_30rnd",
+        };
+    SCOPE_PUBLIC;
+    class WeaponSlotsInfo: WeaponSlotsInfo{
+        class MuzzleSlot: MuzzleSlot
+        {
+            compatibleItems[] = {
+                "ic51_dc21_barrel",
+                "ic51_dc19_supp"
+            };
+        };
+    };
+};
+
+//Vibro Blades
+class ShdwCmpny_Vibroblade_r;
+class ShdwCmpny_Vibroblade_rotated_r;
+
+class ic51_vibroblade: ShdwCmpny_Vibroblade_r{
+    displayName = "[51st] Vibroblade";
+};
+
+class ic51_vibroblade_rotated: ShdwCmpny_Vibroblade_rotated_r{
+    displayName = "[51st] Vibroblade Reversed";
+};

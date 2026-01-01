@@ -13,6 +13,7 @@ class CfgPatches
             "IDA_Republic",
             "JLTS_weapons_Core",
             "JLTS_weapons_Z6",
+            "ShadowLegion_Aux_Weapons",
         };
         units[]={};
         ammo[] ={};
@@ -22,7 +23,9 @@ class CfgPatches
             "ic51_dc15le_mag",
             "ic51_z6_mag",
             "ic51_z6_mag_explosive",
-            "ic51_dc42h_mag"
+           // "ic51_dc42h_mag",
+            "ic51_dlt17_mag",
+            "ic51_dc15le_he_mag",
         };
         weapons[] =
         {
@@ -30,7 +33,8 @@ class CfgPatches
             //"ic51_Bipod_dlt15"
             "ic51_dc15le",
             "ic51_z6",
-            "ic51_dc42h"
+            //"ic51_dc42h",
+            "ic51_dlt17",
         };
     };
 };

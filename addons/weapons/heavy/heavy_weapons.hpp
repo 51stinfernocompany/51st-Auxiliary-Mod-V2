@@ -9,6 +9,124 @@ class ic51_z6 : IDA_Z6 {
     SCOPE_PUBLIC;
 };
 
+//DC-15LE
+class ShdwCmpny_DC15LE_F;
+class ic51_dc15le : ShdwCmpny_DC15LE_F
+{
+    author = AUTHOR;
+    BaseWeapon = "ic51_dc15le";
+    displayName = "[51st] DC-15LE";
+    magazines[] = {"ic51_dc15le_mag","ic51_dc15le_he_mag"};
+    modes[] = {"FullAuto"};
+    muzzles[] = {"this"};
+    SCOPE_PUBLIC;
+    class FullAuto : FullAuto 
+    {
+        autoFire = 1;
+        dispersion = 0.00145;
+        reloadTime = 0.085; // This is rounds per minute
+    };
+    class Single {};
+    class EGLM {};
+    class WeaponSlotsInfo: WeaponSlotsInfo{
+        class MuzzleSlot: MuzzleSlot
+        {
+            compatibleItems[] = {
+                "ic51_dc15le_muzzel",
+            };
+        };
+        class CowsSlot: CowsSlot 
+        {
+            compatibleItems[] = {
+                "ic51_dc15le_optic",
+                "ic51_valken_optic",
+                "ic51_dc15x_optic",
+                "ic51_reflex_optic",
+                "ic51_reflex2_optic", 
+                "ic51_reflex3_optic",
+            };
+        };
+        class PointerSlot: PointerSlot 
+        {
+            compatibleItems[] = {
+                
+            };
+        };
+        class UnderBarrelSlot: UnderBarrelSlot 
+        {
+            compatibleItems[] = {
+                "ic51_bipod"
+            };
+        };
+    };
+};
+/*
+class IDA_DC15LE;
+class ic51_dc15le : IDA_DC15LE
+{
+    author = AUTHOR;
+    BaseWeapon = "ic51_dc15le";
+    displayName = "[51st] DC-15LE";
+    magazines[] = {"ic51_dc15le_mag"};
+    modes[] = {"FullAuto"};
+    muzzles[] = {"this"};
+    SCOPE_PUBLIC;
+    class FullAuto : FullAuto 
+    {
+        autoFire = 1;
+        dispersion = 0.00145;
+        reloadTime = 0.085; // This is rounds per minute
+    };
+    class Single {};
+    class EGLM {};
+};
+*/
+
+//DLT-17
+class ShdwCmpny_DC15L_F;
+class ic51_dlt17 : ShdwCmpny_DC15L_F {
+    author = AUTHOR;
+    baseWeapon = "ic51_dlt17";
+    displayName = "[51st] DLT-17";
+    magazines[] = {"ic51_dlt17_mag","ic51_dc15le_he_mag"};
+    magazineWell[] = {};
+    SCOPE_PUBLIC;
+    class WeaponSlotsInfo: WeaponSlotsInfo{
+        class MuzzleSlot: MuzzleSlot
+        {
+            compatibleItems[] = {
+                "ic51_dc15_supp",
+            };
+        };
+        class CowsSlot: CowsSlot 
+        {
+            compatibleItems[] = {
+                "ic51_dc15le_optic",
+                "ic51_valken_optic",
+                "ic51_dc15x_optic",
+                "ic51_reflex_optic",
+                "ic51_reflex2_optic", 
+                "ic51_reflex3_optic",
+                "ic51_westar_optic",
+            };
+        };
+        class PointerSlot: PointerSlot 
+        {
+            compatibleItems[] = {
+                
+            };
+        };
+        class UnderBarrelSlot: UnderBarrelSlot 
+        {
+            compatibleItems[] = {
+                "ic51_bipod"
+            };
+        };
+    };
+};
+
+/*
+//DC-15LE
 class IDA_DC15LE;
 class ic51_dc15le : IDA_DC15LE
 {
@@ -29,7 +147,7 @@ class ic51_dc15le : IDA_DC15LE
     class EGLM {};
 };
 
-
+//DC-42H
 class 3AS_DC15L_F;
 class ic51_dc42h : 3AS_DC15L_F {
     author = AUTHOR;

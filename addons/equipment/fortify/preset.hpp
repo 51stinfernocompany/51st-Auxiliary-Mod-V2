@@ -6,7 +6,8 @@ class ACEX_Fortify_Presets {
             {"3AS_Shield_5_Prop", 25},
             {"3AS_Cover1", 18},
             {"3AS_Cover2", 25},
-            {"3AS_Barricade_2_C_Prop", 18}
+            {"3AS_Barricade_2_C_Prop", 18},
+            //{"ic51_medical_droid", 20},
         };
     };
 };

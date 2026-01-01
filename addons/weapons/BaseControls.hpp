@@ -14,3 +14,5 @@ class LinkedItems;
 class compatibleItems;
 class Snip;
 class CamShakeExplode;
+class PointerSlot;
+class MuzzleSlot;

@@ -30,3 +30,12 @@ class ic51_dc17_mag : IDA_Blaster_Cell_Power4_10Rnd_Blue {
     count = 50;
     SCOPE_PUBLIC;
 };
+
+//DC-21
+class ic51_dc21_mag : IDA_Blaster_Cell_Power4_10Rnd_Blue {
+    author = AUTHOR;
+    BaseWeapon = "ic51_dc21_mag";
+    displayName = "[51st] DC-21 Mag";
+    count = 50;
+    SCOPE_PUBLIC;
+};

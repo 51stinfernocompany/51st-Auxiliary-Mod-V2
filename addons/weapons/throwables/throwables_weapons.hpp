@@ -11,7 +11,11 @@ class Throw : GrenadeLauncher {
         "ic51_SmokeRed",
         "ic51_SmokeWhite",
         "ic51_SmokeYellow",
-        "ic51_ThermalImploder"
+        "ic51_ThermalImploder",
+        "ic51_weaponshield",
+        "ic51_emp_grenade",
+        "ic51_penetrator_grenade",
+
     };
     class ThrowMuzzle;
     class ic51_ThermalDetonator : ThrowMuzzle{
@@ -44,7 +48,15 @@ class Throw : GrenadeLauncher {
     class ic51_SmokeYellow : ThrowMuzzle{
         magazines[]={"ic51_SmokeYellow"};
     };
+    /*
     class ic51_weaponshield : ThrowMuzzle{
         magazines[]={"ic51_weaponshield"};
+    };
+    */
+    class ic51_emp_grenade : ThrowMuzzle{
+        magazines[]={"ic51_emp_grenade"};
+    };
+    class ic51_penetrator_grenade : ThrowMuzzle{
+        magazines[]={"ic51_penetrator_grenade"};
     };
 };  

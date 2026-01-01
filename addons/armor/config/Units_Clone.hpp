@@ -99,6 +99,7 @@ class ic51_clone_unit_command : ic51_clone_unit_base
     };
     UNIT_ITEMS("","ic51_p2_helmet_sergeant","ic51_dc15a","ic51_dc15a_mag");
 };
+
 // Qualifications
 class ic51_clone_unit_medic_t2 : ic51_clone_unit_base
 {
@@ -122,6 +123,8 @@ class ic51_clone_unit_medic_t3 : ic51_clone_unit_base
     };
     UNIT_ITEMS("","ic51_p2_helmet_medic_t3","ic51_dc15s","ic51_dc15s_mag");
 };
+
+//Pilots
 class ic51_clone_unit_pilot_combat : ic51_clone_unit_base
 {
     displayName = "[51st] Pilot Combat";
@@ -144,6 +147,8 @@ class ic51_clone_unit_pilot_logi : ic51_clone_unit_base
     };
     UNIT_ITEMS("","ic51_p2_helmet_medic_t3","ic51_dc15s","ic51_dc15s_mag");
 };
+
+//saber
 class ic51_clone_unit_sabre1 : ic51_clone_unit_base
 {
     displayName = "[51st] Sabre One";
@@ -188,50 +193,6 @@ class ic51_clone_unit_sabre4 : ic51_clone_unit_base
     };
     UNIT_ITEMS("","ic51_p2_helmet_sabre3","ic51_dc15s","ic51_dc15s_mag");
 };
-class ic51_clone_unit_arf : ic51_clone_unit_base
-{
-    displayName = "[51st] ARF";
-    uniformclass="ic51_clone_uniform_arf"; 
-    hiddenSelectionsTextures[]=
-    {
-        QPATHTOF(data\uniform_clone\upper\uniform_clone_upper_arf_co.paa),
-        QPATHTOF(data\uniform_clone\lower\uniform_clone_lower_arf_co.paa)
-    };
-    UNIT_ITEMS("","ic51_p2_helmet_arf","ic51_dc15s","ic51_dc15s_mag");
-};
-class ic51_clone_unit_barc : ic51_clone_unit_base
-{
-    displayName = "[51st] BARC";
-    uniformclass="ic51_clone_uniform_barc"; 
-    hiddenSelectionsTextures[]=
-    {
-        QPATHTOF(data\uniform_clone\upper\uniform_clone_upper_BARC_co.paa),
-        QPATHTOF(data\uniform_clone\lower\uniform_clone_lower_BARC_co.paa)
-    };
-    UNIT_ITEMS("","ic51_p2_helmet_barc","ic51_dc15s","ic51_dc15s_mag");
-};
-class ic51_clone_unit_havoc1 : ic51_clone_unit_base
-{
-    displayName = "[51st] Havoc One";
-    uniformclass="ic51_clone_uniform_havoc1"; 
-    hiddenSelectionsTextures[]=
-    {
-        QPATHTOF(data\uniform_clone\upper\uniform_clone_upper_havoc1_co.paa),
-        QPATHTOF(data\uniform_clone\lower\uniform_clone_lower_havoc1_co.paa)
-    };
-    UNIT_ITEMS("","ic51_p2_helmet_havoc1","ic51_dc15s","ic51_dc15s_mag");
-};
-class ic51_clone_unit_havoc2 : ic51_clone_unit_base
-{
-    displayName = "[51st] Havoc Two";
-    uniformclass="ic51_clone_uniform_havoc2"; 
-    hiddenSelectionsTextures[]=
-    {
-        QPATHTOF(data\uniform_clone\upper\uniform_clone_upper_havoc2_co.paa),
-        QPATHTOF(data\uniform_clone\lower\uniform_clone_lower_havoc2_co.paa)
-    };
-    UNIT_ITEMS("","ic51_p2_helmet_havoc2","ic51_dc15s","ic51_dc15s_mag");
-};
 class ic51_clone_unit_medic_sabre1 : ic51_clone_unit_base
 {
     displayName = "[51st] Sabre One (Medic)";
@@ -275,6 +236,87 @@ class ic51_clone_unit_medic_sabre4 : ic51_clone_unit_base
         QPATHTOF(data\uniform_clone\lower\uniform_clone_lower_medic_sabre4_co.paa)
     };
     UNIT_ITEMS("","ic51_p2_helmet_medic_sabre4","ic51_dc15s","ic51_dc15s_mag");
+};
+
+//ARF
+class ic51_clone_unit_arf : ic51_clone_unit_base
+{
+    displayName = "[51st] ARF";
+    uniformclass="ic51_clone_uniform_arf"; 
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOF(data\uniform_clone\upper\uniform_clone_upper_arf_co.paa),
+        QPATHTOF(data\uniform_clone\lower\uniform_clone_lower_arf_co.paa)
+    };
+    UNIT_ITEMS("","ic51_p2_helmet_arf","ic51_dc15s","ic51_dc15s_mag");
+};
+class ic51_clone_unit_arf_winter : ic51_clone_unit_base
+{
+    displayName = "[51st] ARF Winter";
+    uniformclass="ic51_clone_unit_arf_winter"; 
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOF(data\uniform_clone\upper\uniform_clone_upper_arf_winter_co.paa),
+        QPATHTOF(data\uniform_clone\lower\uniform_clone_lower_arf_winter_co.paa)
+    };
+    UNIT_ITEMS("","ic51_p2_helmet_arf_winter","ic51_dc15s","ic51_dc15s_mag");
+};
+class ic51_clone_unit_arf_jungle : ic51_clone_unit_base
+{
+    displayName = "[51st] ARF Jungle";
+    uniformclass="ic51_clone_unit_arf_jungle"; 
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOF(data\uniform_clone\upper\uniform_clone_upper_arf_jungle_co.paa),
+        QPATHTOF(data\uniform_clone\lower\uniform_clone_lower_arf_jungle_co.paa)
+    };
+    UNIT_ITEMS("","ic51_p2_helmet_arf_jungle","ic51_dc15s","ic51_dc15s_mag");
+};
+class ic51_clone_unit_arf_desert : ic51_clone_unit_base
+{
+    displayName = "[51st] ARF Desert";
+    uniformclass="ic51_clone_unit_arf_desert"; 
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOF(data\uniform_clone\upper\uniform_clone_upper_arf_desert_co.paa),
+        QPATHTOF(data\uniform_clone\lower\uniform_clone_lower_arf_desert_co.paa)
+    };
+    UNIT_ITEMS("","ic51_p2_helmet_arf_desert","ic51_dc15s","ic51_dc15s_mag");
+};
+class ic51_clone_unit_barc : ic51_clone_unit_base
+{
+    displayName = "[51st] BARC";
+    uniformclass="ic51_clone_uniform_barc"; 
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOF(data\uniform_clone\upper\uniform_clone_upper_BARC_co.paa),
+        QPATHTOF(data\uniform_clone\lower\uniform_clone_lower_BARC_co.paa)
+    };
+    UNIT_ITEMS("","ic51_p2_helmet_barc","ic51_dc15s","ic51_dc15s_mag");
+};
+
+//Havoc
+class ic51_clone_unit_havoc1 : ic51_clone_unit_base
+{
+    displayName = "[51st] Havoc One";
+    uniformclass="ic51_clone_uniform_havoc1"; 
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOF(data\uniform_clone\upper\uniform_clone_upper_havoc1_co.paa),
+        QPATHTOF(data\uniform_clone\lower\uniform_clone_lower_havoc1_co.paa)
+    };
+    UNIT_ITEMS("","ic51_p2_helmet_havoc1","ic51_dc15s","ic51_dc15s_mag");
+};
+class ic51_clone_unit_havoc2 : ic51_clone_unit_base
+{
+    displayName = "[51st] Havoc Two";
+    uniformclass="ic51_clone_uniform_havoc2"; 
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOF(data\uniform_clone\upper\uniform_clone_upper_havoc2_co.paa),
+        QPATHTOF(data\uniform_clone\lower\uniform_clone_lower_havoc2_co.paa)
+    };
+    UNIT_ITEMS("","ic51_p2_helmet_havoc2","ic51_dc15s","ic51_dc15s_mag");
 };
 class ic51_clone_unit_medic_havoc1 : ic51_clone_unit_base
 {

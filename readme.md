@@ -56,7 +56,7 @@ You must complete HEMTT inital installation before doing this.
 
 ---
 ## Credit
-**Lead Developer:** TBD  
+**Lead Developer:** Freelancer  
 **Developers**:Freelancer.  
 
 **Texture Artists**: Atticus, Ronnin, Kane.  

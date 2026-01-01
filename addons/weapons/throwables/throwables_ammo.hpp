@@ -67,9 +67,10 @@ class ic51_SmokeShellWhite : IDA_smoke{
     displayName = "[51st] Smoke White";
     SCOPE_PUBLIC;
 };
-class ShieldGrenade_Ammo;
-class ic51_weaponshield_ammo : ShieldGrenade_Ammo {
-    BaseWeapon = "ic51_weaponshield_ammo";
-    displayName = "[51st] Weapon Shield";
+class IDA_grenade_Penetrator_ammo;
+class ic51_grenade_Penetrator_ammo: IDA_grenade_Penetrator_ammo{
+    BaseWeapon = "ic51_grenade_Penetrator_ammo";
+    displayName = "[51st] Penetrator Grenade ";
+    model = "\Indecisive_Armoury_Ammos\Data\Thermal_Detonator\IDA_Thermal_Detonator.p3d";
     SCOPE_PUBLIC;
 };

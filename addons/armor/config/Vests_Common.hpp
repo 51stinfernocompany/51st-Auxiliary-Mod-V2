@@ -16,6 +16,7 @@ class ic51_katarn_vest_base : 3AS_Katarn_Vest_Team_Leader
     class ItemInfo: VestItem
     {
         containerclass = "Supply350";
+        vesttype = "Rebreather";
         hiddenSelections[] = {"camo1"};
         hiddenSelectionsTextures[] = {"\3AS\3AS_Characters\Commando\data\Katarn_Vest_Team_Leader_co.paa"};
         uniformModel = "\3AS\3AS_Characters\Commando\3AS_Katarn_Vest_Team_Leader.p3d";
