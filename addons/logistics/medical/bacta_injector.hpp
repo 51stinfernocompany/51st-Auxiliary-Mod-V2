@@ -20,8 +20,8 @@ class ace_medical_treatment_actions {
 
         callbackSuccess = "ic51_fnc_bactainjection";
     };
-    class CPR;
-    class ic51_log_medisensor : CPR
+    class check_pulse;
+    class ic51_log_medisensor : check_pulse
     {
         displayName="Use RFX/K Medisensor";
         displayNameProgress="Scanning...";

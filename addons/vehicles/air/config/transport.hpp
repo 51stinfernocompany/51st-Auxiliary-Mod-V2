@@ -7,7 +7,13 @@ class ic51_laat_mk1_base: 3AS_LAAT_Mk1
     fuelCapacity=3700;
     fuelConsumptionRate=0.1;
     hiddenSelections [] = {"camo","camo1","camo2","camo3","camo4"};
-    hiddenselectionstextures[] = {"3AS\3AS_Laat\LAATI\data\Hull_Imp_CO.paa","3AS\3AS_Laat\LAATI\data\wings_Imp_CO.paa","3AS\3AS_Laat\LAATI\data\weapons_Imp_CO.paa","3AS\3AS_Laat\LAATI\data\weapon_Details_Imp_CO.paa","3AS\3AS_Laat\LAATI\data\interior_Imp_CO.paa"};
+    hiddenselectionstextures[] = {
+                QPATHTOF(air\data\laat_3as\3as_laat_hull_co.paa),
+                QPATHTOF(air\data\laat_3as\3as_laat_wings_co.paa),
+                QPATHTOF(air\data\laat_3as\3as_laat_weapons_co.paa),
+                QPATHTOF(air\data\laat_3as\3as_laat_weapon_details_co.paa),
+                QPATHTOF(air\data\laat_3as\3as_laat_interior_co.paa)
+            };
     class TextureSources : TextureSources
     {
         class ic51_standard

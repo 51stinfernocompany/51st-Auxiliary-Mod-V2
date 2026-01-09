@@ -42,6 +42,7 @@ class CfgPatches
             "ic51_SmokePurple_LauncherGrenade",
             "ic51_Ultra_Premium_HE_LauncherGrenade",
             "ic51_dc15c_mag",
+            "ic51_dc15c_mk3_mag",
             "ic51_subsonic_45rnd",
             "ic51_tracerless_30rnd",
             "ic51_westar_mag",
@@ -50,6 +51,8 @@ class CfgPatches
         {
             "ic51_DC17M",
             "ic51_dc15s",
+            "ic51_dc15s_ugl",
+            "ic51_dc15s_shield",
             "ic51_dc15a",
             "ic51_dc15a_ugl",
             "ic51_stun_muzzle",
@@ -70,22 +73,3 @@ class CfgMagazines {
 class CfgWeapons {
     #include "rifles_weapons.hpp"
 };
-/*
-class cfgRecoils{
-class Default;
-class ic51_recoil_default: Default
-{
-        kickBack[]={0.029999999,0.059999999};
-        muzzleInner[]={0,0,0.1,0.1};
-        muzzleOuter[]={0.30000001,1,0.30000001,0.2};
-        permanent=0.1;
-        temporary=0.0099999998;
-};
-class ic51_recoil_15c: ic51_recoil_default
-	{
-		muzzleOuter[]={0.1,0.35,0.30000001,0.200000005};
-		kickBack[]={0.039999999,0.050000001};
-		temporary=0.0099999998;
-	};
-};
-*/

@@ -3,6 +3,7 @@
 class WeaponSlotsInfo;
 class UnderBarrelSlot;
 class Single;
+class Burst;
 class FullAuto;
 class CowsSlot;
 class ItemInfo;

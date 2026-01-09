@@ -15,7 +15,7 @@ class ic51_vest_atticus: ic51_vest_sergeantmajor
     /*7*/	"\x\ic51\addons\armor\data\facewear_clone\facewear_pauldron_ep3_co.paa",
     /*8*/	"",
 
-    /*9*/	"",
+    /*9*/	QPATHTOF(data\facewear_clone\facewear_pauldron_accessory_ep3_co.paa),
     /*10*/	"",
     /*11*/	"",
     /*12*/	"",
@@ -41,7 +41,7 @@ class ic51_vest_iroh: ic51_vest_sergeantmajor
     /*7*/	"\x\ic51\addons\armor\data\facewear_clone\facewear_pauldron_ep3_co.paa",
     /*8*/	"",
 
-    /*9*/	"",
+    /*9*/	QPATHTOF(data\facewear_clone\facewear_pauldron_accessory_ep3_co.paa),
     /*10*/	"",
     /*11*/	"",
     /*12*/	"",
@@ -102,5 +102,31 @@ class ic51_vest_arc_jinx: ic51_vest_arc
     /*14*/	"",
     /*15*/	"",
     /*16*/  QPATHTOF(data\facewear_clone\facewear_pauldron_jinx_co.paa)
+    };
+};
+class ic51_vest_blaze: ic51_vest_sergeantmajor
+{
+    SCOPE_PUBLIC;
+    displayName="[51st Custom] Blaze's Vest";
+    hiddenSelectionsTextures[]=
+    {
+    /*1*/	"",
+    /*2*/	"",
+
+    /*3*/	"",
+    /*4*/	QPATHTOF(data\facewear_clone\facewear_kama_ep3_blaze_co.paa),
+    /*5*/	"",
+    /*6*/	"",
+    /*7*/	QPATHTOF(data\facewear_clone\facewear_pauldron_ep3_co.paa),
+    /*8*/	"",
+
+    /*9*/	QPATHTOF(data\facewear_clone\facewear_pauldron_accessory_ep3_co.paa),
+    /*10*/	"",
+    /*11*/	"",
+    /*12*/	"",
+    /*13*/	"",
+    /*14*/	"",
+    /*15*/	"",
+    /*16*/  ""
     };
 };

@@ -55,11 +55,12 @@
 }
 #define CUSTOM_PILOT_HELMET(var1) class ic51_pilot_helmet_##var1 : ic51_pilot_helmet_base \
 { \
+    SCOPE_PUBLIC;\
     displayName = QUOTE([51st Custom] Pilot ##var1##'s Helmet); \
     hiddenSelectionsTextures[] = \
     { \
         QPATHTOF(data\helmet_p2_pilot\p2_pilot_helmet_##var1##_co.paa), \
-        "ls_armor_bluefor\helmet\gar\phase2Pilot\data\visor_co.paa" \
+        "\ls\core\addons\characters_clone_legacy\helmets\phase2Pilot\data\visor_co.paa" \
     }; \
 }
 

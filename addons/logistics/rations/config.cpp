@@ -10,12 +10,12 @@ class CfgPatches {
             "A3_Data_F_Decade_Loadorder"
         };
         units[] =
-        {
-            "ic51_rations_wookiemeat",
-            "ic51_rations_dietwater"
-        };
+        {};
         magazines[] = {};
-        weapons[] = {};
+        weapons[] = {
+        "ic51_rations_wookiemeat",
+        "ic51_rations_dietwater"
+        };
     };
 };
 

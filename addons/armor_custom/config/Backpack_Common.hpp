@@ -6,9 +6,9 @@ class ic51_backpack_b1: ls_droidBackpack_b1
     displayName="[51st] B1 Backpack";
     maximumLoad=500;
     tf_hasLRradio = 1;
-    tf_range = 100000;
-    tf_dialog = "ls_radios_cloneLR";
+    tf_range=25000;
     tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+    tf_dialog = "ls_radios_cloneLR";
     tf_encryptionCode = "tf_west_radio_code";
     tf_subtype = "digital_lr";
     hiddenSelectionsTextures[]=

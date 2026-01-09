@@ -220,7 +220,7 @@ class ic51_vest_sergeantmajor: ic51_clone_vest_base
     /*7*/	QPATHTOF(data\facewear_clone\facewear_pauldron_ep3_co.paa),
     /*8*/	"",
 
-    /*9*/	"",
+    /*9*/	QPATHTOF(data\facewear_clone\facewear_pauldron_accessory_ep3_co.paa),
     /*10*/	"",
     /*11*/	"",
     /*12*/	"",

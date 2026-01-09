@@ -120,6 +120,10 @@ class XtdGearModels {
             "ic51_uni_law",
             "ic51_uni_rodeo",
             "ic51_uni_kane",
+            "ic51_uni_jinx",
+            "ic51_uni_balance",
+            "ic51_uni_ronin",
+            //"ic51_uni_slugger",
         };
 		class ic51_uni_mini { label = "Mini";};
         class ic51_uni_chamber { label = "Chamber";};
@@ -134,6 +138,10 @@ class XtdGearModels {
         class ic51_uni_law { label = "Law";};
         class ic51_uni_rodeo { label = "Rodeo";};
         class ic51_uni_kane { label = "Kane";};
+        class ic51_uni_jinx { label = "Jinx";};
+        class ic51_uni_balance { label = "Balance";};
+        class ic51_uni_ronin { label = "Ronin";};
+        //class ic51_uni_slugger { label = "Slugger";};
       };
     };
 
@@ -238,12 +246,14 @@ class XtdGearModels {
             "ic51_anselm",
             "ic51_snapjaw",
             "ic51_noble",
+            //"ic51_slugger",
         };
 		class ic51_logistics { label = "Logistics";};
         class ic51_combat { label = "Combat";};
         class ic51_anselm { label = "Anselm";};
         class ic51_snapjaw { label = "Snapjaw";};
         class ic51_noble { label = "Noble";};
+        //class ic51_slugger { label = "Slugger";};
       };
     };
 	class ic51_trooper_helmet_airborne {
@@ -364,6 +374,8 @@ class XtdGearModels {
             "ic51_p2_growler",
             "ic51_p2_rodeo",
             "ic51_p2_jinx",
+            "ic51_p2_balance",
+            "ic51_p2_mrogg",
         };
 		class ic51_p1_mando { label = "Mando";};
         class ic51_p2_mini { label = "Mini";};
@@ -388,6 +400,8 @@ class XtdGearModels {
         class ic51_p2_growler { label = "Growler";};
         class ic51_p2_rodeo { label = "Rodeo";};
         class ic51_p2_jinx { label = "Jinx";};
+        class ic51_p2_balance { label = "Balance";};
+        class ic51_p2_mrogg { label = "Mrogg";};
       };
     };
 	//vests
@@ -575,6 +589,7 @@ class XtdGearModels {
         values[] = 
         {
             "ic51_face_base",
+            "ic51_face_base2",
             "ic51_face_corporal",
             "ic51_face_corporal_two",
             "ic51_face_sergeant",
@@ -583,6 +598,7 @@ class XtdGearModels {
             "ic51_face_arc",
         };
         class ic51_face_base { label = "P2 Interior";};
+        class ic51_face_base2 { label = "P2 Interior 2";};
         class ic51_face_corporal { label = "Corporal";};
         class ic51_face_corporal_two { label = "Corporal #2";};
 		class ic51_face_sergeant { label = "Sergeant";};
@@ -626,11 +642,13 @@ class XtdGearModels {
       class camo {
         values[] = 
         {
+            "ic51_face_blaze",
             "ic51_face_iroh",
             "ic51_face_atticus",
             "ic51_face_fulcrum",
             "ic51_face_jinx",
         };
+        class ic51_face_blaze { label = "Blaze";};
         class ic51_face_iroh { label = "Iroh";};
         class ic51_face_atticus { label = "Atticus";};
         class ic51_face_fulcrum { label = "Fulcrum";};

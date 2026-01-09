@@ -99,6 +99,14 @@ class CfgMusic
     MUSIC(the_tantive_iv,"[51st] The Tantive Iv (Calm)",92,StarWars);
     MUSIC(time_to_meet_the_natives,"[51st] Time To Meet The Natives (Calm)",96,StarWars);
     MUSIC(legostarwars_hubmusic,"[51st] Lego STARWARS Hub (Calm)",144,StarWars);
+    MUSIC(First_order_dreadnought_alarm,"[51st] First Order Dreadnought Alarm",224,StarWars);
+    MUSIC(Republic_Cruiser_Siren,"[51st] Republic Cruiser Alarm",300,StarWars);
+    MUSIC(Rogue_One_Alarm,"[51st] Rogue One Alarm",60,StarWars);
+    MUSIC(Star_Wars_Tantive_IV_Alarm,"[51st] Tantive IV Alarm",57,StarWars);
+    MUSIC(Star_Wars_RC_Radio_Chatter_Geonosis,"[51st] RC Radio Chatter",129,StarWars);
+    MUSIC(distant_clone_wars_battle_ambience,"[51st] CW Distant Battle Ambience",600,StarWars);
+    MUSIC(Imperial_Alert_Death_Star_Alarm,"[51st] Death Star Alarm",120,StarWars);
+    MUSIC(Lucrehulk_battleship_alarm,"[51st] Lucrehulk Alarm",120,StarWars);
 
     // PROJECT WINGMAN
     MUSIC(coronation,"[51st] Coronation (Defeat)",160,ProjectWingman);

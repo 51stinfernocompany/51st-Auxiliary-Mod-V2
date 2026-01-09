@@ -19,6 +19,7 @@ class ic51_dc15le : ShdwCmpny_DC15LE_F
     magazines[] = {"ic51_dc15le_mag","ic51_dc15le_he_mag"};
     modes[] = {"FullAuto"};
     muzzles[] = {"this"};
+    recoil = "ic51_recoil_15le";
     SCOPE_PUBLIC;
     class FullAuto : FullAuto 
     {
@@ -91,6 +92,10 @@ class ic51_dlt17 : ShdwCmpny_DC15L_F {
     magazines[] = {"ic51_dlt17_mag","ic51_dc15le_he_mag"};
     magazineWell[] = {};
     SCOPE_PUBLIC;
+    class FullAuto : FullAuto 
+    {
+        reloadTime = 0.065; // This is rounds per minute
+    };
     class WeaponSlotsInfo: WeaponSlotsInfo{
         class MuzzleSlot: MuzzleSlot
         {

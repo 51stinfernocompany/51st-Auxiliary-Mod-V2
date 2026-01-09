@@ -73,4 +73,6 @@ class ic51_grenade_Penetrator_ammo: IDA_grenade_Penetrator_ammo{
     displayName = "[51st] Penetrator Grenade ";
     model = "\Indecisive_Armoury_Ammos\Data\Thermal_Detonator\IDA_Thermal_Detonator.p3d";
     SCOPE_PUBLIC;
+    indirectHit=350;
+	indirectHitRange=2;
 };

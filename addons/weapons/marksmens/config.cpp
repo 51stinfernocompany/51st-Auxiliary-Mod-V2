@@ -37,7 +37,7 @@ class CfgPatches
             "ic51_DC15X",
             "ic51_773Firepuncher",
             "ic51_Valken38X",
-            "ic51_optic_vk38x"
+            //"ic51_optic_vk38x"
         };
     };
 };

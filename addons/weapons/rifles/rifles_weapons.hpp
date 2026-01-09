@@ -109,12 +109,26 @@ class ic51_dc15s : IDA_DC15S
     displayName = "[51st] DC-15S";
     magazines[] = {"ic51_dc15s_mag"};
     muzzles[] = {"this","Stun"};
+    JLTS_canHaveShield = 1;
+    JLTS_shieldedWeapon = "ic51_dc15s_shield";
     SCOPE_PUBLIC;
     class Stun : ic51_stun_muzzle{
         displayName="[51st] Stun";
     };
 };
-
+class JLTS_DC15S_shield;
+class ic51_dc15s_shield: JLTS_DC15S_shield{
+    author = AUTHOR;
+    BaseWeapon = "ic51_dc15s";
+    displayName = "[51st] DC-15S (Shielded)";
+    magazines[] = {"ic51_dc15s_mag"};
+    muzzles[] = {"this","Stun"};
+    JLTS_isShielded = 1;
+    JLTS_baseWeapon = "ic51_dc15s";
+    class Stun : ic51_stun_muzzle{
+        displayName="[51st] Stun";
+    };
+};
 // DC-15C
 /*
 class 3AS_DC15C_F;
@@ -153,10 +167,10 @@ class ic51_dc15c : ShdwCmpny_DC15C_F
         displayName="[51st] Stun";
     };
     class FullAuto : FullAuto {
-        reloadTime = 0.1;
+        reloadTime = 0.125;
     };
     class Single : Single {
-        reloadTime = 0.1;
+        reloadTime = 0.125;
     };
     class WeaponSlotsInfo: WeaponSlotsInfo{
         class MuzzleSlot: MuzzleSlot
@@ -249,7 +263,7 @@ class ic51_dc15c_mk3 : ShdwCmpny_DC15C3_F
     author = AUTHOR;
     BaseWeapon = "ic51_dc15c_mk3";
     displayName = "[51st] DC-15C (MK3)";
-    magazines[] = {"ic51_dc15c_mag"};
+    magazines[] = {"ic51_dc15c_mag","ic51_dc15c_mk3_mag"};
     magazineWell[] = {};
     muzzles[] = {"this","Stun"};
     SCOPE_PUBLIC;
@@ -257,10 +271,10 @@ class ic51_dc15c_mk3 : ShdwCmpny_DC15C3_F
         displayName="[51st] Stun";
     };
     class FullAuto : FullAuto {
-        reloadTime = 0.1;
+        reloadTime = 0.075;
     };
     class Single : Single {
-        reloadTime = 0.1;
+        reloadTime = 0.075;
     };
     class WeaponSlotsInfo: WeaponSlotsInfo{
         class MuzzleSlot: MuzzleSlot

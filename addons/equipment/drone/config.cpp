@@ -15,6 +15,9 @@ class CfgPatches {
            "ace_interact_menu"
         };
         units[] = {"ic51_recon_drone"};
+        weapons[] = {
+            "ic51_item_recon_drone"
+        };
 
     };
 };

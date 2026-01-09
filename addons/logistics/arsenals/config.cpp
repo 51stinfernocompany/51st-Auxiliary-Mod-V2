@@ -36,6 +36,9 @@ class CfgFunctions
             class atT1 {};
             class atT2 {};
             class atT3 {};
+            class assaultT1 {};
+            class assaultT2 {};
+            class assaultT3 {};
             class engineerT1 {};
             class engineerT2 {};
             class engineerT3 {};
@@ -225,6 +228,38 @@ class CfgVehicles
                         icon = "";
                         condition = "alive _target";
                         statement = "[_player] call ic51_fnc_atT3";
+                    };
+                };
+                //Assault
+                class ic51_assault_kits
+                {
+                    displayName = "Assault Kits";
+                    condition = "alive _target";
+                    icon = "";
+                    statement = "";
+
+                    class ic51_assault_t1
+                    {
+                        displayName = "Assault T1";
+                        icon = "";
+                        condition = "alive _target";
+                        statement = "[_player] call ic51_fnc_assaultT1";
+                    };
+
+                    class ic51_assault_t2
+                    {
+                        displayName = "Assault T2";
+                        icon = "";
+                        condition = "alive _target";
+                        statement = "[_player] call ic51_fnc_assaultT2";
+                    };
+
+                    class ic51_assault_t3
+                    {
+                        displayName = "Assault T3";
+                        icon = "";
+                        condition = "alive _target";
+                        statement = "[_player] call ic51_fnc_assaultT3";
                     };
                 };
                 //Engineer

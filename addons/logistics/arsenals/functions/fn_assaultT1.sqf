@@ -1,0 +1,5 @@
+params ["_unit"];
+private _assaultT1 = [[["ic51_dc23","","","",["ic51_dc23_mag",6],[],""],[],["ic51_dc17","","","",["ic51_dc17_mag",50],[],""],["ic51_clone_uniform_base",[["ACE_CableTie",4],["ItemcTabHCam",1],["ACE_IR_Strobe_Item",1],["ACE_EntrenchingTool",1],["ACE_Flashlight_XL50",1],["ACE_elasticBandage",3],["ACE_Chemlight_HiGreen",10,1],["ACE_Chemlight_HiRed",4,1],["kat_Painkiller",2,4]]],["ic51_vest_plate_assault",[["ic51_dc23_mag",5,6],["ic51_penetrator_grenade",1,1],["ic51_ThermalDetonator",8,1],["ic51_SonicDetonator",15,1],["ic51_SmokeWhite",10,1],["ACE_Chemlight_HiRed",1,1]]],["ic51_clone_rucksack_base",[["ACE_elasticBandage",20],["ACE_packingBandage",10],["ACE_splint",5],["ACE_tourniquet",4],["ic51_dc23_mag",21,6],["ic51_dc17_mag",4,50]]],"ic51_p2_helmet_base","ic51_vest_assault",["ic51_clone_binoculars_base","","","",["Laserbatteries",1],[],""],["ItemMap","ItemAndroid","ls_radios_cwp8","ItemCompass","ACE_Altimeter",""]],[["aceax_textureOptions",[]]]];
+_assaultT1 set [1, createHashMapFromArray (_assaultT1 select 1)];
+[_unit, _assaultT1] call CBA_fnc_setLoadout;
+hint "Assault T1 Given"

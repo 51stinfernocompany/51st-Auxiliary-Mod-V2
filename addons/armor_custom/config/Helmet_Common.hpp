@@ -73,7 +73,7 @@ class ic51_p2_helmet_custom_Blaze : ic51_p2_helmet_base
         QPATHTOF(data\helmet_common\p2_helmet_blaze_visor_co.paa)
     };
 };
-
+/*
 class ic51_pilot_helmet_custom_anselm : ic51_pilot_helmet_base
 {
     SCOPE_PUBLIC;
@@ -100,10 +100,22 @@ class ic51_pilot_helmet_custom_noble : ic51_pilot_helmet_base
     displayName = "[51st Custom] Pilot Noble's Helmet";
     hiddenSelectionsTextures[] =
     {
-        QPATHTOF(data\helmet_common\pilot_helmet_custom_noble_co.paa),
+        QPATHTOF(data\helmet_common\pilot_helmet_noble_co.paa),
         "\ls\core\addons\characters_clone_legacy\helmets\phase2Pilot\data\visor_co.paa"
     };
 };
+/*
+class ic51_pilot_helmet_custom_slugger : ic51_pilot_helmet_base
+{
+    SCOPE_PUBLIC;
+    displayName = "[51st Custom] Pilot Slugger's Helmet";
+    hiddenSelectionsTextures[] =
+    {
+        QPATHTOF(data\helmet_common\pilot_helmet_custom_slugger_co.paa),
+        "\ls\core\addons\characters_clone_legacy\helmets\phase2Pilot\data\visor_co.paa"
+    };
+};
+*/
 class ic51_p1_helmet_custom_Mando : ic51_p1_helmet_base {
     SCOPE_PUBLIC;
     displayName = "[51st Custom] P1 Mando's Helmet";
