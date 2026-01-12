@@ -12,6 +12,20 @@ class ic51_katarn_vest_tech_gary : ic51_katarn_vest_base
         uniformModel = "\3AS\3AS_Characters\Commando\3AS_Katarn_TechPack.p3d";
     };
 };
+class ic51_katarn_vest_tech_rook : ic51_katarn_vest_base
+{
+    SCOPE_PUBLIC;
+    displayName = "[51st Custom] Katarn Vest (Rook)";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\vests_common\vest_katarn_tech_rook_co.paa)};
+    model = "\3AS\3AS_Characters\Commando\3AS_Katarn_TechPack.p3d";
+    class ItemInfo: ItemInfo
+    {
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vests_common\vest_katarn_tech_rook_co.paa)};
+        uniformModel = "\3AS\3AS_Characters\Commando\3AS_Katarn_TechPack.p3d";
+    };
+};
 class ic51_katarn_vest_demo_immortal : ic51_katarn_vest_base
 {
     SCOPE_PUBLIC;

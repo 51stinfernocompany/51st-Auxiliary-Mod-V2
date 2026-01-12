@@ -64,3 +64,11 @@ class ic51_katarn_uniform_cyclone : ic51_katarn_uniform_base
         uniformClass="ic51_katarn_unit_cyclone";
     };
 };
+class ic51_katarn_uniform_rook : ic51_katarn_uniform_base
+{
+    displayName = "[51st Custom] Katarn Uniform (Rook)";
+    class ItemInfo: ItemInfo
+    {
+        uniformClass="ic51_katarn_unit_rook";
+    };
+};
