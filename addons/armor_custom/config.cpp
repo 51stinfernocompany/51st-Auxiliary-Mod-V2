@@ -103,6 +103,8 @@ class CfgPatches {
             QCLASS(katarn_uniform_gary),
             QCLASS(katarn_uniform_immortal),
             QCLASS(katarn_uniform_doss),
+            QCLASS(katarn_uniform_cyclone),
+            QCLASS(katarn_uniform_rook),
             // UNIFORM CLONE
             QCLASS(clone_uniform_custom_mini),
             QCLASS(clone_uniform_custom_chamber),
@@ -120,8 +122,9 @@ class CfgPatches {
             QCLASS(clone_uniform_custom_jinx),
             QCLASS(clone_uniform_custom_balance),
             QCLASS(clone_uniform_custom_ronin),
-            // VEST COMMON
+            // VEST COMMON 
             QCLASS(katarn_vest_tech_gary),
+            QCLASS(katarn_vest_tech_rook),
             QCLASS(katarn_vest_demo_immortal),
             QCLASS(vest_alpha)
         };

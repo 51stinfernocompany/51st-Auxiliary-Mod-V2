@@ -92,12 +92,14 @@ class XtdGearModels {
             "ic51_katarn_uni_gary",
             "ic51_katarn_uni_imortal",
             "ic51_katarn_uni_cyclone",
+            "ic51_katarn_uni_rook",
         };
         class ic51_katarn_uni { label = "Base Katarn";};
 		class ic51_katarn_uni_doss { label = "Doss";};
         class ic51_katarn_uni_gary { label = "Gary";};
 		class ic51_katarn_uni_imortal { label = "Immortal";};
         class ic51_katarn_uni_cyclone { label = "Cyclone";};
+        class ic51_katarn_uni_rook { label = "Rook";};
       };
     };
 	class ic51_trooper_uniforms_customs {
@@ -336,12 +338,14 @@ class XtdGearModels {
             "ic51_katarn_helm_gary",
             "ic51_katarn_helm_imortal",
             "ic51_katarn_helm_cyclone",
+            "ic51_katarn_helm_rook",
         };
         class ic51_katarn_helm { label = "Base Katarn";};
 		class ic51_katarn_helm_doss { label = "Doss";};
         class ic51_katarn_helm_gary { label = "Gary";};
 		class ic51_katarn_helm_imortal { label = "Immortal";};
         class ic51_katarn_helm_cyclone { label = "Cyclone";};
+        class ic51_katarn_helm_rook { label = "Rook";};
       };
     };
 	class ic51_trooper_helmet_customs {
@@ -466,6 +470,7 @@ class XtdGearModels {
 			"ic51_katarn_vest_basic_sniper",
             "ic51_katarn_vest_gary",
             "ic51_katarn_vest_imortal",
+            "ic51_katarn_vest_rook",
         };
 		class ic51_katarn_vest_basic_demo { label = "Demo";};
 		class ic51_katarn_vest_basic_leader { label = "Team Lead";};
@@ -473,6 +478,7 @@ class XtdGearModels {
 		class ic51_katarn_vest_basic_sniper { label = "Sniper";};
         class ic51_katarn_vest_gary { label = "Gary";};
 		class ic51_katarn_vest_imortal { label = "Immortal";};
+        class ic51_katarn_vest_rook { label = "Rook";};
       };
     };
     class ic51_trooper_nvg_wp{
