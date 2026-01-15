@@ -21,19 +21,18 @@ class CfgPatches {
         ammo[] = {};
     };
 };
-
 class CfgFactionClasses
 {
     class ic51_opfor_corrick
     {
         displayName="[51st OPFOR] Corrick Directorate";
-        icon = "";
-        priority = 1;
+        side = 0;
+        priority=1;
     };
 };
 class CfgEditorSubcategories
 {
-    class ic51_opfor_corrick_troops
+    class ic51_opfor_corricks
     {
         displayName="Corrick Fighters";
     };
@@ -51,6 +50,8 @@ class CfgGroups
         {
             name = "[51st OPFOR] Corrick Directorate";
             displayName = "51st OPFOR Corrick Directorate";
+            scope = 2;
+            scopeCurator = 2;
             #include "group.hpp"
         };
     };

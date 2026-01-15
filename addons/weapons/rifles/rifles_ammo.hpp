@@ -1,16 +1,15 @@
 // DC17M
-class IDA_Blasterbolt_Power4_Blue;
-class ic51_blasterbolt_overcharged_dc17m : IDA_Blasterbolt_Power4_Blue {
+class IDA_Blasterbolt_Power2_Blue;
+class ic51_blasterbolt_overcharged_dc17m : IDA_Blasterbolt_Power2_Blue {
     author = AUTHOR;
     JLTS_isEMPAmmo = 0;
-    coefGravity = 0;
-    airFriction = 0;
+    //coefGravity = 0.000001;
+    //airFriction = -0.000001;
     thrust = 360;
     thrustTime = 0.8;
     timetolive = 14;
     hit = 70;
 };
-class IDA_Blasterbolt_Power2_Blue;
 class ic51_blasterbolt_dc17m : IDA_Blasterbolt_Power2_Blue
 {
     author = AUTHOR;

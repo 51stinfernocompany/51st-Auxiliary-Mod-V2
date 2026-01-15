@@ -52,7 +52,7 @@ class XtdGearInfos {
     class ic51_clone_uniform_custom_jinx           { model = "ic51_trooper_uniforms_customs"; camo = "ic51_uni_jinx"; };
     class ic51_clone_uniform_custom_balance           { model = "ic51_trooper_uniforms_customs"; camo = "ic51_uni_balance"; };
     class ic51_clone_uniform_custom_ronin           { model = "ic51_trooper_uniforms_customs"; camo = "ic51_uni_ronin"; };
-    //class ic51_clone_uniform_custom_slugger           { model = "ic51_trooper_uniforms_customs"; camo = "ic51_uni_slugger"; };
+    class ic51_clone_uniform_custom_slugger           { model = "ic51_trooper_uniforms_customs"; camo = "ic51_uni_slugger"; };
     //base helmets
     class ic51_p2_helmet_base       { model = "ic51_trooper_helmet"; camo = "ic51_trooper_base_helmet"; };
     class ic51_p2_helmet_trooper2       { model = "ic51_trooper_helmet"; camo = "ic51_trooper_base_helme2"; };
@@ -87,7 +87,7 @@ class XtdGearInfos {
     class ic51_pilot_helmet_anselm          { model = "ic51_trooper_helmet_pilot"; camo = "ic51_anselm"; };
     class ic51_pilot_helmet_snapjaw          { model = "ic51_trooper_helmet_pilot"; camo = "ic51_snapjaw"; };
     class ic51_pilot_helmet_noble          { model = "ic51_trooper_helmet_pilot"; camo = "ic51_noble"; };
-    //class ic51_pilot_helmet_slugger         { model = "ic51_trooper_helmet_pilot"; camo = "ic51_slugger"; };
+    class ic51_pilot_helmet_slugger         { model = "ic51_trooper_helmet_pilot"; camo = "ic51_slugger"; };
     //airborne helmets
     class ic51_airborne_helmet_base          { model = "ic51_trooper_helmet_airborne"; camo = "ic51_airborne"; };
     class ic51_airborne_helmet_custom_biscuit          { model = "ic51_trooper_helmet_airborne"; camo = "ic51_airborne_biscuit"; };
@@ -207,29 +207,84 @@ class XtdGearInfos {
     class CfgGlasses {
     //Faceware
     //Ranks
-    class ic51_p2interior           { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_base"; };
-    class ic51_p2interior_updated           { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_base2"; };
-    class ic51_vest_corporal         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_corporal"; };
-    class ic51_vest_corporal_two         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_corporal_two"; };
-    class ic51_vest_sergeant         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_sergeant"; };
-    class ic51_vest_sergeant_two         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_sergeant_two"; };
-    class ic51_vest_sergeantmajor         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_command"; };
-    class ic51_vest_arc         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_arc"; };
+    class ic51_p2interior_none           { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_none"; style = "none"; };
+    class ic51_vest_corporal         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_corporal"; style = "none"; };
+    class ic51_vest_corporal_two         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_corporal_two"; style = "none"; };
+    class ic51_vest_sergeant         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_sergeant"; style = "none"; };
+    class ic51_vest_sergeant_two         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_sergeant_two"; style = "none"; };
+    class ic51_vest_sergeantmajor         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_command"; style = "none"; };
+    class ic51_vest_arc         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_arc"; style = "none"; };
     //quals
-    class ic51_vest_heavy         { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_heavy"; };
-    class ic51_vest_at         { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_at"; };
-    class ic51_vest_marksmen_t2          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_marksmen"; };
-    class ic51_vest_medic_t2          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_medic_t2"; };
-    class ic51_vest_medic_t3          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_medic_t3"; };
-    class ic51_vest_grenadier          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_grenadier"; };
-    class ic51_vest_assault          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_assault"; };
-    class ic51_vest_recon_harness          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_recon"; };
-    class ic51_facewear_pilot         { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_pilot"; };
+    class ic51_vest_heavy         { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_heavy"; style = "none"; };
+    class ic51_vest_at         { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_at"; style = "none"; };
+    class ic51_vest_marksmen_t2          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_marksmen"; style = "none"; };
+    class ic51_vest_medic_t2          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_medic_t2"; style = "none"; };
+    class ic51_vest_medic_t3          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_medic_t3"; style = "none"; };
+    class ic51_vest_grenadier          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_grenadier"; style = "none"; };
+    class ic51_vest_assault          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_assault"; style = "none"; };
+    class ic51_vest_recon_harness          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_recon"; style = "none"; };
+    class ic51_facewear_pilot         { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_pilot"; style = "none"; };
+
     //customs
-    class ic51_vest_blaze         { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_blaze"; };
-    class ic51_vest_iroh         { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_iroh"; };
-    class ic51_vest_atticus         { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_atticus"; };
-    class ic51_vest_arc_fulcrum       { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_fulcrum"; };
-    class ic51_vest_arc_jinx        { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_jinx"; };
+    class ic51_vest_blaze         { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_blaze"; style = "none"; };
+    class ic51_vest_iroh         { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_iroh"; style = "none"; };
+    class ic51_vest_atticus         { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_atticus"; style = "none"; };
+    class ic51_vest_arc_fulcrum       { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_fulcrum"; style = "none"; };
+    class ic51_vest_arc_jinx        { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_jinx"; style = "none"; };
+
+
+    //Ranks Style 1
+    class ic51_p2interior           { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_base"; style = "style1"; };
+    class ic51_vest_corporal_style1         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_corporal"; style = "style1"; };
+    class ic51_vest_corporal_two_style1         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_corporal_two"; style = "style1"; };
+    class ic51_vest_sergeant_style1         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_sergeant"; style = "style1"; };
+    class ic51_vest_sergeant_two_style1         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_sergeant_two"; style = "style1"; };
+    class ic51_vest_sergeantmajor_style1         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_command"; style = "style1"; };
+    class ic51_vest_arc_style1         { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_arc"; style = "style1"; };
+    //quals Style 1
+    class ic51_vest_heavy_style1         { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_heavy"; style = "style1"; };
+    class ic51_vest_at_style1         { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_at"; style = "style1"; };
+    class ic51_vest_marksmen_t2_style1          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_marksmen"; style = "style1"; };
+    class ic51_vest_medic_t2_style1          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_medic_t2"; style = "style1"; };
+    class ic51_vest_medic_t3_style1          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_medic_t3"; style = "style1"; };
+    class ic51_vest_grenadier_style1          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_grenadier"; style = "style1"; };
+    class ic51_vest_assault_style1          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_assault"; style = "style1"; };
+    class ic51_vest_recon_harness_style1          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_recon"; style = "style1"; };
+    class ic51_facewear_pilot_style1          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_pilot"; style = "style1"; };
+    
+    //customs Style 1
+    class ic51_vest_blaze_1         { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_blaze"; style = "style1"; };
+    class ic51_vest_iroh_1         { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_iroh"; style = "style1"; };
+    class ic51_vest_atticus_1         { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_atticus"; style = "style1"; };
+    class ic51_vest_arc_fulcrum_1       { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_fulcrum"; style = "style1"; };
+    class ic51_vest_arc_jinx_1        { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_jinx"; style = "style1"; };
+
+
+    //Ranks Style 2
+    class ic51_p2interior_updated           { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_base2"; style = "style2"; };
+    class ic51_vest_corporal_style2          { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_corporal"; style = "style2"; };
+    class ic51_vest_corporal_two_style2          { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_corporal_two"; style = "style2"; };
+    class ic51_vest_sergeant_style2          { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_sergeant"; style = "style2"; };
+    class ic51_vest_sergeant_two_style2          { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_sergeant_two"; style = "style2"; };
+    class ic51_vest_sergeantmajor_style2          { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_command"; style = "style2"; };
+    class ic51_vest_arc_style2          { model = "ic51_trooper_faceware_rank"; camo = "ic51_face_arc"; style = "style2"; };
+
+    //quals Style 2
+    class ic51_vest_heavy_style2          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_heavy"; style = "style2"; };
+    class ic51_vest_at_style2          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_at"; style = "style2"; };
+    class ic51_vest_marksmen_t2_style2           { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_marksmen"; style = "style2"; };
+    class ic51_vest_medic_t2_style2           { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_medic_t2"; style = "style2"; };
+    class ic51_vest_medic_t3_style2           { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_medic_t3"; style = "style2"; };
+    class ic51_vest_grenadier_style2           { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_grenadier"; style = "style2"; };
+    class ic51_vest_assault_style2           { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_assault"; style = "style2"; };
+    class ic51_vest_recon_harness_style2          { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_recon"; style = "style2"; };
+    class ic51_facewear_pilot_style2         { model = "ic51_trooper_faceware_qual"; camo = "ic51_face_pilot"; style = "style2"; };
+
+    //customs Style 2
+    class ic51_vest_blaze_2         { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_blaze"; style = "style2"; };
+    class ic51_vest_iroh_2         { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_iroh"; style = "style2"; };
+    class ic51_vest_atticus_2         { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_atticus"; style = "style2"; };
+    class ic51_vest_arc_fulcrum_2       { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_fulcrum"; style = "style2"; };
+    class ic51_vest_arc_jinx_2        { model = "ic51_trooper_faceware_custom"; camo = "ic51_face_jinx"; style = "style2"; };
   };
 };

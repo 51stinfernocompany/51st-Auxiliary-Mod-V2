@@ -17,6 +17,7 @@ class ic51_engineer_helmet_base : ls_gar_engineer_helmet
     author = AUTHOR;
     displayName = "[51st] Engineer Helmet";
     picture = QPATHTOF(data\51st_logo.paa);
+    subItems[] = {"Integrated_NVG_TI_0_F"};
     hiddenSelections[] = {"camo1","illum","visor"};
     hiddenSelectionsTextures[] =
     {
@@ -43,6 +44,8 @@ class ic51_katarn_helmet_base : 3AS_H_Katarn_Helmet
     ace_hearing_hasEHP = 1;
     ace_hearing_lowerVolume = 0;
     ace_hearing_protection = 1;
+    mti_intercom_hasIntercom = 1;
+    mti_katarnOS_isHelmet = 1;
     subItems[] = {};
     MJOLNIR_isHelmet = 1;
     MJOLNIR_helmetOverlay = "\x\ic51\addons\community_scripts\shieldsystem\textures\OPTRE_MJOLNIR_hudBackground.paa";

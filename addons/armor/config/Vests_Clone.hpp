@@ -235,7 +235,7 @@ class ic51_vest_plate_arc: ic51_vest_plate_base
     };
     class ItemInfo : ItemInfo
     {
-        containerclass = "Supply350";
+        containerclass = "Supply400";
         hiddenSelections[] = {"ChestPlate","Gauntlets","LegPlates","ARC_Belt"};
         uniformmodel = "\Indecisive_Armoury_units\REPUBLIC\Vests\IDA_ARC_Armour.p3d";
         class HitpointsProtectionInfo
@@ -243,8 +243,8 @@ class ic51_vest_plate_arc: ic51_vest_plate_base
             class Chest
             {
                 HitpointName = "HitChest";
-                armor = 12;
-                PassThrough = 0.08975;
+                armor = 18;
+                PassThrough = 0.0695;
             };
             class Diaphragm : Chest
             {

@@ -3,9 +3,10 @@ class I_soldier_A_F;
 class ic51_indfor_carlac_base : I_soldier_A_F {
     SCOPE_PUBLIC;
     author = AUTHOR;
+    side = 2;
     displayName = "Carlac Light Trooper";
-    faction="ic51_indfor_carlac";
-    editorSubCategory="ic51_indfor_carlac_troops";
+    faction = "ic51_indfor_carlac";
+    editorSubcategory = "ic51_indfor_carlacs";
 
     uniformClass = "JMSLLTE_ScumTermo_w_F_CombatUniform";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";

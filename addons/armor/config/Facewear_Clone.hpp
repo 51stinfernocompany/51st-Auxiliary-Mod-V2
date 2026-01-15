@@ -1,9 +1,19 @@
+//no interior
+class lsd_gar_p2Interior_hud;
+class ic51_p2interior_none: lsd_gar_p2Interior_hud{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    ACE_Overlay = "";
+    displayName = "[51st] P2 Helmet Interior None";
+}; 
 class IDA_everything;
 class ic51_clone_vest_base: IDA_everything
 {
     author=AUTHOR;
     displayName="[51st] Vest Base (Hidden)";
     SCOPE_PRIVATE;
+    ACE_Overlay = "";
     picture = QPATHTOF(data\51st_logo.paa);
     hiddenSelections[]=
     {
@@ -396,4 +406,199 @@ class ic51_vest_medic_t3: ic51_clone_vest_base
     /*15*/	"",
     /*16*/  ""
     };
+};
+
+//interior style 1
+class CLASS(p2interior) : lsd_gar_p2Interior_hud {
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    DNAME(P2 Helmet Interior Style 1);
+};
+class ic51_vest_recon_harness_style1 : ic51_vest_recon_harness
+{
+    SCOPE_PUBLIC;
+    displayName = "[51st] Clone Recon Harness (Style 1)";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_grenadier_style1: ic51_vest_grenadier
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Clone Grenadier Vest (Style 1)";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_corporal_style1: ic51_vest_corporal
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Corporal Vest #1 (Style 1)";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_corporal_two_style1: ic51_vest_corporal_two
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Corporal Vest #2 (Style 1)";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_sergeant_style1: ic51_vest_sergeant
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Sergeant Vest #1 (Style 1)";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_sergeant_two_style1: ic51_vest_sergeant_two
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Sergeant Vest #2 (Style 1)";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_sergeantmajor_style1: ic51_vest_sergeantmajor
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Command Vest (Style 1)";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+// Quals
+
+class ic51_vest_marksmen_t2_style1: ic51_vest_marksmen_t2
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Clone Marksmen Vest (Style 1)";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_heavy_style1: ic51_vest_heavy
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Clone Heavy Vest (Style 1)";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_assault_style1: ic51_vest_assault
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Clone Assault Vest (Style 1)";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_arc_style1: ic51_vest_arc
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Clone ARC Trooper Vest (Style 1)";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+
+class ic51_vest_at_style1 : ic51_vest_at 
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] Clone AT Vest (Style 1)";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_medic_t2_style1: ic51_vest_medic_t2
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Clone Medic Vest T2 (Style 1)";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_medic_t3_style1: ic51_vest_medic_t3
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Clone Medic Vest T3 (Style 1)";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+
+//interior style 2
+class ic51_p2interior_updated: lsd_gar_p2Interior_hud{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+    displayName = "[51st] P2 Helmet Interior Style 2";
+};
+class ic51_vest_recon_harness_style2 : ic51_vest_recon_harness
+{
+    SCOPE_PUBLIC;
+    displayName = "[51st] Clone Recon Harness (Style 2)";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_grenadier_style2: ic51_vest_grenadier
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Clone Grenadier Vest (Style 2)";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_corporal_style2: ic51_vest_corporal
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Corporal Vest #1 (Style 2)";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_corporal_two_style2: ic51_vest_corporal_two
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Corporal Vest #2 (Style 2)";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_sergeant_style2: ic51_vest_sergeant
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Sergeant Vest #1 (Style 2)";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_sergeant_two_style2: ic51_vest_sergeant_two
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Sergeant Vest #2 (Style 2)";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_sergeantmajor_style2: ic51_vest_sergeantmajor
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Command Vest (Style 2)";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+// Quals
+
+class ic51_vest_marksmen_t2_style2: ic51_vest_marksmen_t2
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Clone Marksmen Vest (Style 2)";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_heavy_style2: ic51_vest_heavy
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Clone Heavy Vest (Style 2)";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_assault_style2: ic51_vest_assault
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Clone Assault Vest (Style 2)";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_arc_style2: ic51_vest_arc
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Clone ARC Trooper Vest (Style 2)";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+
+class ic51_vest_at_style2 : ic51_vest_at 
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] Clone AT Vest (Style 2)";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_medic_t2_style2: ic51_vest_medic_t2
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Clone Medic Vest T2 (Style 2)";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_medic_t3_style2: ic51_vest_medic_t3
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Clone Medic Vest T3 (Style 2)";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
 };

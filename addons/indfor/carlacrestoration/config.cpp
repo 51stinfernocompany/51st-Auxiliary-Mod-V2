@@ -26,21 +26,12 @@ class CfgPatches {
     };
 };
 
-class CfgFactionClasses
-{
-    class ic51_indfor_carlac
-    {
-        displayName="[51st INDFOR] Carlac Restoration";
-        icon = "";
-        priority = 1;
-        side = 2;
-    };
-};
 class CfgEditorSubcategories
 {
-    class ic51_indfor_carlac_troops
+    class ic51_indfor_carlacs
     {
         displayName="Carlac Fighters";
+        side = 2;
     };
 };
 
@@ -54,7 +45,7 @@ class CfgGroups
     {
         class ic51_indfor_carlac
         {
-            name = "[51st INDFOR] Carlac";
+            name = "[51st INDFOR] Carlac Restoration";
             displayName = "51st INDFOR Carlac Restoration";
             #include "group.hpp"
         };

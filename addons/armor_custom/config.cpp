@@ -43,6 +43,7 @@ class CfgPatches {
             QCLASS(clone_unit_custom_jinx),
             QCLASS(clone_unit_custom_balance),
             QCLASS(clone_unit_custom_ronin),
+            QCLASS(clone_unit_custom_slugger),
             // BACKPACK
             QCLASS(backpack_b1),
             QCLASS(katarn_backpack_gary),
@@ -80,6 +81,7 @@ class CfgPatches {
             QCLASS(pilot_helmet_anselm),
             QCLASS(pilot_helmet_snapjaw),
             QCLASS(pilot_helmet_noble),
+            QCLASS(pilot_helmet_slugger),
             // HELMET AIRBORNE
             QCLASS(airborne_helmet_custom_biscuit),
             QCLASS(airborne_helmet_custom_lucifer),

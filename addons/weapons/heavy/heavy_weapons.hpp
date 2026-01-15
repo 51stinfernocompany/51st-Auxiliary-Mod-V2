@@ -1,4 +1,42 @@
 // Z-6
+class JLTS_stun_muzzle;
+class ic51_explosive_muzzle: JLTS_stun_muzzle {
+    magazines[] = {"ic51_z6_mag_explosive"};
+    /*
+    class Single: Mode_SemiAuto
+    {
+        sounds[]=
+        {
+            "StandardSound"
+        };
+        discreteDistance[]={100};
+        discreteDistanceInitIndex=0;
+        class BaseSoundModeType
+        {
+            weaponSoundEffect="";
+            closure1[]={};
+            closure2[]={};
+            soundClosure[]={};
+        };
+        class StandardSound: BaseSoundModeType
+        {
+            weaponSoundEffect="";
+            begin1[]=
+            {
+                "addons\music\data\z6_explosive_shot",
+                0.80000001,
+                1.2,
+                50
+            };
+            soundBegin[]=
+            {
+                "begin1",
+                1
+            };
+        };
+    };
+    */
+};
 class IDA_Z6;
 class ic51_z6 : IDA_Z6 {
     author = AUTHOR;
@@ -7,6 +45,12 @@ class ic51_z6 : IDA_Z6 {
     magazines[] = {"ic51_z6_mag","ic51_z6_mag_explosive"};
     modes[] = {"Auto","Single"};
     SCOPE_PUBLIC;
+    /*
+    muzzles[] = {"this","Explosive"};
+    class Explosive : ic51_explosive_muzzle {
+        displayName="[51st] Explosive";
+    };
+    */
 };
 
 //DC-15LE

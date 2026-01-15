@@ -1,11 +1,12 @@
 // corrick
-class ls_opfor_unit_base;
-class ic51_opfor_corrick_base : ls_opfor_unit_base {
-    SCOPE_PUBLIC;
+class O_Soldier_F;
+class ic51_opfor_corrick_base : O_Soldier_F {
+    scope = 2;
+    scopeCurator = 2;
     author = AUTHOR;
     displayName = "Corrick Light Trooper";
     faction="ic51_opfor_corrick";
-    editorSubCategory="ic51_opfor_corrick_troops";
+    editorSubCategory="ic51_opfor_corricks";
 
     uniformClass = "SFA_NavyHeavyTrooper_Uniform";
     model = "SFA_Main\SFA_Equipment_R\Uniform\Navy\Navy_Trooper_uniform.p3d";

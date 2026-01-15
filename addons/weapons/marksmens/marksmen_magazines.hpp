@@ -20,6 +20,7 @@ class ic51_773FP_magazine : IDA_Blaster_Cell_Power3_60Rnd_Blue
     descriptionShort = "15 round capacity.";
     displayName = "[51st] 773 FP Magazine";
     ammo = "ic51_blasterbolt_firepuncher";
+    initSpeed=1500;
     count = 10;
     mass = 12;
     SCOPE_PUBLIC;

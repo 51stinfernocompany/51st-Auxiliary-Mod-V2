@@ -130,3 +130,67 @@ class ic51_vest_blaze: ic51_vest_sergeantmajor
     /*16*/  ""
     };
 };
+
+//Style 1
+class ic51_vest_atticus_1: ic51_vest_atticus
+{
+    SCOPE_PUBLIC;
+    displayName="[51st Custom] Atticus's Vest";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_iroh_1: ic51_vest_iroh
+{
+    SCOPE_PUBLIC;
+    displayName="[51st Custom] Iroh's Vest";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_arc_fulcrum_1: ic51_vest_arc_fulcrum
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Fulcrum ARC Trooper Vest";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_arc_jinx_1: ic51_vest_arc_jinx
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Jinx ARC Trooper Vest";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+class ic51_vest_blaze_1: ic51_vest_blaze
+{
+    SCOPE_PUBLIC;
+    displayName="[51st Custom] Blaze's Vest";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
+
+//Style 2
+class ic51_vest_atticus_2: ic51_vest_atticus
+{
+    SCOPE_PUBLIC;
+    displayName="[51st Custom] Atticus's Vest";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_iroh_2: ic51_vest_iroh
+{
+    SCOPE_PUBLIC;
+    displayName="[51st Custom] Iroh's Vest";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_arc_fulcrum_2: ic51_vest_arc_fulcrum
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Fulcrum ARC Trooper Vest";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_arc_jinx_2: ic51_vest_arc_jinx
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Jinx ARC Trooper Vest";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_blaze_2: ic51_vest_blaze
+{
+    SCOPE_PUBLIC;
+    displayName="[51st Custom] Blaze's Vest";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
