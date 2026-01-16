@@ -63,6 +63,7 @@ class ic51_clone_medicalscanner : lsd_gar_medicalScannerSPC_nvg
     author = AUTHOR;
     picture = QPATHTOF(data\51st_logo.paa);
     displayName = "[51st] Clone Medical Scanner";
+    modelOptics = "\MRC\JLTS\characters\CloneArmor\CloneNVGRange_optic.p3d";
     hiddenSelections[] = {"Camo1","glow"};
     hiddenSelectionsTextures[] =
     {
@@ -141,6 +142,7 @@ class ic51_clone_medicalscanner_gp : lsd_gar_medicalScannerSPC_nvg
     author = AUTHOR;
     picture = QPATHTOF(data\51st_logo.paa);
     displayName = "[51st] Clone Medical Scanner (GP)";
+    modelOptics = "\MRC\JLTS\characters\CloneArmor\CloneNVGRange_optic.p3d";
     hiddenSelections[] = {"Camo1","glow"};
     hiddenSelectionsTextures[] =
     {
