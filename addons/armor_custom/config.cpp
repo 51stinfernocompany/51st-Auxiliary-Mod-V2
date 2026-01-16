@@ -124,6 +124,7 @@ class CfgPatches {
             QCLASS(clone_uniform_custom_jinx),
             QCLASS(clone_uniform_custom_balance),
             QCLASS(clone_uniform_custom_ronin),
+            QCLASS(clone_uniform_custom_slugger),
             // VEST COMMON 
             QCLASS(katarn_vest_tech_gary),
             QCLASS(katarn_vest_tech_rook),
