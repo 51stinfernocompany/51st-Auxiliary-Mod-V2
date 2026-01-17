@@ -31,6 +31,7 @@ class ic51_crate_small : ic51_crate_small_base
         CRATE_MAG(ic51_dc17m_AT_mag,10);
         CRATE_MAG(ic51_dc17m_standard_mag,15);
         CRATE_MAG(ic51_dc17m_SNR_mag,10);
+        CRATE_MAG(ls_magazine_30mw_500Rnd_blue_csw,8);
     };
     class TransportWeapons
     {
