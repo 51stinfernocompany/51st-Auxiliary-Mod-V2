@@ -16,11 +16,11 @@ class ic51_opfor_corrick_base : O_Soldier_F {
     speaker = "Male01CHI";
     facewearList[] = {""};
 
-    weapons[] = {"IDA_E5", "Throw", "Put"};
-    respawnweapons[] = {"IDA_E5", "Throw", "Put"};
+    weapons[] = {"ic51_opfor_weap_e5", "Throw", "Put"};
+    respawnweapons[] = {"ic51_opfor_weap_e5", "Throw", "Put"};
 
-    magazines[] = {"IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red"};
-    respawnmagazines[] = {"IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red"};
+    magazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd"};
+    respawnmagazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd"};
 
     backpack = "";
     linkedItems[] = {"ItemMap","G_JMSLLTE_Facecover_dark","ItemRadio","ItemCompass","ItemWatch","ls_nvg_goggles_orange"};
@@ -38,11 +38,11 @@ class ic51_opfor_corrick_rifleman : ic51_opfor_corrick_base {
     speaker = "Male01CHI";
     facewearList[] = {""};
 
-    weapons[] = {"IDA_E5", "Throw", "Put"};
-    respawnweapons[] = {"IDA_E5", "Throw", "Put"};
+    weapons[] = {"ic51_opfor_weap_e5", "Throw", "Put"};
+    respawnweapons[] = {"ic51_opfor_weap_e5", "Throw", "Put"};
 
-    magazines[] = {"IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red"};
-    respawnmagazines[] = {"IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red"};
+    magazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd"};
+    respawnmagazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd"};
 
     backpack = "";
     linkedItems[] = {"SFA_KOTR_TrooperHeavy_Helmet","ItemMap","G_JMSLLTE_Facecover_dark","ItemRadio","ItemCompass","ItemWatch","ls_nvg_goggles_orange"};
@@ -83,11 +83,11 @@ class ic51_opfor_corrick_leader : ic51_opfor_corrick_base {
     speaker = "Male01CHI";
     facewearList[] = {""};
 
-    weapons[] = {"IDA_E5", "Throw", "Put"};
-    respawnweapons[] = {"IDA_E5", "Throw", "Put"};
+    weapons[] = {"ic51_opfor_weap_e5", "Throw", "Put"};
+    respawnweapons[] = {"ic51_opfor_weap_e5", "Throw", "Put"};
 
-    magazines[] = {"IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red"};
-    respawnmagazines[] = {"IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red", "IDA_Blaster_Cell_Power3_40Rnd_Red"};
+    magazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd"};
+    respawnmagazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd"};
 
     backpack = "ls_jabiimBackpack_nimbusCommando";
     linkedItems[] = {"SFA_KOTR_TrooperHeavy_Helmet","ItemMap","G_JMSLLTE_SnowGlasses","ItemRadio","ItemCompass","ItemWatch","ls_nvg_goggles_orange"};

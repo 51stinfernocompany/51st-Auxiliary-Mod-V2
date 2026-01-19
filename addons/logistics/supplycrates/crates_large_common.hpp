@@ -46,6 +46,7 @@ class ic51_crate_large : ic51_crate_large_base
         CRATE_MAG(ACE_40mm_Flare_green,8);
         CRATE_MAG(ACE_40mm_Pike,8);
         CRATE_MAG(ls_magazine_30mw_500Rnd_blue_csw,8);
+        CRATE_MAG(ic51_dc15le_he_mag,15);
     };
     class TransportWeapons
     {
