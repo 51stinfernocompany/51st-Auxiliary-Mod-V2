@@ -10,7 +10,7 @@ class CfgPatches {
             "IDA_CIS",
             "IDA_Ammo",
             "ls_characters_droid",
-            "WBK_DifferentRobotics_1",
+            "WBK_Droids",
             "3AS_Weapons_DWBlaster",
             "3AS_HMP",
             "3AS_Vulture",
