@@ -1,4 +1,42 @@
 // Z-6
+class JLTS_stun_muzzle;
+class ic51_explosive_muzzle: JLTS_stun_muzzle {
+    magazines[] = {"ic51_z6_mag_explosive"};
+    /*
+    class Single: Mode_SemiAuto
+    {
+        sounds[]=
+        {
+            "StandardSound"
+        };
+        discreteDistance[]={100};
+        discreteDistanceInitIndex=0;
+        class BaseSoundModeType
+        {
+            weaponSoundEffect="";
+            closure1[]={};
+            closure2[]={};
+            soundClosure[]={};
+        };
+        class StandardSound: BaseSoundModeType
+        {
+            weaponSoundEffect="";
+            begin1[]=
+            {
+                "addons\music\data\z6_explosive_shot",
+                0.80000001,
+                1.2,
+                50
+            };
+            soundBegin[]=
+            {
+                "begin1",
+                1
+            };
+        };
+    };
+    */
+};
 class IDA_Z6;
 class ic51_z6 : IDA_Z6 {
     author = AUTHOR;
@@ -7,6 +45,12 @@ class ic51_z6 : IDA_Z6 {
     magazines[] = {"ic51_z6_mag","ic51_z6_mag_explosive"};
     modes[] = {"Auto","Single"};
     SCOPE_PUBLIC;
+    /*
+    muzzles[] = {"this","Explosive"};
+    class Explosive : ic51_explosive_muzzle {
+        displayName="[51st] Explosive";
+    };
+    */
 };
 
 //DC-15LE
@@ -19,6 +63,7 @@ class ic51_dc15le : ShdwCmpny_DC15LE_F
     magazines[] = {"ic51_dc15le_mag","ic51_dc15le_he_mag"};
     modes[] = {"FullAuto"};
     muzzles[] = {"this"};
+    recoil = "ic51_recoil_15le";
     SCOPE_PUBLIC;
     class FullAuto : FullAuto 
     {
@@ -91,6 +136,10 @@ class ic51_dlt17 : ShdwCmpny_DC15L_F {
     magazines[] = {"ic51_dlt17_mag","ic51_dc15le_he_mag"};
     magazineWell[] = {};
     SCOPE_PUBLIC;
+    class FullAuto : FullAuto 
+    {
+        reloadTime = 0.065; // This is rounds per minute
+    };
     class WeaponSlotsInfo: WeaponSlotsInfo{
         class MuzzleSlot: MuzzleSlot
         {

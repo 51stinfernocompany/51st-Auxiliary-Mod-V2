@@ -62,7 +62,17 @@ class ic51_dc15c_mag : 3AS_40Rnd_EC40_Mag
     ammo = "ic51_blasterbolt_dc15a";
     SCOPE_PUBLIC;
 };
-
+class ic51_dc15c_mk3_mag : 3AS_40Rnd_EC40_Mag
+{
+    author = AUTHOR;
+    BaseWeapon = "ic51_dc15c_mk3_mag";
+    displayName = "[51st] DC-15C MK3 Energy Cell";
+    displayNameShort = "DC-15C Energy Cell";
+    descriptionShort = "40 round capacity.";
+    ammo = "ic51_blasterbolt_dc15a";
+    count = 60;
+    SCOPE_PUBLIC;
+};
 //DC-19
 class ShdwCmpny_45Rnd_EC30_mag_Subsonic;
 class ic51_subsonic_45rnd: ShdwCmpny_45Rnd_EC30_mag_Subsonic{

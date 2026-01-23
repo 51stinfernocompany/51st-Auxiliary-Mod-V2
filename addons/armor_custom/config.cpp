@@ -20,7 +20,6 @@ class CfgPatches {
         units[]=
         {
             // COMMON UNIT
-            QCLASS(unit_dacebaluu),
             QCLASS(unit_b1gerald),
             QCLASS(unit_b1jeff),
             QCLASS(unit_b1colbat),
@@ -28,16 +27,23 @@ class CfgPatches {
             QCLASS(katarn_unit_immortal),
             QCLASS(katarn_unit_doss),
             // CLONE UNIT
-            QCLASS(clone_unit_custom_cabur),
             QCLASS(clone_unit_custom_mini),
             QCLASS(clone_unit_custom_chamber),
+            QCLASS(clone_unit_custom_lucifer),
             QCLASS(clone_unit_custom_clips),
             QCLASS(clone_unit_custom_blaze),
             QCLASS(clone_unit_custom_barbie),
-            QCLASS(clone_unit_custom_cassius),
-            QCLASS(clone_unit_custom_mando),
             QCLASS(clone_unit_custom_iroh),
+            QCLASS(clone_unit_custom_mando),
+            QCLASS(clone_unit_custom_atticus),
             QCLASS(clone_unit_custom_mortem),
+            QCLASS(clone_unit_custom_law),
+            QCLASS(clone_unit_custom_rodeo),
+            QCLASS(clone_unit_custom_kane),
+            QCLASS(clone_unit_custom_jinx),
+            QCLASS(clone_unit_custom_balance),
+            QCLASS(clone_unit_custom_ronin),
+            QCLASS(clone_unit_custom_slugger),
             // BACKPACK
             QCLASS(backpack_b1),
             QCLASS(katarn_backpack_gary),
@@ -47,13 +53,11 @@ class CfgPatches {
         weapons[]=
         {
             // HELMET PHASE 2 (CLONE)
-            QCLASS(p2_helmet_custom_cabur),
             QCLASS(p2_helmet_custom_mini),
             QCLASS(p2_helmet_custom_clips),
             QCLASS(p2_helmet_custom_law),
             QCLASS(p2_helmet_custom_fulcrum),
             QCLASS(p2_helmet_custom_ronin),
-            QCLASS(p2_helmet_custom_cassius),
             QCLASS(p2_helmet_custom_atticus),
             QCLASS(p2_helmet_custom_mortem),
             QCLASS(p2_helmet_custom_iroh),
@@ -67,7 +71,6 @@ class CfgPatches {
             QCLASS(p2_helmet_custom_freelancer),
             // HELMET PHASE 1
             QCLASS(p1_helmet_custom_mando),
-            QCLASS(p1_helmet_custom_cabur),
             // HELMET ARF
             QCLASS(arf_helmet_custom_chamber),
             QCLASS(arf_helmet_custom_church),
@@ -75,10 +78,10 @@ class CfgPatches {
             QCLASS(arf_helmet_custom_threevo),
             QCLASS(arf_helmet_custom_matthew),
             // HELMET PILOT
-            QCLASS(pilot_helmet_custom_anselm),
-            QCLASS(pilot_helmet_custom_snapjaw),
-            QCLASS(pilot_helmet_custom_rocky),
-            QCLASS(pilot_helmet_custom_noble),
+            QCLASS(pilot_helmet_anselm),
+            QCLASS(pilot_helmet_snapjaw),
+            QCLASS(pilot_helmet_noble),
+            QCLASS(pilot_helmet_slugger),
             // HELMET AIRBORNE
             QCLASS(airborne_helmet_custom_biscuit),
             QCLASS(airborne_helmet_custom_lucifer),
@@ -87,39 +90,46 @@ class CfgPatches {
             QCLASS(nvg_pilot_visor),
             QCLASS(nvg_pilot_faceplate),
             // HELMET COMMON
-            QCLASS(helmet_dacebaluu),
             QCLASS(helmet_b1gerald),
             QCLASS(helmet_b1jeff),
             QCLASS(helmet_b1colbat),
             QCLASS(katarn_helmet_gary),
             QCLASS(katarn_helmet_immortal),
             QCLASS(katarn_helmet_doss),
-            QCLASS(p2_helmet_blaze),
-            QCLASS(p2_helmet_barbie),
+            QCLASS(p2_helmet_custom_blaze),
+            QCLASS(p2_helmet_custom_Barbie),
             // UNIFORM COMMON
-            QCLASS(uniform_dacebaluu),
             QCLASS(uniform_b1gerald),
             QCLASS(uniform_b1jeff),
             QCLASS(uniform_b1colbat),
             QCLASS(katarn_uniform_gary),
             QCLASS(katarn_uniform_immortal),
             QCLASS(katarn_uniform_doss),
+            QCLASS(katarn_uniform_cyclone),
+            QCLASS(katarn_uniform_rook),
             // UNIFORM CLONE
-            QCLASS(clone_uniform_custom_cabur),
             QCLASS(clone_uniform_custom_mini),
             QCLASS(clone_uniform_custom_chamber),
+            QCLASS(clone_uniform_custom_lucifer),
             QCLASS(clone_uniform_custom_clips),
             QCLASS(clone_uniform_custom_blaze),
             QCLASS(clone_uniform_custom_barbie),
-            QCLASS(clone_uniform_custom_cassius),
-            QCLASS(clone_uniform_custom_mando),
             QCLASS(clone_uniform_custom_iroh),
+            QCLASS(clone_uniform_custom_mando),
+            QCLASS(clone_uniform_custom_atticus),
             QCLASS(clone_uniform_custom_mortem),
-            // VEST COMMON
-            QCLASS(vest_dacebaluu),
+            QCLASS(clone_uniform_custom_law),
+            QCLASS(clone_uniform_custom_rodeo),
+            QCLASS(clone_uniform_custom_kane),
+            QCLASS(clone_uniform_custom_jinx),
+            QCLASS(clone_uniform_custom_balance),
+            QCLASS(clone_uniform_custom_ronin),
+            QCLASS(clone_uniform_custom_slugger),
+            // VEST COMMON 
             QCLASS(katarn_vest_tech_gary),
+            QCLASS(katarn_vest_tech_rook),
             QCLASS(katarn_vest_demo_immortal),
-            QCLASS(vest_alpha_mando)
+            QCLASS(vest_alpha)
         };
         VERSION_CONFIG;
     };

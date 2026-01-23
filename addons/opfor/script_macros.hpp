@@ -12,6 +12,13 @@
     side = 0; \
     faction = "ic51_opfor_onderon"
 
+#define GROUP_OPF_CORRICK(var1) \
+    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa"; \
+    name = QUOTE(var1); \
+    displayName = QUOTE(var1); \
+    side = 0; \
+    faction = "ic51_opfor_corrick"
+
 #define GROUP_OPF_UNIT(var1,var2,var3) class Unit##var1 \
 { \
     side = 0; \
@@ -19,3 +26,4 @@
     rank = QUOTE(var3); \
     position[] = {0,-##var1##,0}; \
 }
+

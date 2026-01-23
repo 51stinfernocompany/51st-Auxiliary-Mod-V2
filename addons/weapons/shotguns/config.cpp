@@ -31,7 +31,7 @@ class CfgPatches
         {
             "ic51_dc23",
             "ic51_dp23",
-            "ic51_dp23_gl",
+            //"ic51_dp23_gl",
             "ic51_scattergun"
         };
     };

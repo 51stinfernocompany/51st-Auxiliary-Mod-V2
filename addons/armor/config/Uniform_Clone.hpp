@@ -14,7 +14,6 @@ class ic51_clone_uniform_base : IDA_Clone_Uniform
         mass=15;
     };
 };
-
 //Ranks
 class ic51_clone_uniform_corporal : ic51_clone_uniform_base
 {

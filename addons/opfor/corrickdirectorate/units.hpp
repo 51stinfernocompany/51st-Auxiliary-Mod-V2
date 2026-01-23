@@ -1,0 +1,95 @@
+// corrick
+class O_Soldier_F;
+class ic51_opfor_corrick_base : O_Soldier_F {
+    scope = 2;
+    scopeCurator = 2;
+    author = AUTHOR;
+    displayName = "Corrick Light Trooper";
+    faction="ic51_opfor_corrick";
+    editorSubCategory="ic51_opfor_corricks";
+
+    uniformClass = "SFA_NavyHeavyTrooper_Uniform";
+    model = "SFA_Main\SFA_Equipment_R\Uniform\Navy\Navy_Trooper_uniform.p3d";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_indep_co.paa"};
+
+    speaker = "Male01CHI";
+    facewearList[] = {""};
+
+    weapons[] = {"ic51_opfor_weap_e5", "Throw", "Put"};
+    respawnweapons[] = {"ic51_opfor_weap_e5", "Throw", "Put"};
+
+    magazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd"};
+    respawnmagazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd"};
+
+    backpack = "";
+    linkedItems[] = {"ItemMap","G_JMSLLTE_Facecover_dark","ItemRadio","ItemCompass","ItemWatch","ls_nvg_goggles_orange"};
+    respawnlinkedItems[] = {"ItemMap","G_JMSLLTE_Facecover_dark","ItemRadio","ItemCompass","ItemWatch","ls_nvg_goggles_orange"};
+};
+
+class ic51_opfor_corrick_rifleman : ic51_opfor_corrick_base {
+    displayName = "Corrick Trooper";
+
+    uniformClass = "SFA_NavyHeavyTrooper_Uniform";
+    model = "SFA_Main\SFA_Equipment_R\Uniform\Navy\Navy_Trooper_uniform.p3d";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_indep_co.paa"};
+
+    speaker = "Male01CHI";
+    facewearList[] = {""};
+
+    weapons[] = {"ic51_opfor_weap_e5", "Throw", "Put"};
+    respawnweapons[] = {"ic51_opfor_weap_e5", "Throw", "Put"};
+
+    magazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd"};
+    respawnmagazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd"};
+
+    backpack = "";
+    linkedItems[] = {"SFA_KOTR_TrooperHeavy_Helmet","ItemMap","G_JMSLLTE_Facecover_dark","ItemRadio","ItemCompass","ItemWatch","ls_nvg_goggles_orange"};
+    respawnlinkedItems[] = {"SFA_KOTR_TrooperHeavy_Helmet","ItemMap","G_JMSLLTE_Facecover_dark","ItemRadio","ItemCompass","ItemWatch","ls_nvg_goggles_orange"};
+};
+
+class ic51_opfor_corrick_marksmen : ic51_opfor_corrick_base {
+    displayName = "Corrick Marksmen";
+
+    uniformClass = "SFA_NavyHeavyTrooper_Uniform";
+    model = "SFA_Main\SFA_Equipment_R\Uniform\Navy\Navy_Trooper_uniform.p3d";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_indep_co.paa"};
+
+    speaker = "Male01CHI";
+    facewearList[] = {""};
+
+    weapons[] = {"IDA_E5S", "Throw", "Put"};
+    respawnweapons[] = {"IDA_E5S", "Throw", "Put"};
+
+    magazines[] = {"IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red"};
+    respawnmagazines[] = {"IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red", "IDA_Blaster_Cell_Power5_5Rnd_Red"};
+
+    backpack = "";
+    linkedItems[] = {"SFA_KOTR_TrooperHeavy_Helmet","ItemMap","G_JMSLLTE_Facecover_dark","ItemRadio","ItemCompass","ItemWatch"};
+    respawnlinkedItems[] = {"SFA_KOTR_TrooperHeavy_Helmet","ItemMap","G_JMSLLTE_Facecover_dark","ItemRadio","ItemCompass","ItemWatch"};
+};
+
+
+class ic51_opfor_corrick_leader : ic51_opfor_corrick_base {
+    displayName = "Corrick Squad Leader";
+
+    uniformClass = "SFA_NavyHeavyTrooper_Uniform";
+    model = "SFA_Main\SFA_Equipment_R\Uniform\Navy\Navy_Trooper_uniform.p3d";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_indep_co.paa"};
+
+    speaker = "Male01CHI";
+    facewearList[] = {""};
+
+    weapons[] = {"ic51_opfor_weap_e5", "Throw", "Put"};
+    respawnweapons[] = {"ic51_opfor_weap_e5", "Throw", "Put"};
+
+    magazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd"};
+    respawnmagazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd", "ic51_opfor_blaster_magazine_p3_40rnd"};
+
+    backpack = "ls_jabiimBackpack_nimbusCommando";
+    linkedItems[] = {"SFA_KOTR_TrooperHeavy_Helmet","ItemMap","G_JMSLLTE_SnowGlasses","ItemRadio","ItemCompass","ItemWatch","ls_nvg_goggles_orange"};
+    respawnlinkedItems[] = {"SFA_KOTR_TrooperHeavy_Helmet","ItemMap","G_JMSLLTE_SnowGlasses","ItemRadio","ItemCompass","ItemWatch","ls_nvg_goggles_orange"};
+};

@@ -1,10 +1,11 @@
 // DC-15x, Firepuncher 773FP
+class IDA_Blasterbolt_Power2_Blue;
 class IDA_Blasterbolt_Power5_Blue;
-class ic51_blasterbolt_dc15x : IDA_Blasterbolt_Power5_Blue {
+class ic51_blasterbolt_dc15x : IDA_Blasterbolt_Power2_Blue {
     author = AUTHOR;
     JLTS_isEMPAmmo = 0;
-    coefGravity = 0;
-    airFriction = 0;
+    //coefGravity = 0.000001;
+    //airFriction = -0.000001;
     hit = 25;
 };
 

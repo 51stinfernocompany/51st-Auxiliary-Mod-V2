@@ -12,9 +12,7 @@ class CfgPatches {
         };
         units[]={};
         weapons[]=
-        {
-            "ic51_log_bactainjector"
-        };
+        {};
         VERSION_CONFIG;
     };
 };

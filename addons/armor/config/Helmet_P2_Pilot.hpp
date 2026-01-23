@@ -6,7 +6,7 @@ class ic51_pilot_helmet_base : ls_gar_phase2Pilot_helmet
     picture = QPATHTOF(data\51st_logo.paa);
     displayName = "[51st] Pilot Trooper Helmet";
     hiddenSelections[] = {"camo1","visor"};
-    subItems[] = {};
+    subItems[] = {"Integrated_NVG_TI_0_F"};
     hiddenSelectionsTextures[] =
     {
         QPATHTOF(data\helmet_p2_pilot\p2_pilot_helmet_trooper_co.paa),

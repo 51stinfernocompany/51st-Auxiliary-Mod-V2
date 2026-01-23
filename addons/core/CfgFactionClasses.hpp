@@ -15,6 +15,19 @@ class CfgFactionClasses
         displayName="[51st OPFOR] Onderon";
         side = OPFOR;
     };
+    
+    class ic51_opfor_corrick
+    {
+        displayName="[51st OPFOR] Corrick Directorate";
+        side = OPFOR;
+        priority=1;
+    };
+    class ic51_indfor_carlac
+    {
+        displayName="[51st INDFOR] Carlac Restoration";
+        side = 2;
+        priority=1;
+    };
     class ic51_modules
     {
         displayName = "[51st] Modules";

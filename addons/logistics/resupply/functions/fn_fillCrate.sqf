@@ -44,6 +44,8 @@ _crate addMagazineCargoGlobal ["ic51_SmokeRed_LauncherGrenade",  8];
 _crate addMagazineCargoGlobal ["ic51_SmokeGreen_LauncherGrenade",8];
 _crate addMagazineCargoGlobal ["ic51_SmokeBlue_LauncherGrenade", 8];
 _crate addMagazineCargoGlobal ["ic51_SmokePurple_LauncherGrenade",8];
+_crate addMagazineCargoGlobal ["ls_magazine_30mw_500Rnd_blue_csw",8];
+_crate addMagazineCargoGlobal ["ic51_dc15le_he_mag",15];
 
 // ----------------------
 // Items

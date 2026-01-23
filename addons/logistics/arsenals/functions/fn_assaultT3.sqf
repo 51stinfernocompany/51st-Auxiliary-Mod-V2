@@ -1,0 +1,5 @@
+params ["_unit"];
+private _assaultT3 = [[["ic51_dp23","","","ic51_reflex3_optic",["ic51_scattergun_pellet",6],[],""],[],["ic51_vibroblade_rotated","","","",[],[],""],["ic51_clone_uniform_base",[["ACE_CableTie",4],["ItemcTabHCam",1],["ACE_IR_Strobe_Item",1],["ACE_EntrenchingTool",1],["ACE_Flashlight_XL50",1],["ACE_elasticBandage",3],["ACE_Chemlight_HiGreen",10,1],["ACE_Chemlight_HiRed",4,1],["kat_Painkiller",2,4]]],["ic51_vest_plate_assault",[["ic51_penetrator_grenade",1,1],["ic51_SonicDetonator",17,1],["ic51_SmokeWhite",10,1],["ACE_Chemlight_HiRed",1,1],["ic51_emp_grenade",12,1]]],["ic51_clone_rucksack_base",[["ACE_elasticBandage",20],["ACE_packingBandage",10],["ACE_splint",5],["ACE_tourniquet",4],["ic51_scattergun_pellet",21,6],["ic51_scattergun_slug",10,6],["ic51_SonicDetonator",1,1],["ic51_SmokeWhite",4,1]]],"ic51_p2_helmet_base","ic51_vest_assault",["ic51_clone_binoculars_base","","","",["Laserbatteries",1],[],""],["ItemMap","ItemAndroid","ls_radios_cwp8","ItemCompass","ACE_Altimeter",""]],[["aceax_textureOptions",[]]]];
+_assaultT3 set [1, createHashMapFromArray (_assaultT3 select 1)];
+[_unit, _assaultT3] call CBA_fnc_setLoadout;
+hint "Assault T3 Given"

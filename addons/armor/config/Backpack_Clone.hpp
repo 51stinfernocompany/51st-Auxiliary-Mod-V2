@@ -159,5 +159,5 @@ class ic51_backpack_arc_base : ls_cloneBackpack_arc
     tf_dialog = "ls_radios_cloneLR";
     tf_encryptionCode = "tf_west_radio_code";
     tf_subtype = "digital_lr";
-    maximumload = 500;
+    maximumload = 550;
 };

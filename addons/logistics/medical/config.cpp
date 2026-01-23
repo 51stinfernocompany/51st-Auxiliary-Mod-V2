@@ -12,7 +12,9 @@ class CfgPatches {
         };
         units[] = {};
         magazines[] = {};
-        weapons[] = {};
+        weapons[] = {
+            "ic51_log_bactainjector",
+        };
     };
 };
 

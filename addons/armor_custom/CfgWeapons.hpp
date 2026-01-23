@@ -18,7 +18,7 @@ class ic51_barc_helmet_base;
 #include "\x\ic51\addons\armor_custom\config\Helmet_ARF.hpp"
 #include "\x\ic51\addons\armor_custom\config\Helmet_AB.hpp"
 #include "\x\ic51\addons\armor_custom\config\Helmet_BARC.hpp"
-//#include "\x\ic51\addons\armor_custom\config\Helmet_P2_Pilot.hpp"
+#include "\x\ic51\addons\armor_custom\config\Helmet_P2_Pilot.hpp"
 #include "\x\ic51\addons\armor_custom\config\Helmet_Common.hpp"
 
 #include "\x\ic51\addons\armor_custom\config\Vests_Common.hpp"
