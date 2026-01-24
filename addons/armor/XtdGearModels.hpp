@@ -170,6 +170,24 @@ class XtdGearModels {
         class ic51_trooper_fancy_helmet { label = "Fancy";};
       };
     };
+    class ic51_trooper_helmet_p1 {
+      label  = "[51st] Phase 1 Helmets";
+      author = AUTHOR;
+      options[] = {"camo"};
+      class camo {
+        values[] = 
+        {
+            "ic51_trooper_p1_helmet",
+            "ic51_trooper_p1_medic_helmet",
+            "ic51_trooper_p1_CPL_helmet",
+            "ic51_trooper_p1_SGT_helmet",
+        };
+        class ic51_trooper_p1_helmet { label = "Trooper";};
+        class ic51_trooper_p1_medic_helmet { label = "Medic";};
+        class ic51_trooper_p1_CPL_helmet { label = "Corporal";};
+        class ic51_trooper_p1_SGT_helmet { label = "Sergeant";};
+      };
+    };
 	class ic51_trooper_helmet_qual {
       label  = "[51st] Trooper Qual Helmets";
       author = AUTHOR;

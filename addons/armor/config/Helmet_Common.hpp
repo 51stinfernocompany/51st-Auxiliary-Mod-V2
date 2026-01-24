@@ -77,3 +77,53 @@ class ic51_katarn_helmet_base : 3AS_H_Katarn_Helmet
         };
     };
 };
+// Phase 1
+class SEA_Helmet_P1_Base;
+class ic51_p1_helmet_CT : SEA_Helmet_P1_Base
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] P1 Helmet CT";
+    hiddenSelectionsTextures[] =
+    {
+        QPATHTOF(data\helmet_common\p1_helmet_CT_co.paa),
+        QPATHTOF(data\helmet_common\p1_helmet_CT_co.paa)
+    };
+};
+class ic51_p1_helmet_medic : SEA_Helmet_P1_Base
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] P1 Medic";
+    hiddenSelectionsTextures[] =
+    {
+        QPATHTOF(data\helmet_common\p1_helmet_medic_co.paa),
+        QPATHTOF(data\helmet_common\p1_helmet_medic_co.paa)
+    };
+};
+class ic51_p1_helmet_CPL : SEA_Helmet_P1_Base
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] P1 Corporal";
+    hiddenSelectionsTextures[] =
+    {
+        QPATHTOF(data\helmet_common\p1_helmet_CPL_co.paa),
+        QPATHTOF(data\helmet_common\p1_helmet_CPL_co.paa)
+    };
+};
+class ic51_p1_helmet_SGT : SEA_Helmet_P1_Base
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] P1 Sergeant";
+    hiddenSelectionsTextures[] =
+    {
+        QPATHTOF(data\helmet_common\p1_helmet_SGT_co.paa),
+        QPATHTOF(data\helmet_common\p1_helmet_SGT_co.paa)
+    };
+};
