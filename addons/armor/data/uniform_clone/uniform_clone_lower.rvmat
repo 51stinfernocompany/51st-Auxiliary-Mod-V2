@@ -6,9 +6,15 @@ specular[] = { 0.1, 0.1, 0.1, 1 };
 specularPower = 20;
 PixelShaderID="Super";
 VertexShaderID="Super";
+class stage0
+{
+	 hiddenSelections[] = {"camo", "insignia", "-B_body_insignia-clan_01"};
+	 hiddenSelectionsTextures[] = {"-B_body_insignia-clan_01"};
+};
 class Stage1
 {
 	texture="Indecisive_Armoury_Units\REPUBLIC\Clone_Uniform\Lower\IDA_BodyLower_nohq.paa";
+	hiddenSelections[] ={"camo1", "camo2", "insignia", "-B_body_insignia-clan_01"};
 	uvSource="tex";
 	class uvTransform
 	{
@@ -57,6 +63,7 @@ class Stage4
 class Stage5
 {
 	texture="Indecisive_Armoury_Units\REPUBLIC\Clone_Uniform\Lower\IDA_BodyLower_smdi.paa";
+	hiddenSelections[] ={"camo1", "camo2", "insignia", "-B_body_insignia-clan_01"};
 	uvSource="tex";
 	class uvTransform
 	{

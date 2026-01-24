@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="Indecisive_Armoury_units\REPUBLIC\Clone_P2_Helmet\IDA_P2_Helmet_nohq.paa";
+	texture="Indecisive_Armoury_units\REPUBLIC\Clone_P2_Helmet\IDA_P2_Helmet_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="Indecisive_Armoury_units\REPUBLIC\Clone_P2_Helmet\IDA_P2_Helmet_as.paa";
+	texture="Indecisive_Armoury_Units\REPUBLIC\Clone_P2_Helmet\IDA_P2_Helmet_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,8 @@ class Stage4
 };
 class Stage5
 {
-	texture="Indecisive_Armoury_units\REPUBLIC\Clone_P2_Helmet\IDA_P2_Helmet_smdi.paa";
+	texture="Indecisive_Armoury_Units\REPUBLIC\Clone_P2_Helmet\IDA_P2_Helmet_smdi.paa";
+	hiddenSelections[] ={"camo1", "camo2", "insignia", "-B_body_insignia-clan_01"};
 	uvSource="tex";
 	class uvTransform
 	{

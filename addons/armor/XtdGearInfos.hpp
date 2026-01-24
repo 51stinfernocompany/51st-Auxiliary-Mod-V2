@@ -55,11 +55,16 @@ class XtdGearInfos {
     class ic51_clone_uniform_custom_slugger           { model = "ic51_trooper_uniforms_customs"; camo = "ic51_uni_slugger"; };
     //base helmets
     class ic51_p2_helmet_base       { model = "ic51_trooper_helmet"; camo = "ic51_trooper_base_helmet"; };
-    class ic51_p2_helmet_trooper2       { model = "ic51_trooper_helmet"; camo = "ic51_trooper_base_helme2"; };
+    class ic51_p2_helmet_trooper2       { model = "ic51_trooper_helmet"; camo = "ic51_trooper_base_helmet2"; };
     class ic51_p2_helmet_corporal       { model = "ic51_trooper_helmet"; camo = "ic51_trooper_corporal_helmet"; };
     class ic51_p2_helmet_sergeant       { model = "ic51_trooper_helmet"; camo = "ic51_trooper_sergeant_helmet"; };
     class ic51_p2_helmet_command       { model = "ic51_trooper_helmet"; camo = "ic51_trooper_command_helmet"; };
     class ic51_p2_helmet_fancy       { model = "ic51_trooper_helmet"; camo = "ic51_trooper_fancy_helmet"; };
+    //phase 1 helmets
+    class ic51_p1_helmet_CT       { model = "ic51_trooper_helmet_p1"; camo = "ic51_trooper_p1_helmet"; };
+    class ic51_p1_helmet_medic       { model = "ic51_trooper_helmet_p1"; camo = "ic51_trooper_p1_medic_helmet"; };
+    class ic51_p1_helmet_CPL       { model = "ic51_trooper_helmet_p1"; camo = "ic51_trooper_p1_CPL_helmet"; };
+    class ic51_p1_helmet_SGT       { model = "ic51_trooper_helmet_p1"; camo = "ic51_trooper_p1_SGT_helmet"; };
     //qual helmets
     class ic51_p2_helmet_marksmen       { model = "ic51_trooper_helmet_qual"; camo = "ic51_trooper_marksmen_helmet"; };
     class ic51_p2_helmet_heavy       { model = "ic51_trooper_helmet_qual"; camo = "ic51_trooper_heavy_helmet"; };
