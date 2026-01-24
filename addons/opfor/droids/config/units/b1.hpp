@@ -11,13 +11,13 @@ class CLASS(opfor_unit_b1_standard) : ls_droid_b1
     hiddenSelectionsTextures[] = {"\ls\core\addons\characters_droid\uniforms\b1\data\camo1_co.paa","\ls\core\addons\characters_droid\uniforms\b1\data\camo2_co.paa"};
 
     weapons[] = {"ic51_opfor_weap_e5","Throw","Put"};
-    magazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd","ic51_SmokeWhite"};
+    magazines[] = {"3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","ic51_SmokeWhite","ic51_SmokeWhite","ic51_SmokeWhite","ic51_SmokeWhite"};
     linkedItems[] = {"ic51_opfor_helmet_b1","ItemMap","ItemCompass","ItemWatch","ls_radios_dcs"};
     backpack = "ic51_opfor_backpack_b1";
     items[] = {};
 
     respawnLinkedItems[] = {"ic51_opfor_helmet_b1","ItemMap","ItemCompass","ItemWatch","ls_radios_dcs"};
-    respawnMagazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd","ic51_SmokeWhite"};
+    respawnMagazines[] = {"3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","ic51_SmokeWhite","ic51_SmokeWhite","ic51_SmokeWhite","ic51_SmokeWhite"};
     respawnWeapons[] = {"ic51_opfor_weap_e5","Throw","Put"};
     class HitPoints
     {
@@ -205,8 +205,8 @@ class ic51_opfor_unit_b1_squadlead : ic51_opfor_unit_b1_standard
 
     uniformclass = "ic51_opfor_uniform_b1_squadlead";
     linkedItems[] = {"ic51_opfor_helmet_b1_squadlead","ItemMap","ItemCompass","ItemWatch","ls_radios_dcs"};
-    magazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd","ic51_ThermalDetonator","ic51_SmokeWhite","ic51_SmokeWhite"};
-    respawnMagazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd","ic51_ThermalDetonator","ic51_SmokeWhite","ic51_SmokeWhite"};
+    magazines[] = {"3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","ic51_SmokeWhite","ic51_SmokeWhite","ic51_SmokeWhite","ic51_SmokeWhite"};
+    respawnMagazines[] = {"3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","ic51_SmokeWhite","ic51_SmokeWhite","ic51_SmokeWhite","ic51_SmokeWhite"};
     items[] = {};
     respawnLinkedItems[] = {"ic51_opfor_helmet_b1_squadlead","ItemMap","ItemCompass","ItemWatch","ls_radios_dcs"};
     hiddenSelectionsTextures[] = {"\ls\core\addons\characters_droid\uniforms\b1\data\officer_camo1_co.paa","\ls\core\addons\characters_droid\uniforms\b1\data\camo2_co.paa"};
@@ -220,11 +220,11 @@ class ic51_opfor_unit_b1_heavy: ic51_opfor_unit_b1_standard
     icon = "iconManMG";
 
     weapons[] = {"ic51_opfor_weap_e5c","Throw","Put"};
-    magazines[] = {"IDA_Blaster_Cell_Power3_60Rnd_Red"};
+    magazines[] = {"3AS_60Rnd_EM130_RedPlasma","3AS_60Rnd_EM130_RedPlasma","3AS_60Rnd_EM130_RedPlasma","3AS_60Rnd_EM130_RedPlasma","3AS_60Rnd_EM130_RedPlasma"};
     linkedItems[] = {"ic51_opfor_helmet_b1","ItemMap","ItemCompass","ItemWatch","ls_radios_dcs"};
 
     respawnLinkedItems[] = {"ic51_opfor_helmet_b1","ItemMap","ItemCompass","ItemWatch","ls_radios_dcs"};
-    respawnMagazines[] = {"IDA_Blaster_Cell_Power3_60Rnd_Red"};
+    respawnMagazines[] = {"3AS_60Rnd_EM130_RedPlasma","3AS_60Rnd_EM130_RedPlasma","3AS_60Rnd_EM130_RedPlasma","3AS_60Rnd_EM130_RedPlasma","3AS_60Rnd_EM130_RedPlasma"};
     respawnWeapons[] = {"ic51_opfor_weap_e5c","Throw","Put"};
 };
 
@@ -235,24 +235,24 @@ class ic51_opfor_unit_b1_at: ic51_opfor_unit_b1_standard
     icon = "iconManAT";
 
     weapons[] = {"ic51_opfor_weap_e5","IDA_RPS6HP","Throw","Put"};
-    magazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd","IDA_RPS6_rocket"};
+    magazines[] = {"3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","IDA_RPS6_rocket","ic51_SmokeWhite",};
     linkedItems[] = {"ic51_opfor_helmet_b1","ItemMap","ItemCompass","ItemWatch","ls_radios_dcs"};
 
     respawnLinkedItems[] = {"ic51_opfor_helmet_b1","ItemMap","ItemCompass","ItemWatch","ls_radios_dcs"};
-    respawnMagazines[] = {"ic51_opfor_blaster_magazine_p3_40rnd","IDA_RPS6_rocket"};
+    respawnMagazines[] = {"3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","IDA_RPS6_rocket","ic51_SmokeWhite",};
     respawnWeapons[] = {"ic51_opfor_weap_e5","IDA_RPS6HP","Throw","Put"};
 };
 class ic51_opfor_unit_b1_marksmen: ic51_opfor_unit_b1_standard
 {
     displayName = "B1 Battledroid (Marksmen)";
 
-    weapons[] = {"IDA_774CX","Throw","Put"};
-    magazines[] = {"IDA_Blaster_Cell_Power4_10Rnd_Red"};
+    weapons[] = {"3AS_E5S_F","Throw","Put"};
+    magazines[] = {"3AS_10Rnd_EM90_Mag","3AS_10Rnd_EM90_Mag","3AS_10Rnd_EM90_Mag","3AS_10Rnd_EM90_Mag","3AS_10Rnd_EM90_Mag"};
     linkedItems[] = {"ic51_opfor_helmet_b1","ItemMap","ItemCompass","ItemWatch","ls_radios_dcs"};
 
     respawnLinkedItems[] = {"ic51_opfor_helmet_b1","ItemMap","ItemCompass","ItemWatch","ls_radios_dcs"};
-    respawnMagazines[] = {"IDA_Blaster_Cell_Power4_10Rnd_Red"};
-    respawnWeapons[] = {"IDA_774CX","Throw","Put"};
+    respawnMagazines[] = {"3AS_10Rnd_EM90_Mag","3AS_10Rnd_EM90_Mag","3AS_10Rnd_EM90_Mag","3AS_10Rnd_EM90_Mag","3AS_10Rnd_EM90_Mag"};
+    respawnWeapons[] = {"3AS_E5S_F","Throw","Put"};
 };
 class ic51_opfor_unit_b1_shotgun: ic51_opfor_unit_b1_standard
 {
