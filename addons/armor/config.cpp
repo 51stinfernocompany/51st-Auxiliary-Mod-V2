@@ -71,6 +71,7 @@ class CfgPatches {
             QCLASS(p2_helmet_corporal),
             QCLASS(p2_helmet_sergeant),
             QCLASS(p2_helmet_command),
+            QCLASS(p2_helmet_medic),
             QCLASS(p2_helmet_medic_t2),
             QCLASS(p2_helmet_medic_t3),
             QCLASS(p1_helmet_base),

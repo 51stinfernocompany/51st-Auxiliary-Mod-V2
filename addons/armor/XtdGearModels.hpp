@@ -198,6 +198,7 @@ class XtdGearModels {
             "ic51_trooper_marksmen_helmet",
             "ic51_trooper_heavy_helmet",
             "ic51_trooper_at_helmet",
+            "ic51_trooper_medic_helmet",
             "ic51_trooper_medic_t2_helmet",
             "ic51_trooper_medic_t3_helmet",
 			"ic51_trooper_engineer_helmet",
@@ -205,6 +206,7 @@ class XtdGearModels {
         class ic51_trooper_marksmen_helmet { label = "Marksmen";};
         class ic51_trooper_heavy_helmet { label = "Heavy";};
         class ic51_trooper_at_helmet { label = "AT";};
+        class ic51_trooper_medic_helmet { label = "Medic";};
         class ic51_trooper_medic_t2_helmet { label = "Medic T2";};
         class ic51_trooper_medic_t3_helmet { label = "Medic T3";};
 		class ic51_trooper_engineer_helmet { label = "Engineer";};

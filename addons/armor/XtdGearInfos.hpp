@@ -69,6 +69,7 @@ class XtdGearInfos {
     class ic51_p2_helmet_marksmen       { model = "ic51_trooper_helmet_qual"; camo = "ic51_trooper_marksmen_helmet"; };
     class ic51_p2_helmet_heavy       { model = "ic51_trooper_helmet_qual"; camo = "ic51_trooper_heavy_helmet"; };
     class ic51_p2_helmet_at       { model = "ic51_trooper_helmet_qual"; camo = "ic51_trooper_at_helmet"; };
+    class ic51_p2_helmet_medic       { model = "ic51_trooper_helmet_qual"; camo = "ic51_trooper_medic_helmet"; };
     class ic51_p2_helmet_medic_t2       { model = "ic51_trooper_helmet_qual"; camo = "ic51_trooper_medic_t2_helmet"; };
     class ic51_p2_helmet_medic_t3       { model = "ic51_trooper_helmet_qual"; camo = "ic51_trooper_medic_t3_helmet"; };
     class ic51_engineer_helmet_base     { model = "ic51_trooper_helmet_qual"; camo = "ic51_trooper_engineer_helmet"; };
