@@ -11,7 +11,7 @@ class ic51_opfor_unit_bx_standard : ls_droid_bx
     hiddenSelections[] = {"camo1"};
     hiddenSelectionsTextures[] = {"\ls\core\addons\characters_droid\uniforms\bx\data\body_co.paa"};
     
-    weapons[] = {"ic51_opfor_weap_e5_bx","Throw","Put"};
+    weapons[] = {"3AS_E5C_F","Throw","Put"};
     magazines[] = {"3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","ic51_ThermalDetonator","ic51_SmokeWhite","ic51_SmokeWhite","ic51_SmokeWhite","ic51_SmokeWhite"};
     linkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ls_radios_dcs"};
     items[] = {};
@@ -19,7 +19,7 @@ class ic51_opfor_unit_bx_standard : ls_droid_bx
     respawn[] = {"ls_nvg_invisible"};
     respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ls_radios_dcs"};
     respawnMagazines[] = {"3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","3AS_60Rnd_EM50_RedPlasma","ic51_ThermalDetonator","ic51_SmokeWhite","ic51_SmokeWhite","ic51_SmokeWhite","ic51_SmokeWhite"};
-    respawnWeapons[] = {"ic51_opfor_weap_e5_bx","Throw","Put"};
+    respawnWeapons[] = {"3AS_E5C_F","Throw","Put"};
     class HitPoints
     {
         class HitFace
