@@ -48,6 +48,7 @@ class ic51_katarn_unit_gary : ic51_katarn_unit_base
     };
     UNIT_ITEMS("ic51_katarn_backpack_gary","ic51_katarn_helmet_gary","ic51_DC17M","ic51_dc17m_standard_mag");
 };
+/*
 class ic51_katarn_unit_immortal : ic51_katarn_unit_base
 {
     displayName = "[51st Custom] Republic Commando (Immortal)";
@@ -59,6 +60,7 @@ class ic51_katarn_unit_immortal : ic51_katarn_unit_base
     };
     UNIT_ITEMS("ic51_katarn_backpack_immortal","ic51_katarn_helmet_immortal","ic51_DC17M","ic51_dc17m_standard_mag");
 };
+*/
 class ic51_katarn_unit_doss : ic51_katarn_unit_base
 {
     displayName = "[51st Custom] Republic Commando (Doss)";
@@ -81,6 +83,7 @@ class ic51_katarn_unit_cyclone : ic51_katarn_unit_base
     };
     UNIT_ITEMS("ic51_katarn_backpack_doss","ic51_katarn_helmet_doss","ic51_DC17M","ic51_dc17m_standard_mag");
 };
+/*
 class ic51_katarn_unit_rook : ic51_katarn_unit_base
 {
     displayName = "[51st Custom] Republic Commando (Rook)";
@@ -92,3 +95,4 @@ class ic51_katarn_unit_rook : ic51_katarn_unit_base
     };
     UNIT_ITEMS("ic51_katarn_backpack_doss","ic51_katarn_helmet_doss","ic51_DC17M","ic51_dc17m_standard_mag");
 };
+*/

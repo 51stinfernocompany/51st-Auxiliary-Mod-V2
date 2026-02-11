@@ -102,6 +102,13 @@ class CfgPatches {
             QCLASS(p2_helmet_havoc2),
             QCLASS(p2_helmet_medic_havoc1),
             QCLASS(p2_helmet_medic_havoc2),
+            //P1
+            QCLASS(p1_helmet_CT),
+            QCLASS(p1_helmet_medic),
+            QCLASS(p1_helmet_CPL),
+            QCLASS(p1_helmet_SGT),
+
+
             // Uniforms
             QCLASS(clone_uniform_base),
             QCLASS(clone_uniform_corporal),

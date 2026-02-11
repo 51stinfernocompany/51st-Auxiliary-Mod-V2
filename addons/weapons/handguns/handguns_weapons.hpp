@@ -19,7 +19,8 @@ class ic51_dc17 : IDA_DC17 {
         {
         "ic51_dc17_mag",
         "ACE_40mm_Flare_green",
-        "ACE_40mm_Flare_red"
+        "ACE_40mm_Flare_red",
+        "OPTRE_signalSmokeP",
         };
     SCOPE_PUBLIC;
 };

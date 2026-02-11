@@ -12,6 +12,7 @@ class ic51_katarn_vest_tech_gary : ic51_katarn_vest_base
         uniformModel = "\3AS\3AS_Characters\Commando\3AS_Katarn_TechPack.p3d";
     };
 };
+/*
 class ic51_katarn_vest_tech_rook : ic51_katarn_vest_base
 {
     SCOPE_PUBLIC;
@@ -40,7 +41,7 @@ class ic51_katarn_vest_demo_immortal : ic51_katarn_vest_base
         uniformModel = "\3AS\3AS_Characters\Commando\3AS_Katarn_DemolitionPack.p3d";
     };
 };
-
+*/
 class lsd_gar_alphaArc_vest_red;
 class ic51_vest_alpha : lsd_gar_alphaArc_vest_red
 {
@@ -87,6 +88,7 @@ class ic51_vest_alpha : lsd_gar_alphaArc_vest_red
     };
 };
 class ic51_vest_plate_arc;
+/*
 class ic51_vest_plate_arc_fulcrum: ic51_vest_plate_arc
 {
     displayName="[51st] Plating ARC Fulcrum";
@@ -99,6 +101,7 @@ class ic51_vest_plate_arc_fulcrum: ic51_vest_plate_arc
         "\Indecisive_Armoury_Units\REPUBLIC\Vests\IDA_ARC_Belt\IDA_ARC_Belt_co.paa"
     };
 };
+*/
 class ic51_vest_plate_arc_jinx: ic51_vest_plate_arc
 {
     displayName="[51st] Plating ARC Jinx";

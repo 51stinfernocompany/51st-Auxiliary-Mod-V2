@@ -40,6 +40,7 @@ class ic51_katarn_uniform_gary : ic51_katarn_uniform_base
         uniformClass="ic51_katarn_unit_gary";
     };
 };
+/*
 class ic51_katarn_uniform_immortal : ic51_katarn_uniform_base
 {
     displayName = "[51st Custom] Katarn Uniform (Immortal)";
@@ -48,6 +49,7 @@ class ic51_katarn_uniform_immortal : ic51_katarn_uniform_base
         uniformClass="ic51_katarn_unit_immortal";
     };
 };
+*/
 class ic51_katarn_uniform_doss : ic51_katarn_uniform_base
 {
     displayName = "[51st Custom] Katarn Uniform (Doss)";
@@ -64,6 +66,7 @@ class ic51_katarn_uniform_cyclone : ic51_katarn_uniform_base
         uniformClass="ic51_katarn_unit_cyclone";
     };
 };
+/*
 class ic51_katarn_uniform_rook : ic51_katarn_uniform_base
 {
     displayName = "[51st Custom] Katarn Uniform (Rook)";
@@ -72,3 +75,4 @@ class ic51_katarn_uniform_rook : ic51_katarn_uniform_base
         uniformClass="ic51_katarn_unit_rook";
     };
 };
+*/
