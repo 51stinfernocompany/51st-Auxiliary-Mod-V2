@@ -44,6 +44,7 @@ class CfgPatches {
             QCLASS(clone_unit_custom_balance),
             QCLASS(clone_unit_custom_ronin),
             QCLASS(clone_unit_custom_slugger),
+            QCLASS(clone_unit_custom_dawn),
             // BACKPACK
             QCLASS(backpack_b1),
             QCLASS(katarn_backpack_gary),
@@ -69,6 +70,7 @@ class CfgPatches {
             QCLASS(p2_helmet_custom_g3),
             QCLASS(p2_helmet_custom_k),
             QCLASS(p2_helmet_custom_freelancer),
+            QCLASS(p2_helmet_custom_dawn),
             // HELMET PHASE 1
             QCLASS(p1_helmet_custom_mando),
             // HELMET ARF
@@ -125,6 +127,7 @@ class CfgPatches {
             QCLASS(clone_uniform_custom_balance),
             QCLASS(clone_uniform_custom_ronin),
             QCLASS(clone_uniform_custom_slugger),
+            QCLASS(clone_uniform_custom_dawn),
             // VEST COMMON 
             QCLASS(katarn_vest_tech_gary),
             QCLASS(katarn_vest_tech_rook),

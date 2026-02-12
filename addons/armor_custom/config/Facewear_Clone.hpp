@@ -104,6 +104,32 @@ class ic51_vest_arc_jinx: ic51_vest_arc
     /*16*/  QPATHTOF(data\facewear_clone\facewear_pauldron_jinx_co.paa)
     };
 };
+class ic51_vest_arc_dawn: ic51_vest_arc
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Dawn ARC Trooper Vest";
+    hiddenSelectionsTextures[]=
+    {
+    /*1*/	"",
+    /*2*/	"",
+
+    /*3*/	QPATHTOF(data\facewear_clone\facewear_kama_arc_co.paa),
+    /*4*/	"",
+    /*5*/	"",
+    /*6*/	"",
+    /*7*/	"",
+    /*8*/	"",
+
+    /*9*/	"",
+    /*10*/	"",
+    /*11*/	"",
+    /*12*/	"",
+    /*13*/	"",
+    /*14*/	"",
+    /*15*/	"",
+    /*16*/  QPATHTOF(data\facewear_clone\facewear_pauldron_dawn_co.paa)
+    };
+};
 class ic51_vest_blaze: ic51_vest_sergeantmajor
 {
     SCOPE_PUBLIC;
@@ -156,6 +182,12 @@ class ic51_vest_arc_jinx_1: ic51_vest_arc_jinx
     displayName="[51st] Jinx ARC Trooper Vest";
     ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
 };
+class ic51_vest_arc_dawn_1: ic51_vest_arc_dawn
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Dawn ARC Trooper Vest";
+    ACE_Overlay = "\ls\core\addons\characters_clone\equipment\interiorHud\data\p2_hud_ca.paa";
+};
 class ic51_vest_blaze_1: ic51_vest_blaze
 {
     SCOPE_PUBLIC;
@@ -186,6 +218,12 @@ class ic51_vest_arc_jinx_2: ic51_vest_arc_jinx
 {
     SCOPE_PUBLIC;
     displayName="[51st] Jinx ARC Trooper Vest";
+    ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
+};
+class ic51_vest_arc_dawn_2: ic51_vest_arc_dawn
+{
+    SCOPE_PUBLIC;
+    displayName="[51st] Dawn ARC Trooper Vest";
     ACE_Overlay = QPATHTOF(data\facewear_clone\facewear_p2_interior_style2.paa);
 };
 class ic51_vest_blaze_2: ic51_vest_blaze

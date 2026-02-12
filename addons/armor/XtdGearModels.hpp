@@ -126,6 +126,7 @@ class XtdGearModels {
             "ic51_uni_balance",
             "ic51_uni_ronin",
             "ic51_uni_slugger",
+            "ic51_uni_dawn",
         };
 		class ic51_uni_mini { label = "Mini";};
         class ic51_uni_chamber { label = "Chamber";};
@@ -144,6 +145,7 @@ class XtdGearModels {
         class ic51_uni_balance { label = "Balance";};
         class ic51_uni_ronin { label = "Ronin";};
         class ic51_uni_slugger { label = "Slugger";};
+        class ic51_uni_dawn { label = "Dawn";};
       };
     };
 
@@ -400,6 +402,7 @@ class XtdGearModels {
             "ic51_p2_jinx",
             "ic51_p2_balance",
             "ic51_p2_mrogg",
+            "ic51_p2_dawn",
         };
 		class ic51_p1_mando { label = "Mando";};
         class ic51_p2_mini { label = "Mini";};
@@ -426,6 +429,7 @@ class XtdGearModels {
         class ic51_p2_jinx { label = "Jinx";};
         class ic51_p2_balance { label = "Balance";};
         class ic51_p2_mrogg { label = "Mrogg";};
+        class ic51_p2_dawn { label = "Dawn";};
       };
     };
 	//vests
@@ -470,11 +474,13 @@ class XtdGearModels {
 			"ic51_vest_arc",
             "ic51_vest_arc_fulcrum",
             "ic51_vest_arc_jinx",
+            "ic51_vest_arc_dawn",
         };
         class ic51_vest_alpha_arc { label = "Alpha ARC";};
 		class ic51_vest_arc { label = "ARC";};
         class ic51_vest_arc_fulcrum { label = "Fulcrum";};
         class ic51_vest_arc_jinx { label = "Jinx";};
+        class ic51_vest_arc_dawn { label = "Dawn";};
       };
     };
 	class ic51_trooper_vest_katarn {
@@ -689,12 +695,14 @@ class XtdGearModels {
             "ic51_face_atticus",
             "ic51_face_fulcrum",
             "ic51_face_jinx",
+            "ic51_face_dawn",
         };
         class ic51_face_blaze { label = "Blaze";};
         class ic51_face_iroh { label = "Iroh";};
         class ic51_face_atticus { label = "Atticus";};
         class ic51_face_fulcrum { label = "Fulcrum";};
 		class ic51_face_jinx { label = "Jinx";};
+        class ic51_face_dawn { label = "Dawn";};
      };
      class style {
         label = "Overlay";
