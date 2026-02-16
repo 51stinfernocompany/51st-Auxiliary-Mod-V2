@@ -127,3 +127,44 @@ class ic51_p1_helmet_SGT : SEA_Helmet_P1_Base
         QPATHTOF(data\helmet_common\p1_helmet_SGT_co.paa)
     };
 };
+//hazard
+class 3AS_H_CloneEnvironmental_F;
+class ic51_hazard_helmet_desert : 3AS_H_CloneEnvironmental_F
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] Hazard Helmet (Desert)";
+    hiddenSelections[] = {"Helmet","Visor"};
+    hiddenSelectionsTextures[] =
+    {
+        QPATHTOF(data\helmet_common\helmet_hazard_desert_co.paa),
+        "\3AS\3AS_Republic_Characters\Headgear\data\Clonetrooper_Environmental_Helmet\Clonetrooper_Environmental_Helmet_CO.paa"
+    };
+};
+class ic51_hazard_helmet_snow : 3AS_H_CloneEnvironmental_F
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] Hazard Helmet (Snow)";
+    hiddenSelections[] = {"Helmet","Visor"};
+    hiddenSelectionsTextures[] =
+    {
+        QPATHTOF(data\helmet_common\helmet_hazard_snow_co.paa),
+        "\3AS\3AS_Republic_Characters\Headgear\data\Clonetrooper_Environmental_Helmet\Clonetrooper_Environmental_Helmet_CO.paa"
+    };
+};
+class ic51_hazard_helmet_jungle : 3AS_H_CloneEnvironmental_F
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] Hazard Helmet (Jungle)";
+    hiddenSelections[] = {"Helmet","Visor"};
+    hiddenSelectionsTextures[] =
+    {
+        QPATHTOF(data\helmet_common\helmet_hazard_jungle_co.paa),
+        "\3AS\3AS_Republic_Characters\Headgear\data\Clonetrooper_Environmental_Helmet\Clonetrooper_Environmental_Helmet_CO.paa"
+    };
+    };

@@ -102,3 +102,113 @@ class ic51_jumppack_base : JLTS_Clone_jumppack_JT12
         QPATHTOF(data\Jumppack\ic51_jumppack_base.paa),
     };
 };
+
+//hazard
+class 3AS_B_CloneGM_F;
+class ic51_backpack_hazard_desert : 3AS_B_CloneGM_F
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] Hazard Backpack (Desert)";
+    maximumload=500;
+    model = "\3AS\3AS_Republic_Characters\Backpacks\3AS_Clonetrooper_Backpack_GM.p3d";
+    hiddenSelections[] = {"Backpack"};
+    hiddenSelectionsTextures[] = 
+    {
+        QPATHTOF(data\backpack_common\backpack_hazard_desert_co.paa)
+    };
+};
+class ic51_backpack_hazard_snow : 3AS_B_CloneGM_F
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] Hazard Backpack (Snow)";
+    maximumload=500;
+    model = "\3AS\3AS_Republic_Characters\Backpacks\3AS_Clonetrooper_Backpack_GM.p3d";
+    hiddenSelections[] = {"Backpack"};
+    hiddenSelectionsTextures[] = 
+    {
+        QPATHTOF(data\backpack_common\backpack_hazard_snow_co.paa)
+    };
+};
+class ic51_backpack_hazard_jungle : 3AS_B_CloneGM_F
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] Hazard Backpack (Jungle)";
+    maximumload=500;
+    model = "\3AS\3AS_Republic_Characters\Backpacks\3AS_Clonetrooper_Backpack_GM.p3d";
+    hiddenSelections[] = {"Backpack"};
+    hiddenSelectionsTextures[] = 
+    {
+        QPATHTOF(data\backpack_common\backpack_hazard_jungle_co.paa)
+    };
+};
+//hazard LR
+class 3AS_B_CloneGM_Radio_F;
+class ic51_backpack_hazard_radio_desert : 3AS_B_CloneGM_Radio_F
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] Hazard Backpack with Radio (Desert)";
+    maximumload=500;
+    tf_hasLRradio = 1;
+    tf_range = 100000;
+    tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+    tf_dialog = "ls_radios_cloneLR";
+    tf_encryptionCode = "tf_west_radio_code";
+    tf_subtype = "digital_lr";
+    model = "\3AS\3AS_Republic_Characters\Backpacks\3AS_Clonetrooper_Backpack_GM_Radio.p3d";
+    hiddenSelections[] = {"Backpack","Radio"};
+    hiddenSelectionsTextures[] = 
+    {
+        QPATHTOF(data\backpack_common\backpack_hazard_desert_co.paa),
+        "\3AS\3AS_Republic_Characters\Backpacks\data\Clonetrooper_Backpack_GM\Clonetrooper_Backpack_GM_Radio_CO.paa"
+    };
+};
+class ic51_backpack_hazard_radio_snow : 3AS_B_CloneGM_Radio_F
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] Hazard Backpack with Radio (Snow)";
+    maximumload=500;
+    tf_hasLRradio = 1;
+    tf_range = 100000;
+    tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+    tf_dialog = "ls_radios_cloneLR";
+    tf_encryptionCode = "tf_west_radio_code";
+    tf_subtype = "digital_lr";
+    model = "\3AS\3AS_Republic_Characters\Backpacks\3AS_Clonetrooper_Backpack_GM_Radio.p3d";
+    hiddenSelections[] = {"Backpack","Radio"};
+    hiddenSelectionsTextures[] = 
+    {
+        QPATHTOF(data\backpack_common\backpack_hazard_snow_co.paa),
+        "\3AS\3AS_Republic_Characters\Backpacks\data\Clonetrooper_Backpack_GM\Clonetrooper_Backpack_GM_Radio_CO.paa"
+    };
+};
+class ic51_backpack_hazard_radio_jungle : 3AS_B_CloneGM_Radio_F
+{
+    SCOPE_PUBLIC;
+    author = AUTHOR;
+    picture = QPATHTOF(data\51st_logo.paa);
+    displayName = "[51st] Hazard Backpack with Radio (Jungle)";
+    maximumload=500;
+    tf_hasLRradio = 1;
+    tf_range = 100000;
+    tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+    tf_dialog = "ls_radios_cloneLR";
+    tf_encryptionCode = "tf_west_radio_code";
+    tf_subtype = "digital_lr";
+    model = "\3AS\3AS_Republic_Characters\Backpacks\3AS_Clonetrooper_Backpack_GM_Radio.p3d";
+    hiddenSelections[] = {"Backpack","Radio"};
+    hiddenSelectionsTextures[] = 
+    {
+        QPATHTOF(data\backpack_common\backpack_hazard_jungle_co.paa),
+        "\3AS\3AS_Republic_Characters\Backpacks\data\Clonetrooper_Backpack_GM\Clonetrooper_Backpack_GM_Radio_CO.paa"
+    };
+};

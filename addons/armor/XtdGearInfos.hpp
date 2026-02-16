@@ -35,6 +35,10 @@ class XtdGearInfos {
     class ic51_katarn_uniform_immortal         { model = "ic51_trooper_uniforms_katarn"; camo = "ic51_katarn_uni_imortal"; };
     class ic51_katarn_uniform_cyclone         { model = "ic51_trooper_uniforms_katarn"; camo = "ic51_katarn_uni_cyclone"; };
     class ic51_katarn_uniform_rook         { model = "ic51_trooper_uniforms_katarn"; camo = "ic51_katarn_uni_rook"; };
+    //hazard uniforms
+    class ic51_uniform_hazard_desert         { model = "ic51_trooper_uniforms_hazard"; camo = "ic51_uniform_hazard_desert"; };
+    class ic51_uniform_hazard_snow         { model = "ic51_trooper_uniforms_hazard"; camo = "ic51_uniform_hazard_snow"; };
+    class ic51_uniform_hazard_jungle         { model = "ic51_trooper_uniforms_hazard"; camo = "ic51_uniform_hazard_jungle"; };
     //custom uniforms
     class ic51_clone_uniform_custom_Mini           { model = "ic51_trooper_uniforms_customs"; camo = "ic51_uni_mini"; };
     class ic51_clone_uniform_custom_Chamber           { model = "ic51_trooper_uniforms_customs"; camo = "ic51_uni_chamber"; };
@@ -125,6 +129,10 @@ class XtdGearInfos {
     class ic51_katarn_helmet_rook           { model = "ic51_trooper_helmet_katarn"; camo = "ic51_katarn_helm_rook"; };
     class ic51_katarn_helmet_immortal           { model = "ic51_trooper_helmet_katarn"; camo = "ic51_katarn_helm_imortal"; };
     class ic51_katarn_helmet_cyclone           { model = "ic51_trooper_helmet_katarn"; camo = "ic51_katarn_helm_cyclone"; };
+    //hazard helmets
+    class ic51_hazard_helmet_desert          { model = "ic51_trooper_helmet_hazard"; camo = "ic51_hazard_helmet_desert"; };
+    class ic51_hazard_helmet_snow          { model = "ic51_trooper_helmet_hazard"; camo = "ic51_hazard_helmet_snow"; };
+    class ic51_hazard_helmet_jungle          { model = "ic51_trooper_helmet_hazard"; camo = "ic51_hazard_helmet_jungle"; };
     //custom helmets
     class ic51_p1_helmet_custom_Mando           { model = "ic51_trooper_helmet_customs"; camo = "ic51_p1_mando"; };
     class ic51_p2_helmet_custom_Mini          { model = "ic51_trooper_helmet_customs"; camo = "ic51_p2_mini"; };
@@ -215,6 +223,13 @@ class XtdGearInfos {
     class ic51_katarn_backpack_doss           { model = "ic51_katarn_backpacks"; camo = "ic51_katarn_backpack_doss"; };
     class ic51_katarn_backpack_gary           { model = "ic51_katarn_backpacks"; camo = "ic51_katarn_backpack_gary"; };
     class ic51_katarn_backpack_immortal           { model = "ic51_katarn_backpacks"; camo = "ic51_katarn_backpack_imortal"; };
+    //hazard backpacks
+    class ic51_backpack_hazard_desert           { model = "ic51_backpacks_hazard"; camo = "ic51_backpack_hazard_desert"; };
+    class ic51_backpack_hazard_snow           { model = "ic51_backpacks_hazard"; camo = "ic51_backpack_hazard_snow"; };
+    class ic51_backpack_hazard_jungle           { model = "ic51_backpacks_hazard"; camo = "ic51_backpack_hazard_jungle"; };
+    class ic51_backpack_hazard_radio_desert           { model = "ic51_backpacks_hazard"; camo = "ic51_backpack_hazard_radio_desert"; };
+    class ic51_backpack_hazard_radio_snow           { model = "ic51_backpacks_hazard"; camo = "ic51_backpack_hazard_radio_snow"; };
+    class ic51_backpack_hazard_radio_jungle           { model = "ic51_backpacks_hazard"; camo = "ic51_backpack_hazard_radio_jungle"; };
   };
     class CfgGlasses {
     //Faceware

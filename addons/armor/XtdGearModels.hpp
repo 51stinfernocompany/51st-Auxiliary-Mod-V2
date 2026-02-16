@@ -102,6 +102,22 @@ class XtdGearModels {
         class ic51_katarn_uni_rook { label = "Rook";};
       };
     };
+    class ic51_trooper_uniforms_hazard {
+      label  = "[51st] Hazard Uniforms";
+      author = AUTHOR;
+      options[] = {"camo"};
+      class camo {
+        values[] = 
+        {
+            "ic51_uniform_hazard_desert",
+            "ic51_uniform_hazard_snow",
+            "ic51_uniform_hazard_jungle",
+        };
+        class ic51_uniform_hazard_desert { label = "Desert";};
+        class ic51_uniform_hazard_snow { label = "Snow";};
+        class ic51_uniform_hazard_jungle { label = "Jungle";};
+      };
+    };
 	class ic51_trooper_uniforms_customs {
       label  = "[51st] Trooper Customs Uniform ";
       author = AUTHOR;
@@ -372,6 +388,22 @@ class XtdGearModels {
         class ic51_katarn_helm_rook { label = "Rook";};
       };
     };
+    class ic51_trooper_helmet_hazard {
+      label  = "[51st] Hazard Helmets";
+      author = AUTHOR;
+      options[] = {"camo"};
+      class camo {
+        values[] = 
+        {
+            "ic51_hazard_helmet_desert",
+            "ic51_hazard_helmet_snow",
+            "ic51_hazard_helmet_jungle",
+        };
+        class ic51_hazard_helmet_desert { label = "Desert";};
+        class ic51_hazard_helmet_snow { label = "Snow";};
+        class ic51_hazard_helmet_jungle { label = "Jungle";};
+      };
+    };
 	class ic51_trooper_helmet_customs {
       label  = "[51st] Trooper Custom Helmets";
       author = AUTHOR;
@@ -614,6 +646,28 @@ class XtdGearModels {
 		class ic51_katarn_backpack_doss { label = "Doss";};
         class ic51_katarn_backpack_gary { label = "Gary";};
 		class ic51_katarn_backpack_imortal { label = "Immortal";};
+      };
+   };
+   class ic51_backpacks_hazard {
+      label  = "[51st] Hazard Backpacks";
+      author = AUTHOR;
+      options[] = {"camo"};
+      class camo {
+        values[] = 
+        {
+            "ic51_backpack_hazard_desert",
+            "ic51_backpack_hazard_snow",
+            "ic51_backpack_hazard_jungle",
+            "ic51_backpack_hazard_radio_desert",
+            "ic51_backpack_hazard_radio_snow",
+            "ic51_backpack_hazard_radio_jungle"
+        };
+        class ic51_backpack_hazard_desert { label = "Desert";};
+        class ic51_backpack_hazard_snow { label = "Snow";};
+        class ic51_backpack_hazard_jungle { label = "Jungle";};
+        class ic51_backpack_hazard_radio_desert { label = "Radio Desert";};
+        class ic51_backpack_hazard_radio_snow { label = "Radio Snow";};
+        class ic51_backpack_hazard_radio_jungle { label = "Radio Jungle";};
       };
    };
 };
