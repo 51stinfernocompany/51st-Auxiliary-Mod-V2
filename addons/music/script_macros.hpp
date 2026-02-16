@@ -6,3 +6,9 @@
     duration = var3; \
     musicClass = QCLASS(DOUBLES(MusicBlaze,var4));  \
 }
+
+#define SOUND(var1,var2) class SOUND_NAME_##var1 { \
+    name = var2; \
+    sound[] = {QPATHTOF(data\var1.ogg), "db+0", 1}; \
+    titles[] = {}; \
+}

@@ -13,3 +13,4 @@ class CfgPatches {
 
 #include "CfgMusicClasses.hpp"
 #include "CfgMusic.hpp"
+#include "CfgSounds.hpp"

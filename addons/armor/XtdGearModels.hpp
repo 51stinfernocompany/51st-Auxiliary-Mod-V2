@@ -125,13 +125,13 @@ class XtdGearModels {
       class camo {
         values[] = 
         {
-            "ic51_uni_mini",
+            //"ic51_uni_mini",
 			"ic51_uni_chamber",
             "ic51_uni_lucifer",
-            "ic51_uni_clips",
+            //"ic51_uni_clips",
 			"ic51_uni_blaze",
 			"ic51_uni_barbie",
-			"ic51_uni_iroh",
+			//"ic51_uni_iroh",
             "ic51_uni_mando",
             "ic51_uni_atticus",
             "ic51_uni_mortem",
@@ -145,13 +145,13 @@ class XtdGearModels {
             "ic51_uni_dawn",
             "ic51_uni_various",
         };
-		class ic51_uni_mini { label = "Mini";};
+		//class ic51_uni_mini { label = "Mini";};
         class ic51_uni_chamber { label = "Chamber";};
 		class ic51_uni_lucifer { label = "Lucifer";};
-		class ic51_uni_clips { label = "Clips";};
+		//class ic51_uni_clips { label = "Clips";};
 		class ic51_uni_blaze { label = "Blaze";};
 		class ic51_uni_barbie { label = "Barbie";};
-		class ic51_uni_iroh { label = "Iroh";};
+		//class ic51_uni_iroh { label = "Iroh";};
 		class ic51_uni_mando { label = "Mando";};
         class ic51_uni_atticus { label = "Atticus";};
         class ic51_uni_mortem { label = "Mortem";};
@@ -309,7 +309,7 @@ class XtdGearModels {
 			"ic51_airborne_biscuit",
             "ic51_airborne_lucifer",
 			"ic51_airborne_crys",
-            "ic51_airborne_rook",
+            //"ic51_airborne_rook",
             "ic51_airborne_nitro",
             "ic51_airborne_floyd",
             "ic51_airborne_havocc",
@@ -318,7 +318,7 @@ class XtdGearModels {
 		class ic51_airborne_biscuit { label = "Biscuit";};
         class ic51_airborne_lucifer { label = "Lucifer";};
 		class ic51_airborne_crys { label = "Crys";};
-        class ic51_airborne_rook { label = "Rook";};
+        //class ic51_airborne_rook { label = "Rook";};
         class ic51_airborne_nitro { label = "Nitro";};
         class ic51_airborne_floyd { label = "Floyd";};
         class ic51_airborne_havocc { label = "Havocc";};
@@ -376,16 +376,16 @@ class XtdGearModels {
             "ic51_katarn_helm",
 			"ic51_katarn_helm_doss",
             "ic51_katarn_helm_gary",
-            "ic51_katarn_helm_imortal",
+            //"ic51_katarn_helm_imortal",
             "ic51_katarn_helm_cyclone",
-            "ic51_katarn_helm_rook",
+            //"ic51_katarn_helm_rook",
         };
         class ic51_katarn_helm { label = "Base Katarn";};
 		class ic51_katarn_helm_doss { label = "Doss";};
         class ic51_katarn_helm_gary { label = "Gary";};
-		class ic51_katarn_helm_imortal { label = "Immortal";};
+		//class ic51_katarn_helm_imortal { label = "Immortal";};
         class ic51_katarn_helm_cyclone { label = "Cyclone";};
-        class ic51_katarn_helm_rook { label = "Rook";};
+        //class ic51_katarn_helm_rook { label = "Rook";};
       };
     };
     class ic51_trooper_helmet_hazard {
@@ -412,15 +412,15 @@ class XtdGearModels {
         values[] = 
         {
             "ic51_p1_mando",
-            "ic51_p2_mini",
-			"ic51_p2_clips",
+            //"ic51_p2_mini",
+			//"ic51_p2_clips",
 			"ic51_p2_law",
             "ic51_p2_barbie",
-            "ic51_p2_fulcrum",
+            //"ic51_p2_fulcrum",
 			"ic51_p2_ronin",
             "ic51_p2_mortem",
 			"ic51_p2_atticus",
-			"ic51_p2_iroh",
+			//"ic51_p2_iroh",
             "ic51_p2_ape",
             "ic51_p2_kane",
 			"ic51_p2_atlas",
@@ -440,15 +440,15 @@ class XtdGearModels {
             "ic51_p2_various",
         };
 		class ic51_p1_mando { label = "Mando";};
-        class ic51_p2_mini { label = "Mini";};
-		class ic51_p2_clips { label = "Clips";};
+        //class ic51_p2_mini { label = "Mini";};
+		//class ic51_p2_clips { label = "Clips";};
 		class ic51_p2_law { label = "Law";};
 		class ic51_p2_barbie { label = "Barbie";};
-        class ic51_p2_fulcrum { label = "Fulcrum";};
+        //class ic51_p2_fulcrum { label = "Fulcrum";};
 		class ic51_p2_ronin { label = "Ronin";};
         class ic51_p2_mortem { label = "Mortem";};
 		class ic51_p2_atticus { label = "Atticus";};
-		class ic51_p2_iroh { label = "Iroh";};
+		//class ic51_p2_iroh { label = "Iroh";};
 		class ic51_p2_ape { label = "Ape";};
         class ic51_p2_kane { label = "Kane";};
 		class ic51_p2_atlas { label = "Atlas";};
@@ -508,14 +508,14 @@ class XtdGearModels {
         {
             "ic51_vest_alpha_arc",
 			"ic51_vest_arc",
-            "ic51_vest_arc_fulcrum",
+            //"ic51_vest_arc_fulcrum",
             "ic51_vest_arc_jinx",
             "ic51_vest_arc_dawn",
             "ic51_vest_arc_various",
         };
         class ic51_vest_alpha_arc { label = "Alpha ARC";};
 		class ic51_vest_arc { label = "ARC";};
-        class ic51_vest_arc_fulcrum { label = "Fulcrum";};
+        //class ic51_vest_arc_fulcrum { label = "Fulcrum";};
         class ic51_vest_arc_jinx { label = "Jinx";};
         class ic51_vest_arc_dawn { label = "Dawn";};
         class ic51_vest_arc_various { label = "Various";};
@@ -533,16 +533,16 @@ class XtdGearModels {
 			"ic51_katarn_vest_basic_tech",
 			"ic51_katarn_vest_basic_sniper",
             "ic51_katarn_vest_gary",
-            "ic51_katarn_vest_imortal",
-            "ic51_katarn_vest_rook",
+            //"ic51_katarn_vest_imortal",
+            //"ic51_katarn_vest_rook",
         };
 		class ic51_katarn_vest_basic_demo { label = "Demo";};
 		class ic51_katarn_vest_basic_leader { label = "Team Lead";};
 		class ic51_katarn_vest_basic_tech { label = "Tech";};
 		class ic51_katarn_vest_basic_sniper { label = "Sniper";};
         class ic51_katarn_vest_gary { label = "Gary";};
-		class ic51_katarn_vest_imortal { label = "Immortal";};
-        class ic51_katarn_vest_rook { label = "Rook";};
+		//class ic51_katarn_vest_imortal { label = "Immortal";};
+        //class ic51_katarn_vest_rook { label = "Rook";};
       };
     };
     class ic51_trooper_nvg_wp{
@@ -640,12 +640,12 @@ class XtdGearModels {
             "ic51_katarn_backpack",
 			"ic51_katarn_backpack_doss",
             "ic51_katarn_backpack_gary",
-            "ic51_katarn_backpack_imortal",
+            //"ic51_katarn_backpack_imortal",
         };
         class ic51_katarn_backpack { label = "Base Katarn";};
 		class ic51_katarn_backpack_doss { label = "Doss";};
         class ic51_katarn_backpack_gary { label = "Gary";};
-		class ic51_katarn_backpack_imortal { label = "Immortal";};
+		//class ic51_katarn_backpack_imortal { label = "Immortal";};
       };
    };
    class ic51_backpacks_hazard {
@@ -751,17 +751,17 @@ class XtdGearModels {
         values[] = 
         {
             "ic51_face_blaze",
-            "ic51_face_iroh",
+            //"ic51_face_iroh",
             "ic51_face_atticus",
-            "ic51_face_fulcrum",
+            //"ic51_face_fulcrum",
             "ic51_face_jinx",
             "ic51_face_dawn",
             "ic51_face_various",
         };
         class ic51_face_blaze { label = "Blaze";};
-        class ic51_face_iroh { label = "Iroh";};
+        //class ic51_face_iroh { label = "Iroh";};
         class ic51_face_atticus { label = "Atticus";};
-        class ic51_face_fulcrum { label = "Fulcrum";};
+        //class ic51_face_fulcrum { label = "Fulcrum";};
 		class ic51_face_jinx { label = "Jinx";};
         class ic51_face_dawn { label = "Dawn";};
         class ic51_face_various { label = "Various";};

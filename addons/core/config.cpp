@@ -6,7 +6,7 @@ class CfgPatches {
 		name = CSTRING(component);
 		requiredVersion = REQUIRED_VERSION;
 		url = URL;
-		authors[]= {"Cassius", "Revan", "Kakapo", "Frost", "Hacket", "Flash", "Magika", "Balance", "Dart", "Atticus", "Freelancer", "Cabur"};
+		authors[]= {"Revan", "Kakapo", "Frost", "Hacket", "Flash", "Magika", "Balance", "Dart", "Atticus", "Freelancer", "Cabur"};
 		requiredAddons[] = { "cba_main" };
 		units[] = {};
 		weapons[] = {};

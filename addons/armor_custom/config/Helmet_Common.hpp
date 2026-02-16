@@ -35,6 +35,7 @@ class ic51_katarn_helmet_gary : ic51_katarn_helmet_base
         QPATHTOF(data\helmet_common\helmet_katarn_gary_co.paa)
     };
 };
+/*
 class ic51_katarn_helmet_rook : ic51_katarn_helmet_base 
 {
     displayName = "[51st Custom] Katarn Helmet (Rook)";
@@ -53,6 +54,7 @@ class ic51_katarn_helmet_immortal : ic51_katarn_helmet_base
         QPATHTOF(data\helmet_common\helmet_katarn_immortal_co.paa)
     };
 };
+*/
 class ic51_katarn_helmet_doss : ic51_katarn_helmet_base 
 {
     displayName = "[51st Custom] Katarn Helmet (Doss)";

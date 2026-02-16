@@ -78,6 +78,7 @@ class ic51_vwing: 3as_Vwing_base
     VEHICLES_AIR(ic51_air_assault);
     fuelCapacity=3700;
     fuelConsumptionRate=0.1;
+    /*
     texturelist[] = {"Imperial",1,"Republic",0,"51st",0};
     hiddenselectionstextures[] = {"3AS\3AS_Vwing\data\vwing_main_Imp_co.paa","3AS\3AS_Vwing\data\vwing_astromechdroid_Imp_co.paa","3AS\3AS_Vwing\data\vwing_wings_Imp_co.paa"};
     class TextureSources : TextureSources
@@ -94,11 +95,27 @@ class ic51_vwing: 3as_Vwing_base
             };
         };
     };
+    */
     weapons[] = {"ic51_vwing_medium_cannon","3AS_ARC_Missile_AA","weapon_AMRAAMLauncher","CMFlareLauncher"};
 };
 
 
 // Z-95
+class ls_vehicle_z95;
+class ic51_z95: ls_vehicle_z95
+{
+    displayName="[51st] Z-95";
+    VEHICLES_AIR(ic51_air_assault);
+    /*
+    hiddenselectionstextures[]=
+    {
+        QPATHTOF(air\data\z95\z95_body_co.paa),
+        QPATHTOF(air\data\z95\z95_cockpit_co.paa),
+        QPATHTOF(air\data\z95\z95_glass_co.paa)
+    };
+    */
+};
+/*
 class 3AS_Z95_Republic;
 class ic51_z95: 3AS_Z95_Republic
 {
@@ -111,3 +128,4 @@ class ic51_z95: 3AS_Z95_Republic
         QPATHTOF(air\data\z95\z95_glass_co.paa)
     };
 };
+*/
