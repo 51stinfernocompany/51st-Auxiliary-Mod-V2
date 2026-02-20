@@ -115,3 +115,29 @@ class ic51_vest_plate_arc_jinx: ic51_vest_plate_arc
         "\Indecisive_Armoury_Units\REPUBLIC\Vests\IDA_ARC_Belt\IDA_ARC_Belt_co.paa"
     };
 };
+class ic51_vest_plate_arc_dawn: ic51_vest_plate_arc
+{
+    displayName="[51st] Plating ARC Dawn";
+    model = "\Indecisive_Armoury_units\REPUBLIC\Vests\IDA_ARC_Armour.p3d";
+    hiddenSelections[] = {"ChestPlate","Gauntlets","LegPlates","ARC_Belt"};
+    hiddenSelectionsTextures[] =
+    {
+        QPATHTOF(data\vests_common\vest_arc_dawn_co.paa),
+        QPATHTOF(data\vests_common\vest_arc_dawn_co.paa),
+        QPATHTOF(data\vests_common\vest_arc_dawn_co.paa),
+        "\Indecisive_Armoury_Units\REPUBLIC\Vests\IDA_ARC_Belt\IDA_ARC_Belt_co.paa"
+    };
+};
+class ic51_vest_plate_arc_various: ic51_vest_plate_arc
+{
+    displayName="[51st] Plating ARC Various";
+    model = "\Indecisive_Armoury_units\REPUBLIC\Vests\IDA_ARC_Armour.p3d";
+    hiddenSelections[] = {"ChestPlate","Gauntlets","LegPlates","ARC_Belt"};
+    hiddenSelectionsTextures[] =
+    {
+        QPATHTOF(data\vests_common\vest_arc_various_co.paa),
+        QPATHTOF(data\vests_common\vest_arc_various_co.paa),
+        QPATHTOF(data\vests_common\vest_arc_various_co.paa),
+        "\Indecisive_Armoury_Units\REPUBLIC\Vests\IDA_ARC_Belt\IDA_ARC_Belt_co.paa"
+    };
+};

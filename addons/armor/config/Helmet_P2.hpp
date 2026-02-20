@@ -58,6 +58,14 @@ class ic51_p2_helmet_command : ic51_p2_helmet_base {
         QPATHTOF(data\helmet_p2\p2_helmet_command_co.paa)
     };
 };
+class ic51_p2_helmet_medic : ic51_p2_helmet_base { 
+    displayName = "[51st] P2 Helmet (Medic)";
+    hiddenSelectionsTextures[] =
+    {
+        QPATHTOF(data\helmet_p2\p2_helmet_medic_co.paa),
+        QPATHTOF(data\helmet_p2\p2_helmet_medic_co.paa)
+    };
+};
 class ic51_p2_helmet_medic_t2 : ic51_p2_helmet_base { 
     displayName = "[51st] P2 Helmet (Medic T2)";
     hiddenSelectionsTextures[] =
