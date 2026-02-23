@@ -285,7 +285,6 @@ class XtdGearModels {
         {
 			"ic51_logistics",
             "ic51_combat",
-            "ic51_anselm",
             "ic51_snapjaw",
             "ic51_noble",
             "ic51_slugger",
