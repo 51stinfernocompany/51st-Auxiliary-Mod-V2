@@ -5,10 +5,6 @@ class CLASS(p2_helmet_base) : H_HelmetO_ViperSP_hex_F { // Makes our own new cla
     picture = QPATHTOF(data\51st_logo.paa); // This defines the logo shown in the arsenal and on the weapon, QPATHTOF grabs the directory "\x\ic51\addons\armor\" upto the addon.
     displayName = "[51st] P2 Trooper Helmet #1"; // Defines name in-game.
     hiddenselections[] = {"Camo","visor"}; // Pre-configured in the model (p3d). Helps arma understand the model.
-    hiddenSelectionsMaterials[] = {
-        QPATHTOF(data\helmet_p2\p2_helmet.rvmat),
-        "\Indecisive_Armoury_units\REPUBLIC\Clone_P2_Helmet\IDA_P2_Helmet_Visor.rvmat"
-    }; // Defines how the model will 'look' through the RVMAT.
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\helmet_p2\p2_helmet_trooper_co.paa),
         QPATHTOF(data\helmet_p2\p2_helmet_trooper_co.paa)

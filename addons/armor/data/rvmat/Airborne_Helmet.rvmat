@@ -11,7 +11,7 @@ specularPower = 5;
 PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1 {
-	texture = "Art and whatnot\Textures\51st\rvmat stuff\p2_helmet_NOHQ.paa";
+	texture = "armor\data\rvmat\Airborne_Helmet_NOHQ.paa";
 	uvSource = "tex";
 	class uvTransform {
 		aside[] = { 1, 0, 0 };
@@ -41,7 +41,7 @@ class Stage3 {
 	};
 };
 class Stage4 {
-	texture = "Art and whatnot\Textures\51st\rvmat stuff\p2_helmet_AS.paa";
+	texture = "armor\data\rvmat\Airborne_Helmet_AS.paa";
 	uvSource = "tex";
 	class uvTransform {
 		aside[] = { 1, 0, 0 };
@@ -51,7 +51,7 @@ class Stage4 {
 	};
 };
 class Stage5 {
-	texture = "Art and whatnot\Textures\51st\rvmat stuff\p2_helmet_SMDI.paa";
+	texture = "armor\data\rvmat\Airborne_Helmet_SMDI.paa";
 	uvSource = "tex";
 	class uvTransform {
 		aside[] = { 1, 0, 0 };

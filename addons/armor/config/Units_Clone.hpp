@@ -18,11 +18,6 @@ class ic51_clone_unit_base : IDA_Clone_DC15S
         QPATHTOF(data\uniform_clone\upper\uniform_clone_upper_base_co.paa),
         QPATHTOF(data\uniform_clone\lower\uniform_clone_lower_base_co.paa)
     };
-    hiddenSelectionsMaterials[]=
-    {
-        QPATHTOF(data\uniform_clone\uniform_clone_upper.rvmat),
-        QPATHTOF(data\uniform_clone\uniform_clone_lower.rvmat)
-    };
     
     UNIT_FACES;
     Backpack="";
