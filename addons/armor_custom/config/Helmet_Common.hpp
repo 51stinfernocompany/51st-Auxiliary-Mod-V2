@@ -77,7 +77,7 @@ class ic51_p2_helmet_custom_Blaze : ic51_p2_helmet_base
 {
     displayName = "[51st Custom] P2 Blaze's Helmet";
     hiddenSelections[] = {"Camo","visor"};
-    hiddenSelectionsMaterials[] = {"\x\ic51\addons\armor\data\helmet_p2\p2_helmet.rvmat","a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
+    hiddenSelectionsMaterials[] = {"","a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
     hiddenSelectionsTextures[] =
     {
         QPATHTOF(data\helmet_common\p2_helmet_blaze_co.paa),

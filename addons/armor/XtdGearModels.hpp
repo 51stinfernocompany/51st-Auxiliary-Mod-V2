@@ -292,7 +292,6 @@ class XtdGearModels {
         };
 		class ic51_logistics { label = "Logistics";};
         class ic51_combat { label = "Combat";};
-        class ic51_anselm { label = "Anselm";};
         class ic51_snapjaw { label = "Snapjaw";};
         class ic51_noble { label = "Noble";};
         class ic51_slugger { label = "Slugger";};
@@ -315,7 +314,7 @@ class XtdGearModels {
             "ic51_airborne_havocc",
         }; 
         class ic51_airborne { label = "Airborne";};
-		class ic51_airborne_biscuit { label = "Biscuit";};
+		//class ic51_airborne_biscuit { label = "Biscuit";};
         class ic51_airborne_lucifer { label = "Lucifer";};
 		class ic51_airborne_crys { label = "Crys";};
         //class ic51_airborne_rook { label = "Rook";};
@@ -438,6 +437,7 @@ class XtdGearModels {
             "ic51_p2_mrogg",
             "ic51_p2_dawn",
             "ic51_p2_various",
+            "ic51_p2_melvin",
         };
 		class ic51_p1_mando { label = "Mando";};
         //class ic51_p2_mini { label = "Mini";};
@@ -466,6 +466,7 @@ class XtdGearModels {
         class ic51_p2_mrogg { label = "Mrogg";};
         class ic51_p2_dawn { label = "Dawn";};
         class ic51_p2_various { label = "Various";};
+        class ic51_p2_melvin { label = "Melvin";};
       };
     };
 	//vests

@@ -97,16 +97,14 @@ class XtdGearInfos {
     //pilot helmets
     class ic51_pilot_helmet_logistics          { model = "ic51_trooper_helmet_pilot"; camo = "ic51_logistics"; };
     class ic51_pilot_helmet_combat          { model = "ic51_trooper_helmet_pilot"; camo = "ic51_combat"; };
-    class ic51_pilot_helmet_anselm          { model = "ic51_trooper_helmet_pilot"; camo = "ic51_anselm"; };
     class ic51_pilot_helmet_snapjaw          { model = "ic51_trooper_helmet_pilot"; camo = "ic51_snapjaw"; };
     class ic51_pilot_helmet_noble          { model = "ic51_trooper_helmet_pilot"; camo = "ic51_noble"; };
     class ic51_pilot_helmet_slugger         { model = "ic51_trooper_helmet_pilot"; camo = "ic51_slugger"; };
     //airborne helmets
     class ic51_airborne_helmet_base          { model = "ic51_trooper_helmet_airborne"; camo = "ic51_airborne"; };
-    class ic51_airborne_helmet_custom_biscuit          { model = "ic51_trooper_helmet_airborne"; camo = "ic51_airborne_biscuit"; };
+    //class ic51_airborne_helmet_custom_biscuit          { model = "ic51_trooper_helmet_airborne"; camo = "ic51_airborne_biscuit"; };
     class ic51_airborne_helmet_custom_Lucifer          { model = "ic51_trooper_helmet_airborne"; camo = "ic51_airborne_lucifer"; };
     class ic51_airborne_helmet_custom_Crys          { model = "ic51_trooper_helmet_airborne"; camo = "ic51_airborne_crys"; };
-    class ic51_airborne_helmet_custom_Rook          { model = "ic51_trooper_helmet_airborne"; camo = "ic51_airborne_rook"; };
     class ic51_airborne_helmet_custom_Nitro          { model = "ic51_trooper_helmet_airborne"; camo = "ic51_airborne_nitro"; };
     class ic51_airborne_helmet_custom_Floyd          { model = "ic51_trooper_helmet_airborne"; camo = "ic51_airborne_floyd"; };
     class ic51_airborne_helmet_custom_Havocc          { model = "ic51_trooper_helmet_airborne"; camo = "ic51_airborne_havocc"; };
@@ -162,6 +160,7 @@ class XtdGearInfos {
     class ic51_p2_helmet_custom_Mrogg           { model = "ic51_trooper_helmet_customs"; camo = "ic51_p2_mrogg"; };
     class ic51_p2_helmet_custom_Dawn           { model = "ic51_trooper_helmet_customs"; camo = "ic51_p2_dawn"; };
     class ic51_p2_helmet_custom_Various           { model = "ic51_trooper_helmet_customs"; camo = "ic51_p2_various"; };
+    class ic51_p2_helmet_custom_Melvin           { model = "ic51_trooper_helmet_customs"; camo = "ic51_p2_melvin"; };
     //vests
     class ic51_vest_plate_base           { model = "ic51_trooper_vests"; camo = "ic51_vest_base"; };
     class ic51_vest_plate_at           { model = "ic51_trooper_vests"; camo = "ic51_vest_at"; };
