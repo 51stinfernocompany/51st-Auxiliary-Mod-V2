@@ -100,6 +100,7 @@ class XtdGearInfos {
     class ic51_pilot_helmet_snapjaw          { model = "ic51_trooper_helmet_pilot"; camo = "ic51_snapjaw"; };
     class ic51_pilot_helmet_noble          { model = "ic51_trooper_helmet_pilot"; camo = "ic51_noble"; };
     class ic51_pilot_helmet_slugger         { model = "ic51_trooper_helmet_pilot"; camo = "ic51_slugger"; };
+    class ic51_pilot_helmet_anselm         { model = "ic51_trooper_helmet_pilot"; camo = "ic51_anselm"; };
     //airborne helmets
     class ic51_airborne_helmet_base          { model = "ic51_trooper_helmet_airborne"; camo = "ic51_airborne"; };
     //class ic51_airborne_helmet_custom_biscuit          { model = "ic51_trooper_helmet_airborne"; camo = "ic51_airborne_biscuit"; };

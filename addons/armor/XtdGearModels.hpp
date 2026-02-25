@@ -92,14 +92,14 @@ class XtdGearModels {
             "ic51_katarn_uni_gary",
             "ic51_katarn_uni_imortal",
             "ic51_katarn_uni_cyclone",
-            "ic51_katarn_uni_rook",
+            //"ic51_katarn_uni_rook",
         };
         class ic51_katarn_uni { label = "Base Katarn";};
 		class ic51_katarn_uni_doss { label = "Doss";};
         class ic51_katarn_uni_gary { label = "Gary";};
 		class ic51_katarn_uni_imortal { label = "Immortal";};
         class ic51_katarn_uni_cyclone { label = "Cyclone";};
-        class ic51_katarn_uni_rook { label = "Rook";};
+        //class ic51_katarn_uni_rook { label = "Rook";};
       };
     };
     class ic51_trooper_uniforms_hazard {
@@ -288,12 +288,14 @@ class XtdGearModels {
             "ic51_snapjaw",
             "ic51_noble",
             "ic51_slugger",
+            "ic51_anselm",
         };
 		class ic51_logistics { label = "Logistics";};
         class ic51_combat { label = "Combat";};
         class ic51_snapjaw { label = "Snapjaw";};
         class ic51_noble { label = "Noble";};
         class ic51_slugger { label = "Slugger";};
+        class ic51_anselm { label = "Anselm";};
       };
     };
 	class ic51_trooper_helmet_airborne {
